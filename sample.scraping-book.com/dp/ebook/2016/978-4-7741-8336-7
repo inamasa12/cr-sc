@@ -1,0 +1,315 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>これからはじめるプログラミング 作って覚える基礎の基礎 | Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド- サンプルページ</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="重版・改版を重ね，すでに累計で20刷にもなる『これからはじめるプログラミング基礎の基礎』は読者に「プログラミングの考え方」を学んでいただくことを目的としたため，ひとつも具体的なコードを使いませんでした。本書では，プログラムの構造を解説しながら目に見える結果を示して，読者の理解を促すことを目的としています。例示に用いるプログラミング言語には，いま最もやさしいと言われる「Scratch」を採用しています。これからプログラミングを学びたいという大人のみならず，中学生・高校生にも十分に理解していただけます。前著と併せて読めば，いっそう理解が深まることは確実です。"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <meta name="robots" content="noindex,noarchive"/>
+  <link rel="stylesheet" href="/dp/assets/style/store1124.css" type="text/css" media="all"/>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Scraping-Book</h1>
+    <h2 class="home-subtitle">これは書籍用のサンプルページです。購入などの操作はできません。</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="サンプルページのため利用できません">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="サンプルページのため利用できません">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">これからはじめるプログラミング 作って覚える基礎の基礎</h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2016/978-4-7741-8336-7.jpg" alt="これからはじめるプログラミング 作って覚える基礎の基礎"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">谷尻かおり　著，<wbr/>谷尻豊寿　監修</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2016-07-23">2016年7月23日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2016-07-23">2016年7月23日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>これは書籍サンプルのページです。</li>
+      <li class="need-login">サンプルサイトなので購入はできません。</li>
+    </ul>
+    <dl id="productPrice">
+<dt class="disable"><span class="name">EPUB/PDFセット</span><span class="buy">2,280円 </span></dt><dd class="disable"><span class="page"><span itemprop="numberOfPages">328</span>ページ相当</span><span class="pdf">PDF</span> <span class="epub">EPUB：リフロー</span> <span class="plan">7月23日発売予定</span></dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>重版・<wbr/>改版を重ね，<wbr/>すでに累計で20刷にもなる『これからはじめるプログラミング基礎の基礎』は読者に「プログラミングの考え方」を学んでいただくことを目的としたため，<wbr/>ひとつも具体的なコードを使いませんでした。本書では，<wbr/>プログラムの構造を解説しながら目に見える結果を示して，<wbr/>読者の理解を促すことを目的としています。例示に用いるプログラミング言語には，<wbr/>いま最もやさしいと言われる「Scratch」を採用しています。これからプログラミングを学びたいという大人のみならず，<wbr/>中学生・<wbr/>高校生にも十分に理解していただけます。前著と併せて読めば，<wbr/>いっそう理解が深まることは確実です。</p><h3>こんな方におすすめ</h3>
+<ul><li>これからプログラミングを勉強したい方</li><li>スマホを使うのは得意だがPCは皆目わからないという普通の高校生・<wbr/>大学生を含む入門者</li></ul>
+
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="利用できません" placeholder="利用できません" required="required" value="">
+  <input type="hidden" name="code" value="33032">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><ul class="toc">
+<li>はじめに</li>
+</ul>
+<h3>第0章　まずは道具を準備しよう</h3>
+<ul class="toc">
+<li>1　Scratch公式サイトへ行く</li>
+<li>2　オンラインで使用する</li>
+<li>3　パソコンにインストールして使用する<ul class="toc">
+	<li>3.1　Windowsを利用しているとき</li>
+	<li>3.2　Mac OSを利用しているとき</li></ul></li>
+<li>4　日本語を表示する</li>
+
+</ul>
+<h3>第1章　プログラミングを始めよう</h3>
+<ul class="toc">
+<li>1　いま，プログラミングが熱い！</li>
+<li>2　ところで「プログラム」ってどんなもの？</li>
+<li>3　プログラミングを勉強するメリット</li>
+<li>4　プログラムは誰にでも作れるんです</li>
+<li>5　Scratchから始めてみよう！</li>
+<li>6　Scratchの使い方<ul class="toc">
+	<li>6.1　Scratchの画面</li>
+	<li>6.2　プログラムを編集する</li>
+	<li>6.3　プログラムを実行する</li>
+	<li>6.4　プログラムを保存する/開く</li></ul></li>
+
+</ul>
+<h3>第2章　プログラムの流れを理解しよう</h3>
+<ul class="toc">
+<li>1　ネコのひとりごと</li>
+<li>2　ネコと会話する</li>
+<li>3　答えを判定する</li>
+<li>4　正解のときだけジャンプする</li>
+<li>5　何度もジャンプさせるには？</li>
+<li>6　答えが間違っているときの動きを作ってみよう</li>
+<li>7　プログラムの流れ方は3通り</li>
+
+</ul>
+<h3>第3章　値を入れる箱をマスターしよう</h3>
+<ul class="toc">
+<li>1　［答え］の役割</li>
+<li>2　「変数」は変化する</li>
+<li>3　［答え］を覚えておく方法<ul class="toc">
+	<li>3.1　変数を作ろう</li>
+	<li>3.2　変数に値を入れる</li>
+	<li>3.3　変数を使ってみよう</li>
+	<li>3.4　変数を使うと便利！ ――その1：［答え］を見失わない</li></ul></li>
+<li>4　コンピュータを使って計算する<ul class="toc">
+	<li>4.1　「110」と「１１０」の違い</li>
+	<li>4.2　計算式の書き方</li>
+	<li>4.3　レジで払うお金はいくら？</li>
+	<li>4.4　変数を使うと便利！ ――その2：「値段」が変わっても大丈夫</li>
+	<li>4.5　複雑な計算にチャレンジ</li>
+	<li>4.6　計算式を1つにまとめる</li>
+	<li>4.7　「1.1×100」が「110」にならない！？</li>
+	<li>4.8　「合計」に1を足すと「合計」になる？</li></ul></li>
+
+</ul>
+<h3>第4章　プログラムの流れをコントロールしよう</h3>
+<ul class="toc">
+<li>1　「はい」か「いいえ」ですべてが決まる</li>
+<li>2　値を比較する方法<ul class="toc">
+	<li>2.1　値の比較に使う記号</li>
+	<li>2.2　値を比較するときに注意すること</li>
+	<li>2.3　1,000円以上のときに「おまけ」するには？</li>
+	<li>2.4　「または」と「かつ」の違い</li></ul></li>
+<li>3　プログラムの分かれ道を作る<ul class="toc">
+	<li>3.1　会員カードを持っている人だけ5％引きにする</li>
+	<li>3.2　アカウントとパスワード，正しくないのはどっち？</li>
+	<li>3.3　「1,000円以上，2,000円未満」を調べる方法</li>
+	<li>3.4　連続する数値の範囲を利用して処理を分岐する</li></ul></li>
+
+</ul>
+<h3>第5章　ループを使いこなそう</h3>
+<ul class="toc">
+<li>1　ずーっと繰り返す</li>
+<li>2　○○まで繰り返す<ul class="toc">
+	<li>2.1　しりとりをやめる「きっかけ」を作る</li>
+	<li>2.2　最後が「ん」のときに終了する</li>
+	<li>2.3　パスコード認証にチャレンジ</li>
+	<li>2.4　繰り返し処理の組み合わせ</li></ul></li>
+<li>3　値をまとめて箱に入れる<ul class="toc">
+	<li>3.1　番号付きの箱を利用する</li>
+	<li>3.2　小箱の中身を確認する</li>
+	<li>3.3　ループを使って効率よく小箱の中身を調べる</li>
+	<li>3.4　小箱の追加と削除</li>
+	<li>3.5　足し算専用電卓を作ろう</li>
+	<li>3.6　リストを使うときに注意すること</li></ul></li>
+
+</ul>
+<h3>第6章　アニメーションにチャレンジ</h3>
+<ul class="toc">
+<li>1　「動く」ってどういうこと？</li>
+<li>2　パラパラ漫画のアニメーション<ul class="toc">
+	<li>2.1　ポーズを変えて，その場で駆け足</li>
+	<li>2.2　背景を動かす</li>
+	<li>2.3　大きさを変える</li></ul></li>
+<li>3　思いどおりにネコを動かす<ul class="toc">
+	<li>3.1　「動き」を数値で表す方法</li>
+	<li>3.2　矢印キーで上下左右に動かす</li>
+	<li>3.3　マウスの位置に瞬間移動</li>
+	<li>3.4　マウスの後ろを追いかける</li></ul></li>
+<li>4　ひとり歩きを始めたネコ<ul class="toc">
+	<li>4.1　ずーっと歩き続ける</li>
+	<li>4.2　「跳ね返る」ってどういうこと？</li>
+	<li>4.3　「端に触れる」ってどういうこと？</li>
+	<li>4.4　ステージを縦横無尽に走るネコ</li></ul></li>
+
+</ul>
+<h3>第7章　一歩進んだプログラミング</h3>
+<ul class="toc">
+<li>1　オリジナルのブロックを作ろう<ul class="toc">
+	<li>1.1　［↑］キーが押されたら，ジャンプ！</li>
+	<li>1.2　［ジャンプする］ブロックを作る</li>
+	<li>1.3　［ジャンプする］ブロックを使う</li>
+	<li>1.4　部品にすると便利になること</li>
+	<li>1.5　好きな高さでジャンプする</li></ul></li>
+<li>2　イベントを利用してプログラムを実行しよう</li>
+<li>3　複数のスプライトを利用しよう<ul class="toc">
+	<li>3.1　ステージにネズミを追加する</li>
+	<li>3.2　ネズミを動かすプログラム</li>
+	<li>3.3　ネコを動かすプログラム</li>
+	<li>3.4　合図を送ってネズミを動かす</li></ul></li>
+
+</ul>
+<h3>第8章　お掃除ロボットを作ろう！</h3>
+<ul class="toc">
+<li>1　ロボットの出来上がりをイメージする</li>
+<li>2　掃除の仕方を決める</li>
+<li>3　部屋のレイアウトを決める</li>
+<li>4　ランダムモードのプログラム<ul class="toc">
+	<li>4.1　ステージ上をジグザグに動かす</li>
+	<li>4.2　コロ丸の軌跡を表示する</li>
+	<li>4.3　家具にぶつかったときはどうする？</li>
+	<li>4.4　タイマーをセットする</li>
+	<li>4.5　ステージ上をランダムに動かす</li>
+	<li>4.6　変数を使ってメンテナンスしやすくする</li>
+	<li>4.7　プログラムを部品化してメンテナンスしやすくする</li></ul></li>
+<li>5　直進モードのプログラム<ul class="toc">
+	<li>5.1　動き方のルールを決めよう</li>
+	<li>5.2　コロ丸が移動できる範囲を確認する</li>
+	<li>5.3　コロ丸の位置とペンを初期化する</li>
+	<li>5.4　縦方向に掃除する</li>
+	<li>5.5　横方向に掃除する</li>
+	<li>5.6　充電台に戻る</li>
+	<li>5.7　タイマーを利用する</li></ul></li>
+
+</ul>
+<h3>第9章　次のステップへ</h3>
+<ul class="toc">
+<li>1　本格的なプログラミングを始める前に</li>
+<li>2　プログラミングに必要な道具</li>
+<li>3　どのプログラミング言語を選ぶべきか？</li>
+<li>4　Scratchとの違い<ul class="toc">
+	<li>4.1　Scratchだけの便利な機能</li>
+	<li>4.2　変数の有効範囲</li>
+	<li>4.3　オリジナルのブロックと関数の違い</li>
+	<li>4.4　コンピュータ世界の座標系</li>
+	<li>4.5　用語について</li></ul></li>
+
+</ul>
+<h3>付録　ブロック一覧</h3>
+<ul class="toc">
+<li>索引</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<h3 id="download">ダウンロード</h3>
+<h4>電子版用ダウンロード</h4>
+<p><a href="https://gihyo.jp/dp/ebook/2016/978-4-7741-8336-7">電子版</a>用に，<wbr/>付録CD-ROM収録コンテンツを以下から入手できます。ダウンロードには電子版本紙に掲載されているIDとパスワードが必要です。</p>
+
+
+    </section>
+  </div>
+  </div>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="サンプルページのため利用できません" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="サンプルページのため利用できません" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="サンプルページのため利用できません" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="サンプルページのため利用できません" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li><a href="/">このサイトについて</a></li>
+      </ul>
+      <p id="storeCopyright"><span style="color:red;font-size:1.8em;">このページは「Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド-」のためのサンプルサイトです。特別の許可を得て技術評論社の著作物を使用しています。</span><br/><small>Copyright © 2016 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+</body>
+</html>

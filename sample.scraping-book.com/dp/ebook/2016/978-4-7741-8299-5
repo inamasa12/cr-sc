@@ -1,0 +1,226 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>Excel＆Access連携 実践ガイド ～仕事の現場で即使える | Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド- サンプルページ</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="仕事の現場でAccessがインストールされているPCは珍しくありませんが，上手にAccessを利用している人はほとんど見かけません。そういった状況ゆえ，Accessを日々の業務で有効に利用したいと思っているビジネスマンは多くいます。本書は，ExcelのデータをAccessに移行して，Acceessでデータ管理を行い，そのデータをExcelに書き出してデータ活用を行う，という使い方を解説した書籍です。VBAを使わずにExcelとAccessの標準機能を使う方法から，VBAを使った本格的な方法まで，丁寧に解説しています。"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <meta name="robots" content="noindex,noarchive"/>
+  <link rel="stylesheet" href="/dp/assets/style/store1124.css" type="text/css" media="all"/>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Scraping-Book</h1>
+    <h2 class="home-subtitle">これは書籍用のサンプルページです。購入などの操作はできません。</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="サンプルページのため利用できません">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="サンプルページのため利用できません">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">Excel<wbr/>＆<wbr/>Access<wbr/>連携 実践ガイド<br/><span class="sub">～仕事の現場で即使える</span></h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2016/978-4-7741-8299-5.jpg" alt="Excel＆Access連携 実践ガイド ～仕事の現場で即使える"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">今村ゆうこ　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2016-06-29">2016年6月29日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2016-06-29">2016年6月29日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>これは書籍サンプルのページです。</li>
+      <li class="need-login">サンプルサイトなので購入はできません。</li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">PDF</span><span class="buy">2,680円 <a id="pid401365" href="#cartAdd" title="サンプルページのため利用できません">カートに入れる<div class="option" title="購入オプション">▼<ul><li class="gift" title="サンプルページのため利用できません">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">336</span>ページ相当</span><span class="pdf">PDF</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>仕事の現場でAccessがインストールされているPCは珍しくありませんが，<wbr/>上手にAccessを利用している人はほとんど見かけません。そういった状況ゆえ，<wbr/>Accessを日々の業務で有効に利用したいと思っているビジネスマンは多くいます。本書は，<wbr/>ExcelのデータをAccessに移行して，<wbr/>Acceessでデータ管理を行い，<wbr/>そのデータをExcelに書き出してデータ活用を行う，<wbr/>という使い方を解説した書籍です。VBAを使わずにExcelとAccessの標準機能を使う方法から，<wbr/>VBAを使った本格的な方法まで，<wbr/>丁寧に解説しています。</p><h3>こんな方におすすめ</h3>
+<ul><li>1歩上を目指すビジネスマン</li></ul>
+
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="利用できません" placeholder="利用できません" required="required" value="">
+  <input type="hidden" name="code" value="32908">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>CHAPTER 1　Excel &amp; Access連携の基礎知識</h3>
+<ul class="toc">
+<li>1-1　Excelの得意・不得意</li>
+<li>1-2　Accessと連携することのメリット</li>
+<li>1-3　Excel &amp; Access連携に必要な技術</li>
+<li>1-4　データの運用について</li>
+
+</ul>
+<h3>CHAPTER 2　標準機能を使ってExcelのデータをAccessに書き込む</h3>
+<ul class="toc">
+<li>2-1　Accessを利用するための基本</li>
+<li>2-2　「データの型」というルール</li>
+<li>2-3　Excelシートを書き込む状態にする</li>
+<li>2-4　書き込みに理想的なExcelのシート</li>
+<li>2-5　Accesssへ書き込む</li>
+<li>2-6　データを閲覧・編集する</li>
+<li>2-7　クエリを使ってデータ表記を統一する</li>
+<li>2-8　Accessでのデータ管理</li>
+
+</ul>
+<h3>CHAPTER 3　VBAを使ってExcelのデータをAccessに書き込む</h3>
+<ul class="toc">
+<li>3-1　テーブルを作成する</li>
+<li>3-2　データを書き込むにはVBAが必要</li>
+<li>3-3　VBAコード内のSQLとADOについて理解する</li>
+<li>3-4　Excelからデータを書き込む</li>
+
+</ul>
+<h3>CHAPTER 4　標準機能を使ってAccessのデータをExcelに読み込む</h3>
+<ul class="toc">
+<li>4-1　テーブルをエクスポートする</li>
+<li>4-2　条件に一致するものだけを読み込むには</li>
+<li>4-3　条件を設定して実行する</li>
+<li>4-4　データをエクスポートする</li>
+<li>4-5　よりスマートにデータをエクスポートする</li>
+<li>4-6　クエリの種類とその他の活用方法</li>
+
+</ul>
+<h3>CHAPTER 5　VBAで専用フォームを作成してAccessのデータをExcelに読み込む</h3>
+<ul class="toc">
+<li>5-1　Excelで専用フォームを作成するための知識</li>
+<li>5-2　シートの準備をする</li>
+<li>5-3　「メイン」フォームを作る</li>
+<li>5-4　読込機能を実装する</li>
+
+</ul>
+<h3>CHAPTER 6　専用フォームを使ってExcelからデータを追加・更新・削除する</h3>
+<ul class="toc">
+<li>6-1　データの追加・更新・削除用のフォームを作る</li>
+<li>6-2　データの追加・更新・削除に対応するVBAを記述する</li>
+<li>6-3　読込機能を拡張するフォームを作る</li>
+<li>6-4　フォームに合わせて読込のコードを変更する</li>
+<li>6-5　自分用にカスタマイズするには</li>
+
+</ul>
+<h3>CHAPTER 7　列数の多いExcelシートを分割しAccessの複数テーブルで利用する</h3>
+<ul class="toc">
+<li>7-1　列数が増え過ぎて見づらくなったテーブル</li>
+<li>7-2　シートを分割する</li>
+<li>7-3　複数のテーブルを利用する</li>
+<li>7-4　Accessにエクスポートする</li>
+<li>7-5　主キーとリレーションシップ</li>
+<li>7-6　リレーションシップを実行する</li>
+<li>7-7　複数のテーブルをまたいでデータを抽出する</li>
+<li>7-8　専用フォームを改良する</li>
+
+</ul>
+<h3>CHAPTER 8　［完全版］Excel &amp; Access連携アプリケーション</h3>
+<ul class="toc">
+<li>8-1　データベースへ書き込むためのシートを作成する</li>
+<li>8-2　新規データベースへテーブルを作成する</li>
+<li>8-3　ExcelからAccessへデータを一括書込する</li>
+<li>8-4　ユーザーフォームを作成する</li>
+<li>8-5　ユーザーフォーム内で動くプロシージャを作成する</li>
+<li>8-6　メイン機能のプロシージャを作成する</li>
+<li>8-7　動作を検証する</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<h3 id="download">ダウンロード</h3>
+<h4>電子版用ダウンロード</h4>
+<p><a href="https://gihyo.jp/dp/ebook/2016/978-4-7741-8299-5">電子版</a>用に，<wbr/>付録CD-ROM収録コンテンツを以下から入手できます。ダウンロードには電子版本紙に掲載されているIDとパスワードが必要です。</p>
+
+    </section>
+  </div>
+  </div>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="サンプルページのため利用できません" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="サンプルページのため利用できません" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="サンプルページのため利用できません" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="サンプルページのため利用できません" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li><a href="/">このサイトについて</a></li>
+      </ul>
+      <p id="storeCopyright"><span style="color:red;font-size:1.8em;">このページは「Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド-」のためのサンプルサイトです。特別の許可を得て技術評論社の著作物を使用しています。</span><br/><small>Copyright © 2016 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+</body>
+</html>

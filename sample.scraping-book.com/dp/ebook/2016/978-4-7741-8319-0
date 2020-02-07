@@ -1,0 +1,216 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>そもそも島に進化あり | Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド- サンプルページ</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="『鳥類学者 無謀にも恐竜を語る』で好評を博した川上和人先生の著作・第二弾。今回扱うトピックは「島における生物の進化」。海に囲まれている小さな陸地，それが「島」。海という大きな障壁があるにもかかわらず，島には生物がいる。彼らはどこから，どのような冒険をして島にやってきたのだろう？運良く島までたどりつけた生物たちは，やがで“独自”の進化を模索する。それはいったいなぜなのか？試行錯誤を繰り返し，微妙なバランスを保ちながら生きる島の生物たち。その事実の果てに，島では何が起こるのか？離島の鳥類を研究する専門家が，実際の経験で感じた「島」という存在。その「島」で繰り広げられる生物たちの動向を，ユーモアあふれる語り口で，軽快に解説。鳥類学者が見つけた「島」という箱庭，そこにはどんな不思議な世界が広がっているのでしょう。"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <meta name="robots" content="noindex,noarchive"/>
+  <link rel="stylesheet" href="/dp/assets/style/store1124.css" type="text/css" media="all"/>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Scraping-Book</h1>
+    <h2 class="home-subtitle">これは書籍用のサンプルページです。購入などの操作はできません。</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="サンプルページのため利用できません">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="サンプルページのため利用できません">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E7%90%86%E5%B7%A5%E3%83%BB%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+<h2 id="bookSeries"><a href="/dp/series/%E7%94%9F%E7%89%A9%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%EF%BC%88%E7%94%9F%E7%89%A9%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%20%E3%83%97%E3%83%AD%EF%BC%89">生物ミステリー<wbr/>（生物ミステリー プロ）</a></h2>
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">そもそも島に進化あり</h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2016/978-4-7741-8319-0.jpg" alt="そもそも島に進化あり"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">川上和人　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2016-07-08">2016年7月8日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2016-07-08">2016年7月8日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>これは書籍サンプルのページです。</li>
+      <li class="need-login">サンプルサイトなので購入はできません。</li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">EPUB/PDFセット</span><span class="buy">1,880円 <a id="pid401372" href="#cartAdd" title="サンプルページのため利用できません">カートに入れる<div class="option" title="購入オプション">▼<ul><li class="gift" title="サンプルページのため利用できません">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">264</span>ページ相当</span><span class="pdf">PDF</span> <span class="epub">EPUB：リフロー</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>『鳥類学者 無謀にも恐竜を語る』で好評を博した川上和人先生の著作・<wbr/>第二弾。<br />
+今回扱うトピックは「島における生物の進化」。</p>
+
+<p>海に囲まれている小さな陸地，<wbr/>それが「島」。<br />
+海という大きな障壁があるにもかかわらず，<wbr/>島には生物がいる。<br />
+彼らはどこから，<wbr/>どのような冒険をして島にやってきたのだろう？</p>
+
+<p>運良く島までたどりつけた生物たちは，<wbr/>やがで“独自”の進化を模索する。<br />
+それはいったいなぜなのか？</p>
+
+<p>試行錯誤を繰り返し，<wbr/>微妙なバランスを保ちながら生きる島の生物たち。<br />
+その事実の果てに，<wbr/>島では何が起こるのか？</p>
+
+<p>離島の鳥類を研究する専門家が，<wbr/>実際の経験で感じた「島」という存在。<br />
+その「島」で繰り広げられる生物たちの動向を，<wbr/>ユーモアあふれる語り口で，<wbr/>軽快に解説。<br />
+鳥類学者が見つけた「島」という箱庭，<wbr/>そこにはどんな不思議な世界が広がっているのでしょう。</p><h3>こんな方におすすめ</h3>
+<ul><li>「島」の生物進化に興味のある方</li><li>島の誕生から終焉に思いをはせたい方</li><li>島はとりあえずでもよいけれど，<wbr/>「隔離された環境」に関心のある方</li></ul>
+<aside class="author"><h3>川上和人（かわかみかずと）</h3><p>森林総合研究所・<wbr/>主任研究員。<br />
+カフェインと女性に滅法弱い鳥類学者。夜眠れなくなると困るので，<wbr/>会議ではデカフェで御願いします。<br />
+島の秘密と幸せを探し続けて20年，<wbr/>職場の名称通り森林の研究が本務である。<br />
+島の岩場はいつか森になる日を夢見ている。海はいずれ蒸発して雨となり森に降り注ぐ。遠く未来を見通せば世界の全てが研究対象。<br />
+著書に『鳥類学者 無謀にも恐竜を語る』（技術評論社）などがある。</p></aside>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="利用できません" placeholder="利用できません" required="required" value="">
+  <input type="hidden" name="code" value="32944">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>はじめに　ここに海終わり，島始まる</h3>
+<ul class="toc">
+
+</ul>
+<h3>序　章　そもそも</h3>
+<h3>第1章　島が世界に現れる</h3>
+<ul class="toc">
+<li>Section1　島にヤシの木は何本必要か</li>
+<li>Section2　島を二つに分類せよ</li>
+<li>Section3　新島，大海に立つ</li>
+
+</ul>
+<h3>第2章　島に生物が参上する</h3>
+<ul class="toc">
+<li>Section1　島に招くには，まず隗より始めよ</li>
+<li>Section2　食べれば海も越えられる</li>
+<li>Section3　太平洋ヒッチハイクガイド</li>
+<li>Section4　ビッグ・ウェンズデー</li>
+<li>Section5　風が吹けば，誰かが儲かる</li>
+<li>Section6　早い者勝ちの島</li>
+<li>Section7　翼よ，あれが島の灯だ</li>
+
+</ul>
+<h3>第3章　島で生物が進化を始める</h3>
+<ul class="toc">
+<li>Section1　さらば，切磋琢磨の日々よ</li>
+<li>Section2　島の「し」は，進化の「し」</li>
+<li>Section3　正しい固有種の作り方</li>
+<li>Section4　多様化する世界</li>
+<li>Section5　動物がときめく島の魔法</li>
+<li>Section6　植物がかかる島の病</li>
+<li>Section7　フライ，オア，ノットフライ</li>
+<li>Section8　だって海鳥ですもの</li>
+
+</ul>
+<h3>第4章　島から生物が絶滅する</h3>
+<ul class="toc">
+<li>Section1　楽園の落日</li>
+<li>Section2　闘え!!　ベジタリアン</li>
+<li>Section3　プレデターvs エイリアン</li>
+<li>Section4　拡散する悲劇</li>
+<li>Section5　カガヤクミライ</li>
+
+</ul>
+<h3>第5章　島が大団円を迎える</h3>
+<ul class="toc">
+<li>Section1　天地開闢</li>
+<li>Section2　あなたの島の生まれるところ</li>
+
+</ul>
+<h3>おわりに　ここに島終わり，現始まる</h3>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<p>現在サポート情報はありません。</p>
+    </section>
+  </div>
+  </div>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="サンプルページのため利用できません" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="サンプルページのため利用できません" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="サンプルページのため利用できません" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="サンプルページのため利用できません" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li><a href="/">このサイトについて</a></li>
+      </ul>
+      <p id="storeCopyright"><span style="color:red;font-size:1.8em;">このページは「Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド-」のためのサンプルサイトです。特別の許可を得て技術評論社の著作物を使用しています。</span><br/><small>Copyright © 2016 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+</body>
+</html>

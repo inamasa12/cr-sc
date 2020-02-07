@@ -1,0 +1,328 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>無料ではじめるBlender CGイラストテクニック ～3DCGの考え方としくみがしっかりわかる | Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド- サンプルページ</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="本書は，3DCGで絵作りするための解説書です。無料ながら「Blender」はとても多機能なため，初心者は目的がしっかりなければステップアップする方法がなかなかつかめません。本書では，1冊を通して1つの成果物を作り込むのではなく，章ごとにポイントを絞って作品を制作していくことにより，便利な機能，知って得する機能，組み合わせまで紹介していきます。これからBlenderを使ってみたい初心者から，ある程度使用していても「UV」「テクスチャ」「カメラ設定」など細かな各種機能の活かし方がわからない中級者にも有用な内容です。★バージョンは最新版2.77に対応しています。"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <meta name="robots" content="noindex,noarchive"/>
+  <link rel="stylesheet" href="/dp/assets/style/store1124.css" type="text/css" media="all"/>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Scraping-Book</h1>
+    <h2 class="home-subtitle">これは書籍用のサンプルページです。購入などの操作はできません。</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="サンプルページのため利用できません">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="サンプルページのため利用できません">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%BB%E7%B4%A0%E6%9D%90%E9%9B%86" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">無料ではじめる<wbr/>Blender CG<wbr/>イラストテクニック<br/><span class="sub">～<wbr/>3DCG<wbr/>の考え方としくみがしっかりわかる</span></h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2016/978-4-7741-8333-6.jpg" alt="無料ではじめるBlender CGイラストテクニック ～3DCGの考え方としくみがしっかりわかる"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">大澤龍一　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2016-07-16">2016年7月16日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2016-07-16">2016年7月16日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>これは書籍サンプルのページです。</li>
+      <li class="need-login">サンプルサイトなので購入はできません。</li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">PDF</span><span class="buy">2,680円 <a id="pid401380" href="#cartAdd" title="サンプルページのため利用できません">カートに入れる<div class="option" title="購入オプション">▼<ul><li class="gift" title="サンプルページのため利用できません">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">280</span>ページ相当</span><span class="pdf">PDF</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>本書は，<wbr/>3DCGで絵作りするための解説書です。無料ながら「Blender」はとても多機能なため，<wbr/>初心者は目的がしっかりなければステップアップする方法がなかなかつかめません。本書では，<wbr/>1冊を通して1つの成果物を作り込むのではなく，<wbr/>章ごとにポイントを絞って作品を制作していくことにより，<wbr/>便利な機能，<wbr/>知って得する機能，<wbr/>組み合わせまで紹介していきます。これからBlenderを使ってみたい初心者から，<wbr/>ある程度使用していても「UV」「テクスチャ」「カメラ設定」など細かな各種機能の活かし方がわからない中級者にも有用な内容です。★バージョンは最新版2.77に対応しています。</p><h3>著者から一言</h3>
+<h4>Blenderで絵作りしよう！</h4>
+
+<p>この本では，<wbr/>キャラクターに限らず，<wbr/>いろんな絵が作れるように，<wbr/>さまざまなテクニックを紹介しています。<br />
+キャラクターが作れると主役として活躍してくれるけど，<wbr/>絵として楽しめる作品を作るには，<wbr/>背景から伝わる情報がとっても大事。「この絵は何をしている場面だろう？」「ここはどこだろう？」「季節は？」「時間は？」「お天気は？」といった情報を盛り込んでいくことが大切です。<br />
+なので，<wbr/>何でも作れて，<wbr/>場面を演出できるようになる本を目標に執筆しました。<br />
+モデリングしたい物はみんなそれぞれ違うし，<wbr/>「○○の作り方」だと，<wbr/>それ以外の物を作るときに困ってしまう……。だから，<wbr/>「こういう形を作るときには，<wbr/>この機能を使ってモデリングしているよ」というようにゴールをひとつにしない紹介をして，<wbr/>応用の効く内容を心がけました。<br />
+上から見ると丸いモノ，<wbr/>ケーブルや柱のようなモノ，<wbr/>角ばったCGっぽいものetc.,……そしていま作ろうとしているものは，<wbr/>どういう特徴があるのか。それを見抜いて形にするための考え方も合わせて紹介します。<br />
+また，<wbr/>特徴を見抜いて，<wbr/>作り方を考えて，<wbr/>どんな形も自分のアイデアで作れるように，<wbr/>その章で紹介した機能のみを使用して作例をモデリングしています。そのため，<wbr/>「こういう形が作りにくいから，<wbr/>次はこの機能を紹介しよう」といった具合に，<wbr/>便利で応用範囲の広い機能だけを抜粋して紹介することができました。<br />
+この本には，<wbr/>「手順通りに同じものを作ろう」という紹介は，<wbr/>ほんの少ししか登場しません。<br />
+なので，<wbr/>作例の真似でなく，<wbr/>自分のアイデアでどんどん遊んでください。作り方を理解して応用することが大事。ページを読み進めるほど使える技が増えて，<wbr/>いろんな物が作れるようになりますよ。これはワクワクしませんか？<br />
+では，<wbr/>絵作りの世界にようこそ！</p><aside class="author"><h3>大澤龍一（おおさわりゅういち）</h3><p>CGデザイナー／<wbr/>専門学校非常勤講師。ゲームモデルやCG映像の制作など請けながら，<wbr/>個人制作も愉しむ。公募では，<wbr/>2003年のクリスマスデジタルアートグランプリ，<wbr/>2015年の北海道デジタルアニメコンテスト・<wbr/>キタアニ，<wbr/>それぞれグランプリを受賞。</p></aside>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="利用できません" placeholder="利用できません" required="required" value="">
+  <input type="hidden" name="code" value="32953">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><ul class="toc">
+<li>はじめに</li>
+<li>この本の読み方</li>
+
+</ul>
+<h3>INTRODUCTION 00　Blenderの基本</h3>
+<ul class="toc">
+<li>3DCGをはじめよう</li>
+
+<li>01 いちばん最初に設定すること</li>
+<li>02 画面の見方</li>
+<li>03 おすすめのユーザー設定</li>
+<li>04 画面の操作を覚えよう</li>
+<li>05 保存，開くの便利な機能</li>
+<li>06 3Dカーソルを上手に使う </li>
+<li>07 キーボードショートカットを使いこなす</li>
+
+</ul>
+<h3>CHAPTER 01　プリミティブモデリング</h3>
+<ul class="toc">
+<li>図形を組み合わせよう</li>
+
+<li>01 3DCG制作の流れと大事なこと</li>
+<li>02 形の基本，プリミティブを知ろう</li>
+<li>03 キャラクターを作ってみよう</li>
+<li>04 舞台も加えて1 枚の絵を作ろう</li>
+
+
+</ul>
+<h3>CHAPTER 02　ポリゴンモデリング1</h3>
+<ul class="toc">
+<li>プリミティブに“ちょい加工”で</li>
+<li>作れるものをさらに広げよう！</li>
+
+<li>01 基本の考え方を身につけよう </li>
+<li>02 どう作ったのか考えよう</li>
+
+</ul>
+<h3>CHAPTER 03　ポリゴンモデリング2</h3>
+<ul class="toc">
+<li>もっと広がる編集モード！</li>
+
+<li>01 「細分割曲面」を使用する</li>
+<li>02 「押し出し」と「面を差し込む」を使おう </li>
+<li>03 さまざまな造形のアイデア</li>
+
+</ul>
+<h3>CHAPTER 04　ポリゴンモデリング3 </h3>
+<ul class="toc">
+<li>編集モードの細かなアイデアとテクニック </li>
+
+<li>01 便利なモデリング機能</li>
+<li>02 ポリゴンを整えるためのツール</li>
+
+</ul>
+<h3>CHAPTER 05　カーブの基本モデリング</h3>
+<ul class="toc">
+<li>編集しやすい曲線で作る！ </li>
+
+<li>01 カーブを使う</li>
+<li>02 カーブを使用したモデリング</li>
+
+
+</ul>
+<h3>CHAPTER 06　カーブの応用モデリング</h3>
+<ul class="toc">
+<li>カーブとカーブの組み合わせで</li>
+<li>もっと広がる表現力</li>
+
+<li>01 ベベルオブジェクトで断面の形をデザインする </li>
+<li>02 テーパーオブジェクトでカーブの太さを変更する</li>
+<li>03 カーブモディファイアでメッシュを変形する</li>
+<li>04 カーブとポリゴンの連携モデリング</li>
+<li>05 文字を使ったカーブモデリング</li>
+
+</ul>
+<h3>CHAPTER 07　スカルプトモデリング</h3>
+<ul class="toc">
+<li>粘土のように彫刻を作ろう</li>
+
+<li>01 スカルプトモデリングとは</li>
+<li>02 スカルプトモードを使おう</li>
+<li>03 使いやすいおすすめブラシ </li>
+<li>04 完成度を上げるコツ</li>
+
+
+</ul>
+<h3>CHAPTER 08　オブジェクトを増やす</h3>
+<ul class="toc">
+<li>配列複製とパーティクル</li>
+<li>01 配列複製のテクニック</li>
+<li>02 パーティクルで大量複製するテクニック</li>
+<li>03 パーティクルのヘアーモードのテクニック</li>
+
+
+</ul>
+<h3>CHAPTER 09　モデルの作り方を考える</h3>
+<ul class="toc">
+<li>イメージを形にするヒント</li>
+
+<li>01 作り方を考える1　ソファーとぬいぐるみ </li>
+<li>02 作り方を考える2　アール・ヌーヴォー風の花瓶</li>
+<li>03 作り方を考える3　ひまわり</li>
+<li>04 作り方を考える4　ヤカンとストーブ </li>
+
+</ul>
+<h3>CHAPTER 10　リアルな質感を出す！ マテリアル</h3>
+<ul class="toc">
+<li>マテリアルノードを使いこなそう </li>
+
+<li>01 マテリアルでできること </li>
+<li>02 マテリアルノード入門</li>
+<li>03 マテリアルを使いこなす</li>
+
+</ul>
+<h3>CHAPTER 11　手触りを伝えるテクスチャ</h3>
+<ul class="toc">
+<li>さまざまな質感を表現しよう</li>
+
+<li>01 テクスチャでどんなことができる？</li>
+<li>02 テクスチャ用素材の準備</li>
+<li>03 テクスチャを設定する</li>
+<li>04 バンプで凹凸感を表現する </li>
+<li>05 テクスチャの追加で質感を表現する </li>
+<li>06 部分的に異なる質感を表現する</li>
+<li>07 正確な位置に貼るUVマッピング</li>
+<li>08 テクスチャペイントの機能 </li>
+<li>09 テクスチャの描きやすい手動UV展開</li>
+<li>10 スカルプトモデルのペイント</li>
+
+</ul>
+<h3>CHAPTER 12　ライティングの工夫</h3>
+<ul class="toc">
+<li>空間を演出しよう </li>
+
+<li>01 ライティングで演出する</li>
+<li>02 美しいライティングのテクニック</li>
+<li>03 モデルをライティング，レンダリングしてみよう</li>
+<li>04 HDRIを使う </li>
+<li>05 室内を上手にライティングする</li>
+<li>06 場面の印象を変えよう</li>
+
+</ul>
+<h3>CHAPTER 13　カメラの設定</h3>
+<ul class="toc">
+<li>絵の構図を決めよう</li>
+
+<li>01 カメラの基本を知ろう</li>
+<li>02 カメラを設定しよう </li>
+<li>03 カメラ設定のコツ </li>
+
+
+</ul>
+<h3>CHAPTER 14　作品を作る流れ</h3>
+<ul class="toc">
+<li>ポストカードを作ろう</li>
+
+<li>01 アイデアを形にしよう</li>
+<li>02 イメージスケッチ　～アイデアを絵に描いてみよう</li>
+<li>03 ラフモデル ～全体を仮組みし，</li>
+<li>仮ライティングしてみよう</li>
+<li>04 必要なアイテムをモデリングする </li>
+<li>05 テクスチャから完成まで</li>
+<li>06 作成したポストカードの紹介</li>
+
+</ul>
+<h3>APPENDIX</h3>
+<ul class="toc">
+<li>おすすめのアドオン</li>
+</ul>
+<ul class="toc">
+<li>Index</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<p>現在サポート情報はありません。</p>
+    </section>
+  </div>
+  </div>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="サンプルページのため利用できません" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="サンプルページのため利用できません" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="サンプルページのため利用できません" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="サンプルページのため利用できません" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li><a href="/">このサイトについて</a></li>
+      </ul>
+      <p id="storeCopyright"><span style="color:red;font-size:1.8em;">このページは「Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド-」のためのサンプルサイトです。特別の許可を得て技術評論社の著作物を使用しています。</span><br/><small>Copyright © 2016 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+</body>
+</html>

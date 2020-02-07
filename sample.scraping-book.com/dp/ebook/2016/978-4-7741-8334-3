@@ -1,0 +1,208 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>ゼロからはじめる 海外旅行でスマホ活用 スマートガイド | Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド- サンプルページ</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="海外旅行でも，メールやLINE，地図やお店を調べたりと普段と同じようにスマホを便利に使うことが可能です。本書では，海外でもスマホを活用したい人向けに，利用の準備から現地での利用方法，旅行に便利なアプリを紹介しています。また，日本人の主要渡航先である米国や韓国，香港など10の国と地域については，個別に詳細解説をしています。iPhone/Android対応。"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <meta name="robots" content="noindex,noarchive"/>
+  <link rel="stylesheet" href="/dp/assets/style/store1124.css" type="text/css" media="all"/>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Scraping-Book</h1>
+    <h2 class="home-subtitle">これは書籍用のサンプルページです。購入などの操作はできません。</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="サンプルページのため利用できません">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="サンプルページのため利用できません">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%B3%E3%83%BB%E3%82%BF%E3%83%96%E3%83%AC%E3%83%83%E3%83%88" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+<h2 id="bookSeries"><a href="/dp/series/%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E3%81%AF%E3%81%98%E3%82%81%E3%82%8B">ゼロからはじめる</a></h2>
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">ゼロからはじめる<br/>海外旅行でスマホ活用 スマートガイド</h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2016/978-4-7741-8334-3.jpg" alt="ゼロからはじめる 海外旅行でスマホ活用 スマートガイド"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">山谷剛史，<wbr/>田口和裕，<wbr/>タトラエディット　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2016-07-22">2016年7月22日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2016-07-22">2016年7月22日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>これは書籍サンプルのページです。</li>
+      <li class="need-login">サンプルサイトなので購入はできません。</li>
+    </ul>
+    <dl id="productPrice">
+<dt class="disable"><span class="name">PDF</span><span class="buy">1,380円 </span></dt><dd class="disable"><span class="page"><span itemprop="numberOfPages">160</span>ページ相当</span><span class="pdf">PDF</span> <span class="plan">7月22日発売予定</span></dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>海外旅行でも，<wbr/>メールやLINE，<wbr/>地図やお店を調べたりと普段と同じようにスマホを便利に使うことが可能です。本書では，<wbr/>海外でもスマホを活用したい人向けに，<wbr/>利用の準備から現地での利用方法，<wbr/>旅行に便利なアプリを紹介しています。また，<wbr/>日本人の主要渡航先である米国や韓国，<wbr/>香港など10の国と地域については，<wbr/>個別に詳細解説をしています。iPhone/Android対応。</p><h3>こんな方におすすめ</h3>
+<ul><li>海外でもスマートフォンを活用したい人</li></ul>
+
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="利用できません" placeholder="利用できません" required="required" value="">
+  <input type="hidden" name="code" value="33006">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>Chapter 1 海外旅行でスマホを活用</h3>
+<ul class="toc">
+<li>01 海外で利用できるスマートフォンの機能</li>
+<li>02 スマートフォンを海外旅行で活用する</li>
+<li>03 日本語で現地の情報を探す</li>
+<li>04 旅行に必要な情報を入れておく</li>
+<li>05 標準機能のメモやアラームを活用する</li>
+<li>06 旅の思い出をスマートフォンで振り返る</li>
+
+</ul>
+<h3>Chapter 2 旅行前の準備</h3>
+<ul class="toc">
+<li>07 旅行前に用意したいスマートフォン用品</li>
+<li>08 充電のための機器をそろえる</li>
+<li>09 ホテルで使えるWi-Fiルーターを選ぶ</li>
+<li>10 電源プラグの形状を確認する</li>
+<li>11 友達と一緒に使えるWi-Fiルーターをレンタルする</li>
+
+</ul>
+<h3>Chapter 3 海外で役立つアプリ</h3>
+<ul class="toc">
+<li>12 海外で使うアプリは事前に準備する</li>
+<li>13 Googleマップの使い方を覚える</li>
+<li>14 Google翻訳で現地の言葉を理解する</li>
+<li>15 現地の天気を調べる</li>
+<li>16 必要な情報はメモに書き留めておく</li>
+<li>17 Webの情報をオフラインで読めるようにする</li>
+<li>18 指さしで現地の人と会話をする</li>
+<li>19 Kindleで旅行ガイドを持ち運ぶ</li>
+<li>20 トリップアドバイザーでホテルを探す</li>
+<li>21 Evernoteで写真メモを利用する</li>
+<li>22 Dropboxで写真をバックアップする</li>
+<li>23 LINEで海外でもメッセージをやり取りする</li>
+<li>24 旅行電卓で現地通貨を日本円に換算する</li>
+<li>25 海外のショップを探せるYelp</li>
+<li>26 OpenTableでレストランを日本語で予約する</li>
+<li>27 料金を見て配車できるタクシーアプリUber</li>
+<li>28 現地の電車経路をTransitで調べる</li>
+
+</ul>
+<h3>Chapter 4 渡航時のスマホ設定</h3>
+<ul class="toc">
+<li>29 航空機へ搭乗する際の設定を知っておく</li>
+<li>30 空港で無料のWi-Fiを利用する</li>
+<li>31 現地でWi-Fiスポットを利用する</li>
+<li>32 現地で不要なパケット通信をしないようにする</li>
+<li>33 端末を紛失したときのための設定をする</li>
+
+</ul>
+<h3>Chapter 5 渡航先別スマホ活用情報</h3>
+<ul class="toc">
+<li>34 アメリカ・ハワイ</li>
+<li>35 グアム</li>
+<li>36 ドイツ</li>
+<li>37 フランス</li>
+<li>38 韓国</li>
+<li>39 タイ</li>
+<li>40 シンガポール</li>
+<li>41 台湾</li>
+<li>42 香港</li>
+<li>43 中国</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<p>現在サポート情報はありません。</p>
+    </section>
+  </div>
+  </div>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="サンプルページのため利用できません" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="サンプルページのため利用できません" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="サンプルページのため利用できません" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="サンプルページのため利用できません" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li><a href="/">このサイトについて</a></li>
+      </ul>
+      <p id="storeCopyright"><span style="color:red;font-size:1.8em;">このページは「Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド-」のためのサンプルサイトです。特別の許可を得て技術評論社の著作物を使用しています。</span><br/><small>Copyright © 2016 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+</body>
+</html>

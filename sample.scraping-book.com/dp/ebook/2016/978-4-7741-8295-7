@@ -1,0 +1,236 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>人気ハンドメイド作家になりたい人が読む本 | Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド- サンプルページ</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="「大好きなものづくりを仕事にしたい」「憧れのあの作家さんのようになりたいけれど，何をしたらいいのかわからない」「活動をはじめてみたものの，思うように商品が売れない」－そんなお悩みに応えるのが本書です。基本となるブランドの立ち上げ方，売上アップのためのポイント，セルフプロデュースのコツなど，ハンドメイド作家として必須の知識とノウハウをぎゅぎゅっと1冊にまとめました。今をときめく人気作家さん9名の特別インタビューや名刺づくりのポイントなどもご紹介。ハンドメイド作家になりたいと思っている方にはもちろん，活動中の方にもおすすめの1冊です。"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <meta name="robots" content="noindex,noarchive"/>
+  <link rel="stylesheet" href="/dp/assets/style/store1124.css" type="text/css" media="all"/>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Scraping-Book</h1>
+    <h2 class="home-subtitle">これは書籍用のサンプルページです。購入などの操作はできません。</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="サンプルページのため利用できません">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="サンプルページのため利用できません">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E8%B6%A3%E5%91%B3%E3%83%BB%E5%AE%9F%E7%94%A8%E3%83%BB%E3%83%87%E3%82%B8%E3%82%AB%E3%83%A1" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">人気ハンドメイド作家になりたい人が読む本</h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2016/978-4-7741-8295-7.jpg" alt="人気ハンドメイド作家になりたい人が読む本"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">ARENSKI　著，<wbr/>小泉七美　監修</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2016-06-27">2016年6月27日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2016-06-30">2016年6月30日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>これは書籍サンプルのページです。</li>
+      <li class="need-login">サンプルサイトなので購入はできません。</li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">EPUB/PDFセット</span><span class="buy">1,480円 <a id="pid401362" href="#cartAdd" title="サンプルページのため利用できません">カートに入れる<div class="option" title="購入オプション">▼<ul><li class="gift" title="サンプルページのため利用できません">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">192</span>ページ相当</span><span class="pdf">PDF</span> <span class="epub">EPUB：リフロー</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>「大好きなものづくりを仕事にしたい」「憧れのあの作家さんのようになりたいけれど，<wbr/>何をしたらいいのかわからない」「活動をはじめてみたものの，<wbr/>思うように商品が売れない」－そんなお悩みに応えるのが本書です。基本となるブランドの立ち上げ方，<wbr/>売上アップのためのポイント，<wbr/>セルフプロデュースのコツなど，<wbr/>ハンドメイド作家として必須の知識とノウハウをぎゅぎゅっと1冊にまとめました。今をときめく人気作家さん9名の特別インタビューや名刺づくりのポイントなどもご紹介。ハンドメイド作家になりたいと思っている方にはもちろん，<wbr/>活動中の方にもおすすめの1冊です。</p><h3>こんな方におすすめ</h3>
+<ul><li>ハンドメイド作家として活動を始めたい方</li><li>売上をもっと伸ばしたい方</li><li>作家としてもう一歩先へ進みたい方</li></ul>
+
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="利用できません" placeholder="利用できません" required="required" value="">
+  <input type="hidden" name="code" value="32884">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>PART1　今をときめく人気作家9名！　特別インタビュー</h3>
+<ul class="toc">
+<li>FILE01　紙雑貨作家/emuuu</li>
+<li>FILE02　布雑貨作家/DOT MELT</li>
+<li>FILE03　プラバン作家/ずっこ</li>
+<li>FILE04　イラストレーター/やがわまき</li>
+<li>FILE05　ジュエリー作家/ramunecafe bijoux</li>
+<li>FILE06　紙雑貨作家/遊星商會</li>
+<li>FILE07　洋菓子作家/西洋菓子ミレイヌ</li>
+<li>FILE08　造形作家/abarayam</li>
+<li>FILE09　アクセサリー作家/ninon</li>
+<li>監修　小泉七美</li>
+</ul>
+<h3>PART2　作家としての第一歩を踏み出そう　夢をかなえるあなたブランドのつくりかた</h3>
+<ul class="toc">
+<li>01　夢の計画書をつくろう</li>
+<li>02　自分だけのブランドをつくろう</li>
+<li>03　ターゲット分析をしてみよう</li>
+<li>04　コンセプトボードを制作しよう</li>
+<li>05　愛着のあるブランド名をつけよう</li>
+<li>06　お店の看板になるブランドロゴづくり</li>
+<li>07　ブランドのオリジナリティを高めるには</li>
+<li>08　自分に合ったペースで活動する</li>
+<li>09　時間のやりくり法</li>
+
+<li>COLUMN1　知っているようで知らない著作権のお話</li>
+
+</ul>
+<h3>PART3　スムーズなサイクルがポイント　制作と販売について考えよう</h3>
+<ul class="toc">
+<li>01　作品が商品になるまでの流れ</li>
+<li>02　自分に合った販売方法を探してみよう</li>
+<li>03　おすすめの販売方法って？</li>
+<li>04　効率よく制作するには</li>
+<li>05　作家さんのおすすめ愛用グッズの紹介</li>
+<li>06　在庫管理で利益UP！</li>
+<li>06　失敗しない仕入れのポイント</li>
+<li>07　材料の宝探しに問屋街へ</li>
+<li>08　もう悩まない！ 価格の決め方</li>
+<li>08　販売するために必要な届出と手続き</li>
+<li>09　ハンドメイドイベントに出展してみよう</li>
+<li>10　全国の人気ハンドメイドイベント</li>
+<li>11　ギャラリー・レンタルスペースで作品を展示する</li>
+<li>12　ハンドメイドマーケットで販売してみよう</li>
+
+<li>COLUMN2　ハンドメイドイベントに参加するためのルールとマナー</li>
+
+</ul>
+<h3>PART4　ちょっとした工夫で差がつく　知名度アップを目指そう</h3>
+<ul class="toc">
+<li>01　はじめは誰でも無名！固定ファンを増やすには</li>
+<li>02　ホームページ・ブログをつくろう</li>
+<li>03　SNSをうまく活用してコミュニケーションをとろう</li>
+<li>04　YouTubeでプロモーションする</li>
+<li>05　自分のライフスタイルを公開してみる</li>
+<li>06　ショップ売り込みの心がけとポイント</li>
+<li>07　DMを活用して情報を発信する</li>
+<li>08　ZINEをつくってみよう</li>
+<li>09　メディアに掲載される秘訣</li>
+
+<li>COLUMN3　教えて！読者のお悩みQ&A－お金のお話編－</li>
+<li>　　　　　教えて！読者のお悩みQ&A―制作と販売編―</li>
+
+</ul>
+<h3>PART5　お客さまの心をつかむ！　売り上げを伸ばすためには</h3>
+<ul class="toc">
+<li>01　ときには立ち止まってまわりをながめてみる</li>
+<li>02　ヒントを盗め！ 市場調査</li>
+<li>03　おすすめセレクトショップ一覧</li>
+<li>04　いろいろなところへ足をはこぶ</li>
+<li>05　どうしたらイベントで完売できるの？</li>
+<li>06　売上につながる接客の心がけ</li>
+<li>07　接客でのトラブル対処法</li>
+<li>08　ディスプレイによって売り上げは変わる！</li>
+<li>09　ラッピングにこだわる</li>
+
+<li>COLUMN4　教えて！読者のお悩みQ&A―制作と販売編―</li>
+
+</ul>
+<h3>PART6　ブランドの顔！　名刺をつくろう</h3>
+<ul class="toc">
+<li>01　ブランドカード・名刺のつくりかた</li>
+<li>02　イメージを伝えるためのデザインのコツ</li>
+<li>03　Illustratorでつくる</li>
+<li>04　Wordでつくる</li>
+<li>05　個性が光る！ かわいいデザインコレクション</li>
+<li>06　おすすめ印刷会社＆お役立ちショップ一覧</li>
+
+<li>COLUMN5　ハンドメイドイベント出展レポート</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<p>現在サポート情報はありません。</p>
+    </section>
+  </div>
+  </div>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="サンプルページのため利用できません" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="サンプルページのため利用できません" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="サンプルページのため利用できません" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="サンプルページのため利用できません" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li><a href="/">このサイトについて</a></li>
+      </ul>
+      <p id="storeCopyright"><span style="color:red;font-size:1.8em;">このページは「Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド-」のためのサンプルサイトです。特別の許可を得て技術評論社の著作物を使用しています。</span><br/><small>Copyright © 2016 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+</body>
+</html>

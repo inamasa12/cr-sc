@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>平成28年度【秋期】情報セキュリティマネジメント パーフェクトラーニング過去問題集 | Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド- サンプルページ</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="シリーズ累計100万部のパーフェクトラーニングシリーズに，今年の4月に始まった新試験「情報セキュリティマネジメント試験」が登場。類題の出題がある情報処理技術者試験では，過去問演習が合格への近道です。本書ではH28年春試験の過去問題と，予想問題3回の計4回分の試験問題にチャレンジできます。午前問題は問題と解答を同時に見られる見開き構成で，問題を解いたらそのまま解答チェック・解説の確認ができます。午後問題は1問1問丁寧に解説。巻末には答案用紙も収録しているので，本番に即して演習することが可能です。"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <meta name="robots" content="noindex,noarchive"/>
+  <link rel="stylesheet" href="/dp/assets/style/store1124.css" type="text/css" media="all"/>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Scraping-Book</h1>
+    <h2 class="home-subtitle">これは書籍用のサンプルページです。購入などの操作はできません。</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="サンプルページのため利用できません">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="サンプルページのため利用できません">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E8%B3%87%E6%A0%BC%E8%A9%A6%E9%A8%93%EF%BC%88IT%EF%BC%89" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+<h2 id="bookSeries"><a href="/dp/series/%E6%83%85%E5%A0%B1%E5%87%A6%E7%90%86%E6%8A%80%E8%A1%93%E8%80%85%E8%A9%A6%E9%A8%93">情報処理技術者試験</a></h2>
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">平成<wbr/>28<wbr/>年度<wbr/>【秋期】<wbr/>情報セキュリティマネジメント パーフェクトラーニング過去問題集</h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2016/978-4-7741-8337-4.jpg" alt="平成28年度【秋期】情報セキュリティマネジメント パーフェクトラーニング過去問題集"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">庄司勝哉，<wbr/>吉川允樹　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2016-07-23">2016年7月23日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2016-07-23">2016年7月23日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>これは書籍サンプルのページです。</li>
+      <li class="need-login">サンプルサイトなので購入はできません。</li>
+    </ul>
+    <dl id="productPrice">
+<dt class="disable"><span class="name">PDF</span><span class="buy">1,480円 </span></dt><dd class="disable"><span class="page"><span itemprop="numberOfPages">240</span>ページ相当</span><span class="pdf">PDF</span> <span class="plan">7月23日発売予定</span></dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>シリーズ累計100万部のパーフェクトラーニングシリーズに，<wbr/>今年の4月に始まった新試験「情報セキュリティマネジメント試験」が登場。類題の出題がある情報処理技術者試験では，<wbr/>過去問演習が合格への近道です。本書ではH28年春試験の過去問題と，<wbr/>予想問題3回の計4回分の試験問題にチャレンジできます。午前問題は問題と解答を同時に見られる見開き構成で，<wbr/>問題を解いたらそのまま解答チェック・<wbr/>解説の確認ができます。午後問題は1問1問丁寧に解説。巻末には答案用紙も収録しているので，<wbr/>本番に即して演習することが可能です。</p><h3>こんな方におすすめ</h3>
+<ul><li>情報セキュリティマネジメントを受験する方</li></ul>
+<h3>執筆協力者</h3>
+<ul class="toc">
+<li>富樫泰斗</li>
+<li>三浦史也</li>
+<li>倉田洋輔</li>
+</ul><aside class="author"><h3>庄司勝哉（しょうじかつや）</h3><p>2012年に株式会社ラックへ入社。金融機関のシステム基盤構築を担当しており，<wbr/>セキュリティ製品の導入支援なども行っている。アプリケーション開発にも精通しており，<wbr/>退社後や休日にはWebアプリケーションやスマートフォンアプリの開発を行っている。最近のマイブームはテニス。<br />
+保持する資格は情報セキュリティスペシャリスト，<wbr/>データベーススペシャリスト，<wbr/>ネットワークスペシャリスト，<wbr/>情報セキュリティマネジメント(New!!) 他。</p>
+</aside><aside class="author"><h3>吉川允樹（よしかわまさき）</h3><p>2013年に株式会社ラックへ入社。主に官公庁や金融インフラを対象としたWebアプリケーション診断に従事。その後は，<wbr/>顧客の開発現場に常駐して，<wbr/>Web・<wbr/>プラットフォームセキュリティの監査を担当。現在は新規サービスの開発や，<wbr/>セキュリティ技術の研究を行っている。<br />
+業務のかたわら，<wbr/>脆弱性の発見・<wbr/>報告や，<wbr/>最高の「守る」技術を持つトップエンジニアを発掘・<wbr/>顕彰するセキュリティ・<wbr/>イベント「Hardening Project」に参画するなどの活動も行っている。</p>
+</aside><section id="sample"><h2>サンプル</h2><a href="/assets/files/book/2016/978-4-7741-8241-4/9784774182414-01.jpg"><img src="/assets/images/reading.gif" data-image="/assets/files/book/2016/978-4-7741-8241-4/thumb/TH400_9784774182414-01.jpg,/assets/files/book/2016/978-4-7741-8241-4/9784774182414-01.jpg" width="400" height="533" alt="sample"/></a><a href="/assets/files/book/2016/978-4-7741-8241-4/9784774182414-02.jpg"><img src="/assets/images/reading.gif" data-image="/assets/files/book/2016/978-4-7741-8241-4/thumb/TH400_9784774182414-02.jpg,/assets/files/book/2016/978-4-7741-8241-4/9784774182414-02.jpg" width="400" height="533" alt="sample"/></a><a href="/assets/files/book/2016/978-4-7741-8241-4/9784774182414-03.jpg"><img src="/assets/images/reading.gif" data-image="/assets/files/book/2016/978-4-7741-8241-4/thumb/TH400_9784774182414-03.jpg,/assets/files/book/2016/978-4-7741-8241-4/9784774182414-03.jpg" width="400" height="533" alt="sample"/></a></section>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="利用できません" placeholder="利用できません" required="required" value="">
+  <input type="hidden" name="code" value="33031">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><ul class="toc">
+<li>はじめに</li>
+<li>試験概要</li>
+<li>平成28年度春期試験の傾向分析</li>
+<li>ここが知りたい！情報セキュリティマネジメント試験Q&amp;A</li>
+</ul>
+<h3>過去問題＋予想問題の詳細解説</h3>
+<ul class="toc">
+<li>平成28 年度【春期】<ul class="toc">
+<li>　午前（問題、解答・解説）</li>
+<li>　午後（問題、解答・解説）</li></ul></li>
+<li>予想問題1<ul class="toc">
+<li>　午前（問題、解答・解説）</li>
+<li>　午後（問題、解答・解説）</li></ul></li>
+<li>予想問題2<ul class="toc">
+<li>　午前（問題、解答・解説）</li>
+<li>　午後（問題、解答・解説）</li></ul></li>
+<li>予想問題3<ul class="toc">
+<li>　午前（問題、解答・解説）</li>
+<li>　午後（問題、解答・解説）</li></ul></li>
+</ul>
+
+<ul class="toc">
+<li>付録<ul class="toc">
+<li>　解答一覧</li>
+<li>　答案用紙</li></ul></li>
+<li>索引</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<p>現在サポート情報はありません。</p>
+    </section>
+  </div>
+  </div>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="サンプルページのため利用できません" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="サンプルページのため利用できません" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="サンプルページのため利用できません" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="サンプルページのため利用できません" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li><a href="/">このサイトについて</a></li>
+      </ul>
+      <p id="storeCopyright"><span style="color:red;font-size:1.8em;">このページは「Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド-」のためのサンプルサイトです。特別の許可を得て技術評論社の著作物を使用しています。</span><br/><small>Copyright © 2016 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+</body>
+</html>

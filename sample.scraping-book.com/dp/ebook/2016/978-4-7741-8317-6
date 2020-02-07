@@ -1,0 +1,243 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>平成28-29年度 基本情報技術者 試験によくでる問題集【午後】 | Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド- サンプルページ</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="基本情報技術者試験の午後試験に的を絞ったテーマ別頻出問題集です。多くの過去問題・詳細な解説を掲載し，午後試験対策には最適の1冊です。時間配分が重要になってくる午後試験攻略のため，速読テクニックとアルゴリズム問題を解くコツも掲載！実践的なテクニックが身に付きます。"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <meta name="robots" content="noindex,noarchive"/>
+  <link rel="stylesheet" href="/dp/assets/style/store1124.css" type="text/css" media="all"/>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Scraping-Book</h1>
+    <h2 class="home-subtitle">これは書籍用のサンプルページです。購入などの操作はできません。</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="サンプルページのため利用できません">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="サンプルページのため利用できません">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E8%B3%87%E6%A0%BC%E8%A9%A6%E9%A8%93%EF%BC%88IT%EF%BC%89" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">平成<wbr/>28-29<wbr/>年度 基本情報技術者 試験によくでる問題集<br/><span class="sub">【午後】</span></h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2016/978-4-7741-8317-6.jpg" alt="平成28-29年度 基本情報技術者 試験によくでる問題集【午後】"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">角谷一成，<wbr/>イエローテールコンピュータ　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2016-07-05">2016年7月5日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2016-07-05">2016年7月5日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>これは書籍サンプルのページです。</li>
+      <li class="need-login">サンプルサイトなので購入はできません。</li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">EPUB/PDFセット</span><span class="buy">1,880円 <a id="pid401370" href="#cartAdd" title="サンプルページのため利用できません">カートに入れる<div class="option" title="購入オプション">▼<ul><li class="gift" title="サンプルページのため利用できません">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">432</span>ページ相当</span><span class="pdf">PDF</span> <span class="epub">EPUB：リフロー</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>基本情報技術者試験の午後試験に的を絞ったテーマ別頻出問題集です。多くの過去問題・<wbr/>詳細な解説を掲載し，<wbr/>午後試験対策には最適の1冊です。時間配分が重要になってくる午後試験攻略のため，<wbr/>速読テクニックとアルゴリズム問題を解くコツも掲載！実践的なテクニックが身に付きます。</p><h3>こんな方におすすめ</h3>
+<ul><li>基本情報技術者試験を受験される方</li><li>午後問題対策に悩んでいる方</li></ul>
+<aside class="author"><h3>角谷一成（かどたにかずなり）</h3><p>イーアイエスプランニング代表。システムエンジニア，<wbr/>コンピュータ専門学校講師等を経て，<wbr/>教育支援＆ソフトウェア開発会社を設立。情報処理技術者試験対策をはじめ，<wbr/>ネットワーク関連，<wbr/>プログラミングなど，<wbr/>主に企業向け研修を担当。<br />
+［著書］<br />
+『平成28年度　基本情報技術者　合格教本』（共著），<wbr/>技術評論社</p></aside>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="利用できません" placeholder="利用できません" required="required" value="">
+  <input type="hidden" name="code" value="32278">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>受験ガイダンス</h3>
+<ul class="toc">
+<li>「基本情報技術者」試験とは?</li>
+<li>午後試験はどこから出題される？</li>
+<li>午後問題の速読テクニック</li>
+<li>アルゴリズム問題の解き方</li>
+<li>例題を使って，アルゴリズム問題を解いてみよう！</li>
+<li>合格したら，上位試験に挑戦！</li>
+
+</ul>
+<h3>chapter 1　情報セキュリティ</h3>
+<ul class="toc">
+<li>01 ログ管理</li>
+<li>02 システムのセキュリティ</li>
+<li>03 Webサーバのセキュリティ</li>
+<li>04 VPN</li>
+<li>05 入退室管理システム</li>
+<li>06 共通鍵暗号方式</li>
+
+</ul>
+<h3>chapter 2　ハードウェア</h3>
+<ul class="toc">
+<li>01 浮動小数点数</li>
+<li>02 機械語命令</li>
+<li>03 論理演算と加算器</li>
+<li>04 ビットパターン</li>
+<li>05 A/D変換</li>
+
+</ul>
+<h3>chapter 3　ソフトウェア</h3>
+<ul class="toc">
+<li>01 言語処理系</li>
+<li>02 OSの役割</li>
+<li>03 仮想記憶方式</li>
+<li>04 コンパイラの最適化</li>
+<li>05 コンパイラの処理内容</li>
+
+</ul>
+<h3>chapter 4　データベース</h3>
+<ul class="toc">
+<li>01 データベースの運用</li>
+<li>02 データベースの設計</li>
+<li>03 DBの設計と運用</li>
+<li>04 トランザクション管理</li>
+<li>05 正規化と問合せ</li>
+
+</ul>
+<h3>chapter 5　ネットワーク</h3>
+<ul class="toc">
+<li>01 DNSの仕組み</li>
+<li>02 スループットの改善</li>
+<li>03 プロトコル</li>
+<li>04 電子メール</li>
+<li>05 ルータの経路制御</li>
+
+</ul>
+<h3>chapter 6　ソフトウェア設計</h3>
+<ul class="toc">
+<li>01 決定表</li>
+<li>02 オブジェクト指向設計</li>
+<li>03 マッチング処理</li>
+<li>04 ファイル処理</li>
+<li>05 グループ集計処理</li>
+
+</ul>
+<h3>chapter 7　マネジメント</h3>
+<ul class="toc">
+<li>01 プロジェクトマネジメント プロジェクトの見積り</li>
+<li>02 プロジェクトマネジメント 実績管理</li>
+<li>03 プロジェクトマネジメント 品質管理</li>
+<li>04 プロジェクトマネジメント 要員計画</li>
+<li>05 プロジェクトマネジメント 進捗管理</li>
+
+</ul>
+<h3>chapter 8　ストラテジ</h3>
+<ul class="toc">
+<li>01 経営戦略・企業と法務 業績改善</li>
+<li>02 システム戦略 システムの投資評価</li>
+<li>03 経営戦略・企業と法務 需要予測</li>
+<li>04 経営戦略・企業と法務 在庫管理</li>
+<li>05 経営・関連法規 出店戦略</li>
+<li>06 システム戦略 システムの効果見積り</li>
+
+</ul>
+<h3>chapter 9　アルゴリズム</h3>
+<ul class="toc">
+<li>01 文字列照合</li>
+<li>02 整列アルゴリズム</li>
+<li>03 文字列処理</li>
+<li>04 圧縮処理</li>
+<li>05 リスト構造のポインタ操作</li>
+<li>06 ビット処理</li>
+<li>07 構文解析</li>
+<li>08 組合せ</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<p>現在サポート情報はありません。</p>
+    </section>
+  </div>
+  </div>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="サンプルページのため利用できません" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="サンプルページのため利用できません" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="サンプルページのため利用できません" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="サンプルページのため利用できません" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li><a href="/">このサイトについて</a></li>
+      </ul>
+      <p id="storeCopyright"><span style="color:red;font-size:1.8em;">このページは「Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド-」のためのサンプルサイトです。特別の許可を得て技術評論社の著作物を使用しています。</span><br/><small>Copyright © 2016 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,342 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>アウトライナー実践入門 ～「書く・考える・生活する」創造的アウトライン・プロセッシングの技術〜 | Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド- サンプルページ</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="アウトラインを描き，文章を生み出し，考えることを軽やかにしてくれるソフト＝アウトライナー。アウトライナーを使いこなして，【書きながら考え】【考えながら書く】ことを自在に操る技法がアウトライン・プロセッシングです。WorkFlowyやWordのアウトライナーとしての使い方から，アウトライナー愛にあふれる著者が試行錯誤の末に見出したアウトライン・プロセッシングのプロセスと，その実践編まで一挙公開します。2015年に電子書籍として発売され，書くこと・考えることに一石を投じ話題をさらった『アウトライン・プロセッシング入門』が，新コンテンツ満載，2倍のボリュームの書籍に生まれ変わって新登場！"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <meta name="robots" content="noindex,noarchive"/>
+  <link rel="stylesheet" href="/dp/assets/style/store1124.css" type="text/css" media="all"/>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Scraping-Book</h1>
+    <h2 class="home-subtitle">これは書籍用のサンプルページです。購入などの操作はできません。</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="サンプルページのため利用できません">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="サンプルページのため利用できません">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%83%BB%E3%83%9E%E3%83%8D%E3%83%BC" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">アウトライナー実践入門<br/><span class="sub">～<wbr/>「書く・<wbr/>考える・<wbr/>生活する」<wbr/>創造的アウトライン・<wbr/>プロセッシングの技術〜</span></h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2016/978-4-7741-8301-5.jpg" alt="アウトライナー実践入門 ～「書く・考える・生活する」創造的アウトライン・プロセッシングの技術〜"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">Tak.　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2016-07-09">2016年7月9日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2016-07-09">2016年7月9日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>これは書籍サンプルのページです。</li>
+      <li class="need-login">サンプルサイトなので購入はできません。</li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">EPUB/PDFセット</span><span class="buy">1,980円 <a id="pid401373" href="#cartAdd" title="サンプルページのため利用できません">カートに入れる<div class="option" title="購入オプション">▼<ul><li class="gift" title="サンプルページのため利用できません">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">272</span>ページ相当</span><span class="pdf">PDF</span> <span class="epub">EPUB：リフロー</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>アウトラインを描き，<wbr/>文章を生み出し，<wbr/>考えることを軽やかにしてくれるソフト＝アウトライナー。アウトライナーを使いこなして，<wbr/>【書きながら考え】【考えながら書く】ことを自在に操る技法がアウトライン・<wbr/>プロセッシングです。WorkFlowyやWordのアウトライナーとしての使い方から，<wbr/>アウトライナー愛にあふれる著者が試行錯誤の末に見出したアウトライン・<wbr/>プロセッシングのプロセスと，<wbr/>その実践編まで一挙公開します。
+2015年に電子書籍として発売され，<wbr/>書くこと・<wbr/>考えることに一石を投じ話題をさらった『アウトライン・<wbr/>プロセッシング入門』が，<wbr/>新コンテンツ満載，<wbr/>2倍のボリュームの書籍に生まれ変わって新登場！</p><h3>こんな方におすすめ</h3>
+<ul><li>ビジネスパーソン，<wbr/>ナレッジワーカー</li><li>ブロガー，<wbr/>ライターをはじめとして文章を書く方</li><li>学生</li></ul>
+<aside class="author"><h3>Tak.（たく）</h3><p>1968年11月生まれ。横浜市在住。<br />
+マーケティング関連の仕事を経て，<wbr/>現在フリーのライター／<wbr/>リサーチャー。海外ブログの翻訳も行う。<br />
+学生時代からアウトライナーの可能性と奥深さに惹かれ，<wbr/>公私にヘビーに使用するとともに海外のものも含め関連資料を読みあさる。2008年より，<wbr/>個人ホームページ及びブログでアウトライナーの活用テクニックや思想，<wbr/>アウトライナーに関わる個人的体験を公開し始める。<br />
+2015年，<wbr/>それまでに公開した記事をまとめて大幅に加筆した電子書籍『アウトライン・<wbr/>プロセッシング入門』を出版。知的生産やライフハックに興味を持つ人々の間で話題となり，<wbr/>Amazonの「Kindleストア 有料タイトル」ランキングで総合1位を記録。
+現在も本業の傍らブログ及びTwitterでアウトライナー関連の情報を発信し続けている。</p>
+<p>
+Twitter：<a href="https://twitter.com/takwordpiece">@takwordpiece</a><br />
+ブログ：<a href="http://takpluspluslog.blog.so-net.ne.jp">Word Piece</a><br />
+個人ホームページ：<a href="http://www012.upp.so-net.ne.jp/renjitalk/">Renji Talk</a>
+</p></aside>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="利用できません" placeholder="利用できません" required="required" value="">
+  <input type="hidden" name="code" value="32956">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>Part1　アウトライナーとアウトライン・プロセッシング</h3>
+<ul class="toc">
+
+<li>1.1　アウトラインとアウトライナー<ul class="toc">
+	<li>伝統的な「文章のアウトライン」</li></ul></li>
+<li>1.2　アウトライナーの基本機能<ul class="toc">
+	<li>アウトラインを視覚的に表示する機能</li>
+	<li>アウトラインを折りたたむ機能</li>
+	<li>アウトラインを組み替える機能</li></ul></li>
+<li>1.3　自由なアウトライン・プロセッシング<ul class="toc">
+	<li>「先にアウトラインを作る」という誤解</li>
+	<li>生きたアウトライン</li></ul></li>
+<li>1.4　プロセス型アウトライナー<ul class="toc">
+	<li>自由なアウトライン・プロセッシングのためのアウトライナー</li>
+	<li>プロセス型とプロダクト型</li>
+	<li>2016年のプロセス型アウトライナー・WorkFlowy</li></ul></li>
+
+<li>WorkFlowyを導入する<ul class="toc">
+	<li>アカウントを作成する</li>
+	<li>WorkFlowyでアウトライナーの「３つの基本機能」を使う</li>
+	<li>WorkFlowyを使うときに覚えておくべきこと</li>
+	<li>その他の特徴的な機能</li></ul></li>
+
+<li>Microsoft Wordを導入する<ul class="toc">
+	<li>Wordを擬似的にプロセス型アウトライナーとして使う</li>
+	<li>アウトライナーの３つの基本機能を使う</li>
+	<li>アウトラインモードと他のモードとの関係</li>
+	<li>アウトラインモードのその他の機能</li></ul></li>
+
+
+</ul>
+<h3>Part2　アウトライン・プロセッシングの技法</h3>
+<ul class="toc">
+
+<li>2.1　シェイク<ul class="toc">
+	<li>トップダウン型とボトムアップ型</li>
+	<li>トップダウンとボトムアップを行き来する</li>
+	<li>構成を考えることとディテールを考えることを分離する</li></ul></li>
+
+<li>2.2　アウトライン操作の５つの〈型〉<ul class="toc">
+	<li>〈型１〉リスティング（箇条書き）</li>
+	<li>〈型２〉ブレイクダウン（細分化）</li>
+	<li>〈型３〉グルーピング（分類）</li>
+	<li>〈型４〉レベルアップ（階層を上がる）</li>
+	<li>〈型５〉ソーティング（並べ替え）</li>
+	<li>無意識に行われるアウトライン操作の〈型〉</li></ul></li>
+
+
+</ul>
+<h3>Part3　文章を書く</h3>
+<ul class="toc">
+
+<li>3.1　メモを組み立てて文章化する<ul class="toc">
+	<li>ヒアリング結果を定型的なレポートにまとめる</li>
+	<li>作業プロセスを「作業」に分割する</li></ul></li>
+
+<li>3.2　自由な発想を文章化する<ul class="toc">
+	<li>フリーライティングからのアウトライン・プロセッシング</li>
+	<li>純粋に「書くこと」「考えること」に集中する</li></ul></li>
+
+<li>3.3　視点を切り替えて要約する<ul class="toc">
+	<li>「調査対象別」のアウトライン</li>
+	<li>「調査項目別」のアウトラインに組み替える</li>
+	<li>項目ごとにアウトラインを展開する</li>
+	<li>アウトラインの組み替えは視点の組み替え</li></ul></li>
+
+<li>3.4　複数の書きかけの文章を管理する<ul class="toc">
+	<li>書きかけの文章をひとつのアウトラインに入れる</li>
+	<li>アイデアの発酵</li>
+	<li>新しい「速さ」の感覚</li>
+	<li>「ひとつのアウトライン」をつきつめたWorkFlowy</li>
+	<li>「ひとつのアウトライン」を実用的にするZoom機能</li>
+	<li>ファイルやノート単位のほうが向いている用途</li></ul></li>
+
+<li>3.5　「文章エディタ」としてアウトライナーを使う<ul class="toc">
+	<li>文章エディタ</li>
+	<li>アウトライナーの機能を活かすための「仮見出し」</li>
+	<li>センテンスを組み立てる</li></ul></li>
+
+<li>秀逸アウトライナー　OmniOutliner</li>
+
+
+</ul>
+<h3>Part4　理解する・伝える・考える</h3>
+<ul class="toc">
+
+<li>4.1　文章を読む<ul class="toc">
+	<li>構造を視覚化する</li>
+	<li>アウトラインを組み替えながら読む</li></ul></li>
+
+<li>4.2　その場で考える<ul class="toc">
+	<li>使い捨てのアウトライン</li>
+	<li>些細なことをアウトライン化する効果</li></ul></li>
+
+<li>4.3　共有する<ul class="toc">
+	<li>ミーティング資料をアウトライナーで作る</li>
+	<li>プレゼンテーション</li>
+	<li>チームでのアウトライン・プロセッシング</li></ul></li>
+
+<li>4.4　タスクを扱う<ul class="toc">
+	<li>アウトライナーによるタスク管理</li>
+	<li>タスクのアウトラインを作る</li>
+	<li>シェイクとカスタマイズと自由</li>
+	<li>タスクを「考える」ツール</li></ul></li>
+
+<li>4.5　ライフ・アウトライン<ul class="toc">
+	<li>ランダムな思いつきの中にあるヒント</li>
+	<li>「結果的に」生まれる構造</li>
+	<li>「Clear」の構造</li>
+	<li>「Clear」の一日</li></ul></li>
+
+<li>秀逸アウトライナー　Tree</li>
+
+
+</ul>
+<h3>Part5　アウトライナーフリーク的アウトライナー論</h3>
+<ul class="toc">
+
+<li>5.1　アウトライナーフリーク的Word論<ul class="toc">
+	<li>Wordのアウトラインモードへの違和感</li>
+	<li>アウトライン項目の扱い方の違い――プロセス型とプロダクト型</li>
+	<li>Wordのアウトラインモードのメリット</li></ul></li>
+
+<li>5.2　アウトライナーフリーク的発想論<ul class="toc">
+	<li>アウトライナーは発想ツールではない</li>
+	<li>〈シェイク〉の効果</li>
+	<li>アウトライナー有害論</li>
+	<li>思考を強制する「流動的なツリー」</li></ul></li>
+
+<li>5.3　アウトライナーの新しい呼び名<ul class="toc">
+	<li>フローをからめ取る</li>
+	<li>フローをキャッチして仮に体系化するための道具</li></ul></li>
+
+<li>5.4　〈文章を書き，考える〉ツールとしてのアウトライナーの誕生<ul class="toc">
+	<li>物書きによるプログラミングツールの発見とアウトライナー</li>
+	<li>プログラマー的想像力＋物書き的想像力</li></ul></li>
+
+
+</ul>
+<h3>Part6　〈文章を書き，考える〉アウトライン・プロセッシングの現場</h3>
+<ul class="toc">
+
+<li>物書きによる物書きのためのWorkFlowy【倉下忠憲さん】<ul class="toc">
+	<li>執筆のためのツール類</li>
+	<li>WorkFlowyに出会うまで</li>
+	<li>倉下流執筆術とWorkFlowy</li>
+	<li>現代の知的生産ツールとWorkFlowy</li></ul></li>
+
+<li>研究者と学生のための知的生産とアウトライナー【横田明美さん】<ul class="toc">
+	<li>研究者のツールとしてのWorkFlowy</li>
+	<li>学生のためのツールとしてのアウトライナー</li></ul></li>
+
+
+</ul>
+<h3>Part7　アウトライン・プロセッシングの風景</h3>
+<ul class="toc">
+
+<li>買い物リストを〈シェイク〉する<ul class="toc">
+	<li>買い物リストをボトムアップでアウトライン化する</li>
+	<li>買い物全体のアウトラインへ</li></ul></li>
+
+<li>フリーライティングから文章化する</li>
+
+<li>Step1　 自由なフリーライティング</li>
+
+<li>Step2　 テーマの探索</li>
+
+<li>Step3　 テーマを絞ったフリーライティング</li>
+
+<li>Step4　 テーマの明確化</li>
+
+<li>Step5　 仮のサマリーを作る</li>
+
+<li>Step6　 仮アウトラインを作る</li>
+
+<li>Step7　 仮アウトラインに沿って内容を整理する</li>
+
+<li>Step8　 〈シェイク〉を繰り返す</li>
+
+<li>Step9　 アウトラインの引き締め</li>
+
+<li>Step10　アウトラインの固定</li>
+
+<li>Step11　本文の完成<ul class="toc">
+	<li>ここで作成した文章について</li></ul></li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<p>現在サポート情報はありません。</p>
+    </section>
+  </div>
+  </div>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="サンプルページのため利用できません" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="サンプルページのため利用できません" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="サンプルページのため利用できません" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="サンプルページのため利用できません" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li><a href="/">このサイトについて</a></li>
+      </ul>
+      <p id="storeCopyright"><span style="color:red;font-size:1.8em;">このページは「Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド-」のためのサンプルサイトです。特別の許可を得て技術評論社の著作物を使用しています。</span><br/><small>Copyright © 2016 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+</body>
+</html>

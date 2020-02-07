@@ -1,0 +1,238 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>大きな字でわかりやすい　エクセル2016 入門 | Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド- サンプルページ</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="パソコンに不慣れな方，エクセルを初めて操作する方も安心！一番わかりやすいエクセル 2016の解説書です。他の本と比べて文字が大きく読みやすいのはもちろん，操作の手順がわかりやすく並べられているので，途中で迷うことがありません。たくさんの機能や操作方法を詰め込みすぎていませんから，自分のペースでゆっくり，楽しみながら最後まで読み進めることができます。エクセルを使うために必要な機能を厳選した，最初の1冊にオススメの入門書です。"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <meta name="robots" content="noindex,noarchive"/>
+  <link rel="stylesheet" href="/dp/assets/style/store1124.css" type="text/css" media="all"/>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Scraping-Book</h1>
+    <h2 class="home-subtitle">これは書籍用のサンプルページです。購入などの操作はできません。</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="サンプルページのため利用できません">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="サンプルページのため利用できません">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+<h2 id="bookSeries"><a href="/dp/series/%E5%A4%A7%E3%81%8D%E3%81%AA%E5%AD%97%E3%81%A7%E3%82%8F%E3%81%8B%E3%82%8A%E3%82%84%E3%81%99%E3%81%84">大きな字でわかりやすい</a></h2>
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">大きな字でわかりやすい<br/>エクセル<wbr/>2016 入門</h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2016/978-4-7741-8322-0.jpg" alt="大きな字でわかりやすい　エクセル2016 入門"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">AYURA　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2016-07-20">2016年7月20日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2016-07-20">2016年7月20日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>これは書籍サンプルのページです。</li>
+      <li class="need-login">サンプルサイトなので購入はできません。</li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">PDF</span><span class="buy">980円 <a id="pid401378" href="#cartAdd" title="サンプルページのため利用できません">カートに入れる<div class="option" title="購入オプション">▼<ul><li class="gift" title="サンプルページのため利用できません">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">160</span>ページ相当</span><span class="pdf">PDF</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>パソコンに不慣れな方，<wbr/>エクセルを初めて操作する方も安心！一番わかりやすいエクセル 2016の解説書です。他の本と比べて文字が大きく読みやすいのはもちろん，<wbr/>操作の手順がわかりやすく並べられているので，<wbr/>途中で迷うことがありません。たくさんの機能や操作方法を詰め込みすぎていませんから，<wbr/>自分のペースでゆっくり，<wbr/>楽しみながら最後まで読み進めることができます。エクセルを使うために必要な機能を厳選した，<wbr/>最初の1冊にオススメの入門書です。</p><h3>こんな方におすすめ</h3>
+<ul><li>エクセルの使い方を知りたい人</li></ul>
+
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="利用できません" placeholder="利用できません" required="required" value="">
+  <input type="hidden" name="code" value="32989">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>第1章 エクセルの基本を覚えよう</h3>
+<ul class="toc">
+<li>Sec.01 エクセルを開こう</li>
+<li>Sec.02 エクセルの画面を知ろう</li>
+<li>Sec.03 リボンの操作方法を覚えよう</li>
+<li>Sec.04 ウィンドウの大きさを変えよう</li>
+<li>Sec.05 セルを正しく理解しよう</li>
+<li>Sec.06 セル，行，列を選択しよう</li>
+<li>Sec.07 表を保存しよう</li>
+<li>Sec.08 エクセルを閉じよう</li>
+<li>Sec.09 保存した表を開こう</li>
+
+</ul>
+<h3>第2章 かんたんな表を作ろう</h3>
+<ul class="toc">
+<li>Sec.10 日本語入力のしくみを知ろう</li>
+<li>Sec.11 日本語を入力しよう</li>
+<li>Sec.12 名簿のデータを入力しよう</li>
+<li>Sec.13 郵便番号を入力しよう</li>
+<li>Sec.14 メールアドレスを入力しよう</li>
+<li>Sec.15 日付を入力しよう</li>
+<li>Sec.16 入力したデータを修正しよう</li>
+<li>Sec.17 入力したデータの一部を修正しよう</li>
+<li>Sec.18 連続したデータをすばやく入力しよう</li>
+<li>Sec.19 行を挿入しよう</li>
+<li>Sec.20 列を挿入しよう</li>
+<li>Sec.21 データをコピーしよう</li>
+<li>Sec.22 データを移動しよう</li>
+<li>Sec.23 行や列を削除しよう</li>
+
+</ul>
+<h3>第3章 表の見栄えを整えよう</h3>
+<ul class="toc">
+<li>Sec.24 表の幅を整えよう</li>
+<li>Sec.25 表全体を罫線で囲もう</li>
+<li>Sec.26 罫線を削除しよう</li>
+<li>Sec.27 二重罫線でデータを区切ろう</li>
+<li>Sec.28 セルを結合しよう</li>
+<li>Sec.29 文字の書体を変えよう</li>
+<li>Sec.30 文字を大きくしよう</li>
+<li>Sec.31 文字を中央や右に揃えよう</li>
+<li>Sec.32 文字を太字にしよう</li>
+<li>Sec.33 表に色を付けよう</li>
+
+</ul>
+<h3>第4章 データの並べ替えや検索をしよう</h3>
+<ul class="toc">
+<li>Sec.34 データを五十音順に並べ替えよう</li>
+<li>Sec.35 データを小さい順に並べ替えよう</li>
+<li>Sec.36 データを検索しよう</li>
+<li>Sec.37 データを置換しよう</li>
+<li>Sec.38 特定のデータだけを表示しよう</li>
+
+</ul>
+<h3>第5章 表を使って計算しよう</h3>
+<ul class="toc">
+<li>Sec.39 計算に使用する表を作ろう</li>
+<li>Sec.40 数値を入力して計算しよう</li>
+<li>Sec.41 セルを指定して計算しよう</li>
+<li>Sec.42 行（列）の合計を求めよう</li>
+<li>Sec.43 計算式をコピーしよう</li>
+<li>Sec.44 合計する範囲を修正しよう</li>
+<li>Sec.45 セルを固定して計算しよう</li>
+<li>Sec.46 ,（カンマ）や％で数値を見やすくしよう</li>
+
+</ul>
+<h3>第6章 表からグラフを作ろう</h3>
+<ul class="toc">
+<li>Sec.47 棒グラフを作成しよう</li>
+<li>Sec.48 グラフの位置を変更しよう</li>
+<li>Sec.49 グラフの大きさを変えよう</li>
+<li>Sec.50 グラフの見栄えを変えよう</li>
+
+</ul>
+<h3>第7章 印刷をしよう</h3>
+<ul class="toc">
+<li>Sec.51 印刷イメージを事前に確認しよう</li>
+<li>Sec.52 表とグラフを印刷しよう</li>
+<li>Sec.53 選択した表だけを印刷しよう</li>
+<li>Sec.54 用紙1枚に収めて印刷しよう</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<h3 id="download">ダウンロード</h3>
+<p>本書で使用するサンプルファイルはダウンロードできます。圧縮ファイルをダウンロードしていただき，<wbr/>適宜解凍してご利用ください。</p>
+
+<dl>
+<dt>ダウンロード</dt>
+<dd><a href="http://image.gihyo.co.jp/assets/files/book/2016/978-4-7741-8220-9/download/excel2016_sample.zip">サンプルファイル</a></dd>
+</dl>
+
+
+
+
+
+    </section>
+  </div>
+  </div>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="サンプルページのため利用できません" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="サンプルページのため利用できません" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="サンプルページのため利用できません" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="サンプルページのため利用できません" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li><a href="/">このサイトについて</a></li>
+      </ul>
+      <p id="storeCopyright"><span style="color:red;font-size:1.8em;">このページは「Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド-」のためのサンプルサイトです。特別の許可を得て技術評論社の著作物を使用しています。</span><br/><small>Copyright © 2016 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+</body>
+</html>

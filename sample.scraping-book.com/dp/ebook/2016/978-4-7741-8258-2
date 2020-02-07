@@ -1,0 +1,306 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>Wordのムカムカ！が一瞬でなくなる使い方 ～文章・資料作成のストレスを最小限に！ | Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド- サンプルページ</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="「ちょっと直すと，すべての配置が狂っちゃう……」「改行すると，余計な番号がふられて，消すのが面倒……」「図形がうまくそろわない……」そんなWordでイラっとすること，ムカっとすること，原因も理解せずに，ずっと放置してませんか？17年間で2000人以上を完全マンツーマンで指導してきた著者が，Wordの「なぜ？」とストレスなく使うコツを教えます。"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <meta name="robots" content="noindex,noarchive"/>
+  <link rel="stylesheet" href="/dp/assets/style/store1124.css" type="text/css" media="all"/>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Scraping-Book</h1>
+    <h2 class="home-subtitle">これは書籍用のサンプルページです。購入などの操作はできません。</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="サンプルページのため利用できません">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="サンプルページのため利用できません">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">Word<wbr/>のムカムカ！が一瞬でなくなる使い方<br/><span class="sub">～文章・<wbr/>資料作成のストレスを最小限に！</span></h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2016/978-4-7741-8258-2.jpg" alt="Wordのムカムカ！が一瞬でなくなる使い方 ～文章・資料作成のストレスを最小限に！"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">四禮静子　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2016-07-08">2016年7月8日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2016-07-08">2016年7月8日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>これは書籍サンプルのページです。</li>
+      <li class="need-login">サンプルサイトなので購入はできません。</li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">EPUB/PDFセット</span><span class="buy">1,480円 <a id="pid401369" href="#cartAdd" title="サンプルページのため利用できません">カートに入れる<div class="option" title="購入オプション">▼<ul><li class="gift" title="サンプルページのため利用できません">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">216</span>ページ相当</span><span class="pdf">PDF</span> <span class="epub">EPUB：リフロー</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>「ちょっと直すと，<wbr/>すべての配置が狂っちゃう……」<br />
+「改行すると，<wbr/>余計な番号がふられて，<wbr/>消すのが面倒……」<br />
+「図形がうまくそろわない……」</p>
+
+<p>そんなWordでイラっとすること，<wbr/>ムカっとすること，<wbr/>原因も理解せずに，<wbr/>ずっと放置してませんか？</p>
+
+<p>17年間で2000人以上を完全マンツーマンで指導してきた著者が，<wbr/>Wordの「なぜ？」とストレスなく使うコツを教えます。</p><h3>こんな方におすすめ</h3>
+<ul><li>仕事でWordを使うビジネスパーソン</li><li>操作マニュアルではわからない実践的なノウハウを知りたい方</li></ul>
+<h3>著者から一言</h3>
+<p>Wordは，<wbr/>とても優秀で従順な部下です。きちんと命令すれば，<wbr/>絶対に文句を言わず，<wbr/>忠実に従ってくれます。ただし，<wbr/>「まちがった命令をしなければ」です。</p>
+
+<p>たとえば，<wbr/>印刷してしまえばどうにか体裁は整った文書に見えるかもしれませんが，<wbr/>ちょっと文字を変更するとレイアウトが崩れたりしませんか？<br />
+むりやり1ページに収めようと文章を変更するのに手間をかけて，<wbr/>たかだかA4 1枚の書類に何時間もかけたりしていませんか？</p>
+
+<p>大事なのは，<wbr/>「何を伝えるのか」という内容です。</p>
+
+<p>企画したことを人に伝えるために文書化する。<br />
+お知らせしたいことを文書にして伝える。<br />
+翻訳した内容を文字にまとめる。</p>
+
+<p>Wordはそのための道具でしかありません。だから，<wbr/>道具を使いこなせなくてつまずいていては大損なのです。せっかくいいアイデアがあっても，<wbr/>それを伝える魅力的な書類を作れなければ，<wbr/>相手には伝わらないわけですから。</p>
+
+<p>私は，<wbr/>完全マンツーマンのパソコンスクールを開校して17年になります。在籍生徒数は2000名を超え，<wbr/>外部研修と合わせると，<wbr/>年間たくさんの方に授業を行っております。最近は特に，<wbr/>仕事で困っている部分のみの相談を持ち込まれる方が多くなりました。みなさん，<wbr/>一般的な操作はおできになるのですが，</p>
+
+<p>「普通に業務はこなしているけれど，<wbr/>ここがうまくいかない」<br />
+「こんなことに時間がかかる」<br />
+「これができない，<wbr/>さらにスキルアップしたい」</p>
+
+<p>などと駆け込んでいらっしゃいます。完全マンツーマン授業ですから，<wbr/>1対1で授業を行います。いただく授業料に値するような授業をしなければ，<wbr/>容赦なく次回の予約は入りません。</p>
+
+<p>そして，<wbr/>私どものスクールは，<wbr/>授業料の割引は絶対行わない主義なのです。限られた時間の中でスキルの到達点まで導いていくためには，<wbr/>明るく楽しいだけではすまないケースもあります。でも，<wbr/>「あなたのためだから」と何度も何度も繰り返し説明して，<wbr/>理解していただきます。</p>
+
+<p>本書は，<wbr/>基本的な操作方法の手順解説書ではありません。たくさんの方とのマンツーマン授業で培ってきたノウハウや，<wbr/>企業研修で「こんなことできないの？」「どうしてこうなるの？」「もっといい方法はないの？」といただいた質問と答えをまとめたものです。Wordをお使いの方がイラつかないように，<wbr/>そして，<wbr/>これから社会人になる方が胸を張って「Word，<wbr/>使えます！」と言えるようなスキルを身につけていただけることを願って，<wbr/>本書を書きました。</p>
+
+<p>人の好みというのは，<wbr/>すべて主観です。音楽も映画もファッションも，<wbr/>自分が好きでもほかの人が好きとは限りません。だから，<wbr/>作り手は勉強したからといって成功するとは限りません。でも，<wbr/>でも，<wbr/>Wordのスキルは，<wbr/>「知っているか，<wbr/>知らないか」だけ。努力したことがすべて報われて結果がついてくるのです。若いころ，<wbr/>その主観に左右される道を選んだばかりに，<wbr/>努力をしても努力をしても報われず，<wbr/>自分の才能のなさに気づくまで時間がかかりました。パソコンに出会って，<wbr/>勉強したことがどんどん役に立つことに快感を覚えたくらいです。</p>
+
+<p>1つでも多くの機能を知ることが，<wbr/>スキルアップにつながります。それが「あなたのためだから」。</p><aside class="author"><h3>四禮静子（しれいしずこ）</h3><p>有限会社フォーティ取締役。日本大学芸術学部卒業。CATVの制作ディレクター退職後，<wbr/>独学でパソコンを学び，<wbr/>下町浅草に完全マンツーマンのフォーティネットパソコンスクールを開校。講座企画からテキスト作成・<wbr/>スクール運営を行う。1人1人に合わせてカリキュラムを作成し，<wbr/>受講生は初心者からビジネスマン・<wbr/>自営業の方まで2000人を超える。行政主催の講習会のほか企業に合わせたオリジナル研修や新入社員研修など，<wbr/>すべてオリジナルテキストにて実施。PC講師だけでなく，<wbr/>Web制作企画や商店の業務効率化のアドバイスなども行う。共著に『ビジネス力がみにつくExcel＆Word講座』（翔泳社）がある。<br />
+ホームページ：<a href="http://www.forty40.com">http://www.forty40.com</a>
+</p></aside>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="利用できません" placeholder="利用できません" required="required" value="">
+  <input type="hidden" name="code" value="32899">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>第1章　ほんの数秒でストレスが激減する設定のコツ</h3>
+<ul class="toc">
+<li>選択時に表示されるミニツールバー，まちがってボタンを押してしまうことが多くてイヤ！</li>
+<li>表の編集中にグリッド線がジャマ！</li>
+<li>スペースを入力しているのか，タブやインデントが使われているのか，わかりにくい！</li>
+<li>1行に何文字入力できるか，文字間は何文字あいてるか，どうすればかんたんにわかる？</li>
+<li>あっちのタブ，こっちのタブと切り替えるのが面倒……</li>
+<li>一部の機能しかクイックアクセスツールバーに追加できないの？</li>
+<li>クイックアクセスツールバーにボタンが増えすぎて，文書のタイトルが見にくくなった！</li>
+<li>クイックアクセスツールバーのボタン，何をするものなのかわかりやすくならない？</li>
+<li>印刷した後に，ページの順番がわからなくなっちゃう……</li>
+
+
+
+</ul>
+<h3>第2章　5分で文書作成を終わらせるための基本</h3>
+<ul class="toc">
+<li>1行目に題名を入力して改行すると，2行目が大きな文字になったり下線が引かれたりして，普通の文字が入力できない！</li>
+<li>文字を選択しようと思ってドラッグしたら，いつの間にか文字が入れ替わったりなくなったりして困る……</li>
+<li>「この単語とこの単語」「この行とこの行」のように離れた箇所を選ぶには？</li>
+<li>選択をまちがっちゃった！　どう解除する？</li>
+<li>数十行を選択するときに，左余白をドラッグしていたら途中で失敗してしまう。もっとかんたんに広範囲を選択する方法はないの？</li>
+<li>ほかの人が作成した書類を変更して使おうと思ったら，書式が崩れてメチャクチャ！　作り直すハメになってしまった……</li>
+<li>行頭の字下げをしたときに微妙に文字がそろわないのはなぜ？</li>
+<li>1行目のインデントのショートカットキーって割りあてられていないの？</li>
+<li>行頭で空白を入力すると自動的に字下げになってしまうのはどうして？</li>
+<li>行末の文字がそろわない。微妙にデコボコする……</li>
+<li>箇条書きを作成していると，箇条書きのマークがずれたり，文字位置が狂ってしまったり，結局そろえることができないのはなぜ？</li>
+<li>ルーラーでマークを付けるタブの位置，きっちり「左から15文字目」とか指定できないの？</li>
+<li>箇条書きのマークが微妙にずれて直せない！</li>
+<li>文字幅をそろえたいけど，半角・全角のスペースでは調整が効かない……</li>
+<li>アルファベットや数字が混在して文字数がわからないときはどうするの？</li>
+<li>行末の選択って難しい……すぐに改行マークまで選択されちゃう！</li>
+<li>キリトリ線って，どうやって作成するの？</li>
+<li>契約書の署名欄の文字を右でそろえるにはどうするの？</li>
+<li>段落番号を設定した行末で改行すると，次の行にも番号がついてしまう……きちんと2行目で文字をそろえて入力したい！</li>
+<li>段落番号を設定したい部分をまとめて設定したら，番号が連番になってしまった……1からふりなおすにはどうすればいいの？</li>
+<li>行間を広げるとすべての行が広がってしまう……</li>
+<li>フォントを大きくすると行間が開いてしまうの，どうにかならない？</li>
+<li>フォントサイズを小さくしても行間が縮まない。行間を自由に調整することはできないの？</li>
+<li>段落の最後で次の行にこぼれた文字，1行に収められない？</li>
+<li>1行だけ2ページ目にはみ出した文章を1ページに収めるにはどうすればいいの？</li>
+<li>同じ文書の中で「あそこと同じ書式にしたい！」というときは</li>
+
+
+
+</ul>
+<h3>第3章　表作成をサクサクこなす</h3>
+<ul class="toc">
+<li>箇条書きにした内容を表にしたいとき，全部消して表の挿入から作り直さないといけなくて面倒……</li>
+<li>表の中で文字をそろえるときに【Tab】を押すとカーソルが移動してしまってタブが入れられないのはどうして？</li>
+<li>表の位置を段落の中央にそろえようとしたら，表内の文字だけが中央揃えになってしまう！</li>
+<li>Excelみたいに，行の高さや列の幅を均等にするにはどうするの？</li>
+<li>表のスタイル一覧にピッタリくるスタイルがない……</li>
+<li>セル内の文字をうまく配置できない……上下の位置調整はどうするの？</li>
+<li>表が複数ページにまたがったとき，行が次のページに飛んじゃって余白が広く空いてしまう！</li>
+<li>表が複数ページにまたがったとき，次のページの表の1行目にもタイトルを表示したい！</li>
+<li>合計や平均の計算が入る表はいつもExcelで作成して貼り付けているけど，Wordでは計算はできないの？</li>
+<li>Excelのように表の並べ替えもしたい！</li>
+<li>え，じゃあ段落の並べ替えってどうするの？</li>
+<li>便箋のように罫線が引かれたフォーマットを作成するにはどうすればいいの？</li>
+<li>表のセルや列をかんたんに増やしたり減らしたりしたい！</li>
+
+
+
+</ul>
+<h3>第4章　名札，個人名入りのDM，封筒のラベル……差し込み印刷でかんたんに作る</h3>
+<ul class="toc">
+<li>個人名入りDMをかんたんに作成するにはどうすればいいの？</li>
+<li>差し込み文書で作成したファイルを開いたら，エラー表示がされて，データが差し込まれてこない！</li>
+<li>同じ文書やラベルで異なる住所録を使うには，もう一度差し込み文書を作成するしかないの？</li>
+<li>じゃあ，宛名ラベルもかんたんに作成できる？</li>
+<li>差し込み文書の作成を使うと，Excelデータにあった金額の桁区切りがなくなっちゃう！</li>
+<li>市販のサイズにない大きさで座席カードを作れないの？</li>
+
+
+
+</ul>
+<h3>第5章　長文編集のストレスをなくす</h3>
+<ul class="toc">
+<li>契約書を作成しているときに，第1条や段落番号がくずれて，書式をあわせるのに時間がかかる！</li>
+<li>アウトライン入力はわかったけど，それがどうして段落番号につながるの？</li>
+<li>第1条の文字サイズを大きく太字にしたいけど，全部選択して変更するのは面倒……</li>
+<li>契約書の途中に資料を含んだ場合，資料にはページ番号を入れたくない。資料のページを飛び越えて連続番号のページ番号を振ることはできないの？</li>
+<li>目次を自動作成したら，内容が含まれてしまった。見出しの一部分のみを目次に表示させたい！</li>
+<li>見出しスタイルが設定されていない箇所を目次に表示することはできないの？</li>
+<li>資料を作成していると図や表がたくさんあり，「図表の目次がほしい」といわれたけど，そんなことできるの？</li>
+<li>資料の専門用語に脚注をつけたい。各ページに脚注を作成するにはどうするの？</li>
+<li>本文と脚注の区別がつきにくい……</li>
+<li>脚注が設定されている場所が探しにくいので，サッと見つけたい！</li>
+<li>マニュアルや論文などの長文作成時に，見出し1ごとに新しいページにするには，いちいち改ページを入れないとダメ？</li>
+<li>文書内の「SE」の文字をすべて「システムエンジニア」に変更したいけど，探すのも大変だし，変更漏れがあると困る……</li>
+<li>太字を設定してしまった部分だけ，まとめて解除できない？</li>
+<li>文書内に含まれる半角の英数字を，まとめて太字に置換したい！</li>
+
+
+
+</ul>
+<h3>第6章　複数の人とのやりとりを変更履歴でスムーズに</h3>
+<ul class="toc">
+<li>だれがどこをどう変更したか，いちいち元の文書と照らしあわせて確認するなんて面倒くさい！</li>
+<li>変更履歴を記録するのを忘れてしまう！</li>
+<li>個人名ではなく部署名で変更履歴を記録するようにいわれたけど，自分の名前でしか記録できない……</li>
+<li>変更履歴が記録されていることに気づかず，履歴処理をしないままデータを渡してしまって，激怒された……</li>
+<li>「変更履歴を処理するように」って言われたけど，どうやるの？</li>
+
+
+
+</ul>
+<h3>第7章　画像や図形を自由自在に使う</h3>
+<ul class="toc">
+<li>会社の共有フォルダの使い方をマニュアル化して後輩に配布するようにいわれた。パソコンの画面をそのまま取り込んでマニュアルを作成したいけど，画面ってデジカメで撮るの？</li>
+<li>ウィンドウ全体ではなく，一部分のみをキャプチャしたい！</li>
+<li>資料作成時に写真を挿入したら，文書のレイアウトがメチャクチャ……</li>
+<li>資料の全ページに会社のロゴを透かしで入れたい。数十ページある資料だけど，かんたんに挿入する方法はないの？</li>
+<li>透かしのサイズ変更や移動はどうやるの？　クリックしても選択できないよ！</li>
+<li>フローチャートの作成で図形がきれいそろわず，時間がかかるばかり。どうすればいい？</li>
+<li>せっかく作成したフローチャートを移動しようとしたら，配置がくずれてしまった。まとめて移動できないの？</li>
+<li>削除したつもりはないのに，図が知らない間になくなってしまうときがある。どうして？</li>
+
+
+
+</ul>
+<h3>Wordショートカットキー一覧</h3>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<p>現在サポート情報はありません。</p>
+    </section>
+  </div>
+  </div>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="サンプルページのため利用できません" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="サンプルページのため利用できません" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="サンプルページのため利用できません" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="サンプルページのため利用できません" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li><a href="/">このサイトについて</a></li>
+      </ul>
+      <p id="storeCopyright"><span style="color:red;font-size:1.8em;">このページは「Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド-」のためのサンプルサイトです。特別の許可を得て技術評論社の著作物を使用しています。</span><br/><small>Copyright © 2016 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+</body>
+</html>

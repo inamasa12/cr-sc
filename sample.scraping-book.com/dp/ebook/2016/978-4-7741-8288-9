@@ -1,0 +1,284 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>今すぐ使えるかんたんEx ヤフオク！ 本気で儲ける！ プロ技セレクション | Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド- サンプルページ</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="多くの利用者を抱えるインターネットオークションサービス「ヤフオク！」。ヤフオク！では，お得に商品を購入したり，不用品を出品することができます。さらに，安価で商品を仕入れてヤフオク！で販売すれば，大きく収益を上げることも可能です！この本では，ネットオークションに精通した著者の知恵を余すところなく公開！初歩的な知識から，より稼ぐための具体的なテクニックまで，役立つノウハウをたっぷり収録しました。初心者はもちろん，すでにヤフオク！を始めている人にもおすすめの1冊です！"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <meta name="robots" content="noindex,noarchive"/>
+  <link rel="stylesheet" href="/dp/assets/style/store1124.css" type="text/css" media="all"/>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Scraping-Book</h1>
+    <h2 class="home-subtitle">これは書籍用のサンプルページです。購入などの操作はできません。</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="サンプルページのため利用できません">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="サンプルページのため利用できません">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+<h2 id="bookSeries"><a href="/dp/series/%E4%BB%8A%E3%81%99%E3%81%90%E4%BD%BF%E3%81%88%E3%82%8B%E3%81%8B%E3%82%93%E3%81%9F%E3%82%93Ex">今すぐ使えるかんたん<wbr/>Ex</a></h2>
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">今すぐ使えるかんたんEx<br/>ヤフオク！ 本気で儲ける！ プロ技セレクション</h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2016/978-4-7741-8288-9.jpg" alt="今すぐ使えるかんたんEx ヤフオク！ 本気で儲ける！ プロ技セレクション"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">梅田潤　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2016-06-25">2016年6月25日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2016-06-25">2016年6月25日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>これは書籍サンプルのページです。</li>
+      <li class="need-login">サンプルサイトなので購入はできません。</li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">PDF</span><span class="buy">1,780円 <a id="pid401357" href="#cartAdd" title="サンプルページのため利用できません">カートに入れる<div class="option" title="購入オプション">▼<ul><li class="gift" title="サンプルページのため利用できません">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">272</span>ページ相当</span><span class="pdf">PDF</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>多くの利用者を抱えるインターネットオークションサービス「ヤフオク！」。ヤフオク！では，<wbr/>お得に商品を購入したり，<wbr/>不用品を出品することができます。さらに，<wbr/>安価で商品を仕入れてヤフオク！で販売すれば，<wbr/>大きく収益を上げることも可能です！この本では，<wbr/>ネットオークションに精通した著者の知恵を余すところなく公開！初歩的な知識から，<wbr/>より稼ぐための具体的なテクニックまで，<wbr/>役立つノウハウをたっぷり収録しました。初心者はもちろん，<wbr/>すでにヤフオク！を始めている人にもおすすめの1冊です！</p><h3>こんな方におすすめ</h3>
+<ul><li>ヤフオク！を始めてみたい人，<wbr/>ヤフオク！でもっと稼ぎたい人</li></ul>
+<aside class="author"><h3>梅田潤（うめだじゅん）</h3><p>合同会社梅田事務所代表。1977年生まれ，<wbr/>大阪府出身。大学卒業後，<wbr/>株式会社eSPORTSに入社。<br />
+Web最大級のECサイト「eSPORTS」でオークション事業を立ち上げ，<wbr/>トップクラスのストアに成長させる。2004年から4年連続でYahoo！オークションストア・<wbr/>アワードを受賞。<br />
+2007年同社を退社し，<wbr/>ブランディング専門のコンサルティング会社に入社。その後，<wbr/>2009年に株式会社オークファンに入社。サービス企画や物販のコンサルティングをはじめ，<wbr/>仕入商材情報誌の執筆やセミナー・<wbr/>講演などを行う。<br />
+2014年に独立。著書に「中国Amazon輸入 アリババ・<wbr/>タオバオから仕入れる」（あさ出版）。</p></aside>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="利用できません" placeholder="利用できません" required="required" value="">
+  <input type="hidden" name="code" value="32892">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>第1章　ヤフオク！の基礎知識</h3>
+<ul class=toc>
+<li>ヤフオク！って何？</li>
+<li>ヤフオク！のメリットを知ろう</li>
+<li>ヤフオク！で売れるものを知ろう</li>
+<li>ヤフオク！を始めよう</li>
+<li>Yahoo! JAPAN IDを取得しよう</li>
+<li>Yahoo!プレミアムに会員登録しよう</li>
+<li>落札の流れを把握しよう</li>
+<li>ほしい商品を探すコツを把握しよう</li>
+<li>商品詳細ページの構成を理解しよう</li>
+<li>商品ウォッチのコツはココだ！</li>
+
+</ul>
+<h3>第2章　まずはここから！基本の出品テクニック</h3>
+<ul class=toc>
+<li>まずは身の回りのものを出品してみよう</li>
+<li>Yahoo!ウォレット登録＆本人確認をしよう</li>
+<li>商品画像を撮影しよう</li>
+<li>商品タイトルを考えよう</li>
+<li>商品説明文を考えよう</li>
+<li>かんたん取引で出品しよう</li>
+<li>出品価格を設定しよう</li>
+<li>出品期間を設定しよう</li>
+<li>オークションの終了時間を工夫しよう</li>
+<li>出品中の商品を管理しよう</li>
+<li>ユーザーからの質問に答えよう</li>
+<li>落札後の流れをチェックしよう</li>
+<li>取引ナビで連絡しよう</li>
+<li>発送を便利にするグッズを使って効率を上げよう</li>
+<li>出品時に利用できるオプション機能を把握しよう</li>
+<li>落札品の発送方法や補償について知ろう</li>
+<li>さまざまな支払い方法を用意しよう</li>
+
+</ul>
+<h3>第3章　利益率アップ！商品仕入れテクニック</h3>
+<ul class=toc>
+<li>商品を仕入れる前に出品に慣れよう</li>
+<li>どのようなカテゴリの商品を仕入れるか考えよう</li>
+<li>仕入れる商品をリサーチしよう</li>
+<li>国内仕入れと海外仕入れの違いと特徴</li>
+<li>ネット仕入れとリアル店舗仕入れの違いと特徴</li>
+<li>仕入れでの注意点を確認しよう</li>
+<li>大型古書店で商品を仕入れよう</li>
+<li>フリーマーケットで商品を仕入れよう</li>
+<li>家電量販店で商品を仕入れよう</li>
+<li>ネット問屋で商品を仕入れよう</li>
+<li>中小のネット問屋で仕入れよう</li>
+<li>セカイモンで海外から商品を仕入れよう</li>
+<li>ジャンク品を仕入れよう</li>
+
+</ul>
+<h3>第4章　落札率アップ！商品詳細ページ作成のテクニック</h3>
+<ul class=toc>
+<li>ヤフオク！でできるテクニックは限られている</li>
+<li>ヤフオク！ユーザーの特徴を意識しよう</li>
+<li>ヤフオクで画像を4枚以上掲載するにはどうする？</li>
+<li>画像を見栄えよく加工しよう</li>
+<li>大量の画像を一括で処理しよう</li>
+<li>サイズの表記のしかたと基準を理解しよう</li>
+<li>商品説明文にいらないことは省こう①入札の制限</li>
+<li>商品説明文にいらないことは省こう②出品者のエゴ</li>
+<li>商品説明文にいらないことは省こう③余計な情報</li>
+<li>商品に保証を付けよう</li>
+<li>明記したほうがよいことを押さえよう</li>
+<li>商品によっては送料を無料にしよう</li>
+<li>利益を上げるために出品方法を工夫しよう</li>
+<li>出品テンプレートを利用しよう</li>
+
+</ul>
+<h3>第5章　落札額アップ！商品出品＆発送のテクニック</h3>
+<ul class=toc>
+<li>出品・発送時にひと工夫してライバルと差を付ける</li>
+<li>効率アップ！商品撮影のコツ</li>
+<li>画像にテキストを入れてアピールしよう</li>
+<li>GIFアニメーションを使って商品画像を掲載しよう</li>
+<li>紹介したい商品のリンクを作ろう（テキスト編</li>
+<li>紹介したい商品のリンクを作ろう（画像編）</li>
+<li>ウォッチリストを使いこなそう</li>
+<li>関連販売を狙おう</li>
+<li>販売のストーリーを考えよう</li>
+<li>出品時間に注意しよう</li>
+<li>「注目のオークション」を使いこなそう</li>
+<li>ヤフオク！独自の機能を便利に使おう</li>
+<li>要チェック！商品別梱包，発送テクニック</li>
+<li>過剰梱包に注意しよう</li>
+<li>ラッピングやメッセージカードを添えて発送しよう</li>
+<li>まだある！発送に関するテクニック</li>
+
+</ul>
+<h3>第6章　より大きく儲ける！売上拡大テクニック</h3>
+<ul class=toc>
+<li>継続的に売上を上げていくためのコツ</li>
+<li>商品トレンドと季節のキーワードを押さえておこう</li>
+<li>もっと戦略的にヤフオク！で販売しよう</li>
+<li>自分の目標や強みを考えよう</li>
+<li>在庫管理を徹底して無駄をなくそう</li>
+<li>Amazonとの併売に挑戦しよう</li>
+<li>Amazonのリサーチ方法</li>
+<li>ヤフオク！の外注化を検討しよう</li>
+<li>不良品や不良在庫を現金化しよう</li>
+<li>確定申告について把握しておこう</li>
+
+</ul>
+<h3>第7章　海外からも買える！さらなる商品仕入れテクニック</h3>
+<ul class=toc>
+<li>海外仕入れのメリットを知ろう</li>
+<li>eBayで商品を仕入れよう</li>
+<li>Amazon.comで商品を仕入れよう</li>
+<li>転送業者を利用してeBayやAmazon.comで商品を仕入れよう</li>
+<li>タオバオ・アリババで商品を仕入れよう</li>
+<li>代行業者を利用してタオバオ・アリババから仕入れよう</li>
+
+</ul>
+<h3>第8章　ヤフオク！で使える便利サービスで効率アップ！</h3>
+<ul class=toc>
+<li>スマートフォンから手軽に出品しよう</li>
+<li>オークファンを利用しよう</li>
+<li>オークファンをさらに使いこなそう</li>
+<li>オークファンプロを利用しよう</li>
+<li>AppToolを利用しよう</li>
+<li>のんきーどっとねっとを利用しよう</li>
+<li>まだある！便利なヤフオク！関連サービス</li>
+
+</ul>
+<h3>第9章　ヤフオク！トラブル即効解決Q＆A</h3>
+<ul class=toc>
+<li>詐欺行為にあわないためにはどうすればよい？</li>
+<li>入札時に気を付けることはある？</li>
+<li>出品時に気を付けることはある？</li>
+<li>落札者から連絡がない…</li>
+<li>入金したのに商品が届かない！</li>
+<li>発送した（届いた）商品が壊れていた！</li>
+<li>クレーム対応はどうするの？</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<p>現在サポート情報はありません。</p>
+    </section>
+  </div>
+  </div>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="サンプルページのため利用できません" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="サンプルページのため利用できません" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="サンプルページのため利用できません" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="サンプルページのため利用できません" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li><a href="/">このサイトについて</a></li>
+      </ul>
+      <p id="storeCopyright"><span style="color:red;font-size:1.8em;">このページは「Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド-」のためのサンプルサイトです。特別の許可を得て技術評論社の著作物を使用しています。</span><br/><small>Copyright © 2016 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+</body>
+</html>

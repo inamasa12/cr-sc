@@ -1,0 +1,700 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>Atom実践入門──進化し続けるハッカブルなエディタ | Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド- サンプルページ</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="GitHubが開発したエディタ「Atom」を現場でどう活用するかを解説した書籍です。Atomは標準でさまざまな言語に対応しています。自動補完をはじめ開発を快適にする数々の機能が備わっていて，カスタマイズも容易です。まずは基本的な操作や設定からはじめ，文法チェック，GitやGitHubとの連携，テストなどさまざまな機能を追加できるお勧めのパッケージの使い方を紹介しています。後半ではキーバインドや表示のカスタマイズ方法，パッケージの作成／公開方法を解説していますので，Atomを活用して開発したい方にお勧めです。"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <meta name="robots" content="noindex,noarchive"/>
+  <link rel="stylesheet" href="/dp/assets/style/store1124.css" type="text/css" media="all"/>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Scraping-Book</h1>
+    <h2 class="home-subtitle">これは書籍用のサンプルページです。購入などの操作はできません。</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="サンプルページのため利用できません">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="サンプルページのため利用できません">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+<h2 id="bookSeries"><a href="/dp/series/WEB%2BDB%20PRESS%20plus">WEB+DB PRESS plus</a></h2>
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">Atom<wbr/>実践入門<br/><span class="sub">──進化し続けるハッカブルなエディタ</span></h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2016/978-4-7741-8302-2.jpg" alt="Atom実践入門──進化し続けるハッカブルなエディタ"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">大竹智也　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2016-07-14">2016年7月14日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2016-07-14">2016年7月14日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>これは書籍サンプルのページです。</li>
+      <li class="need-login">サンプルサイトなので購入はできません。</li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">EPUB/PDFセット</span><span class="buy">2,680円 <a id="pid401374" href="#cartAdd" title="サンプルページのため利用できません">カートに入れる<div class="option" title="購入オプション">▼<ul><li class="gift" title="サンプルページのため利用できません">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">320</span>ページ相当</span><span class="pdf">PDF</span> <span class="epub">EPUB：リフロー</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>GitHubが開発したエディタ「Atom」を現場でどう活用するかを解説した書籍です。Atomは標準でさまざまな言語に対応しています。自動補完をはじめ開発を快適にする数々の機能が備わっていて，<wbr/>カスタマイズも容易です。まずは基本的な操作や設定からはじめ，<wbr/>文法チェック，<wbr/>GitやGitHubとの連携，<wbr/>テストなどさまざまな機能を追加できるお勧めのパッケージの使い方を紹介しています。後半ではキーバインドや表示のカスタマイズ方法，<wbr/>パッケージの作成／<wbr/>公開方法を解説していますので，<wbr/>Atomを活用して開発したい方にお勧めです。</p><h3>こんな方におすすめ</h3>
+<ul><li>ほかのエディタを使っているが使いこなせてない方</li><li>Atomをさらに使いこなしたい方</li></ul>
+<h3>本書に関するお知らせ</h3>
+
+<p>本書に関連する記事を公開しております。</p>
+<ul class="data">
+<li><a href="/magazine/wdpress/plus/978-4-7741-8270-4/0001">はじめに</a></li>
+</ul><aside class="author"><h3>大竹智也（おおたけともや）</h3><p>1983年生まれ。起業家，<wbr/>及びフロントエンドからバックエンドまで幅広くカバーするWebエンジニア。兵庫県立明石高等学校卒業後，<wbr/>フリーターとして働きながら独学でWeb技術を習得する。2010年にオンライン英会話「ラングリッチ」を起業。2015年に「EnglishCentral」への売却を果たす。著書に本書のほかに『Emacs実践入門』があり，<wbr/>エディタ本による三冠王を目指している。</p></aside>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="利用できません" placeholder="利用できません" required="required" value="">
+  <input type="hidden" name="code" value="32975">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><ul class="toc">
+<li>はじめに<ul class="toc">
+	<li>謝辞</li>
+	<li>サンプルコードのダウンロード</li></ul></li>
+<li>本書の構成</li>
+<li>CoffeeScriptの構文</li>
+<li>LESSの構文</li>
+</ul>
+<h3>第1章　新世代エディタAtom</h3>
+<h4>1.1　Atomとは</h4>
+<ul class="toc">
+<li>時代を体現したエディタ</li>
+<li>Webとネイティブ，なくなる垣根</li>
+</ul><h4>1.2　Web技術によって作られたAtom</h4>
+<ul class="toc">
+<li>Web技術のメリット<ul class="toc">
+	<li>Webアプリケーション開発の技法がそのまま使える</li>
+	<li>OSのサポートを気にする必要がない</li></ul></li>
+</ul>
+<h4>1.3　Atomに採用されているWeb技術</h4>
+<ul class="toc">
+<li>Electron</li>
+<li>Node.jsとCoffeeScript<ul class="toc">
+	<li>Node.js</li>
+	<li>CoffeeScript</li></ul></li>
+<li>CSON</li>
+<li>LESS</li>
+<li>Web Components</li>
+</ul>
+<h4>1.4　Atomエディタの特徴</h4>
+<ul class="toc">
+<li>基本的な機能<ul class="toc">
+	<li>検索と置換</li>
+	<li>入力補助</li>
+	<li>インデント</li>
+	<li>シンタックスハイライト</li></ul></li>
+<li>高度な機能<ul class="toc">
+	<li>文法チェック</li>
+	<li>マルチカーソル</li>
+	<li>ウィンドウ分割</li>
+	<li>バージョン管理</li>
+	<li>パッケージマネージャ</li>
+	<li>非同期処理</li></ul></li>
+<li>今後の課題<ul class="toc">
+	<li>文字コードの扱い</li>
+	<li>細かな画面調整</li>
+	<li>パフォーマンス要求</li></ul></li>
+</ul>
+<h4>1.5　Atomの現在と今後</h4>
+
+<h3>第2章　インストールと画面構成</h3>
+
+<h4>2.1　インストール</h4>
+<ul class="toc">
+<li>アプリケーションのインストール</li>
+<li>コマンドラインツールのインストール</li>
+</ul>
+<h4>2.2　画面構成</h4>
+<ul class="toc">
+<li>[Column]ドットファイルとドットディレクトリ</li>
+<li>メニュー（Menu）<ul class="toc">
+	<li>Atomメニュー</li>
+	<li>Fileメニュー</li>
+	<li>Editメニュー</li>
+	<li>Viewメニュー</li>
+	<li>Selectionメニュー</li>
+	<li>Findメニュー</li>
+	<li>Packagesメニュー</li>
+	<li>Windowメニュー</li>
+	<li>Helpメニュー</li></ul></li>
+<li>ツリービュー（Tree View）</li>
+<li>コマンドパレット（Command Pallete）</li>
+<li>ペイン（Pane）<ul class="toc">
+	<li>タブバー</li>
+	<li>エディタ</li></ul></li>
+<li>ステータスバー（Status Bar）</li>
+</ul>
+<h3>第3章　基本操作</h3>
+
+<h4>3.1　起動方法</h4>
+<ul class="toc">
+<li>Atomの起動<ul class="toc">
+	<li>ファイルを開く</li>
+	<li>ディレクトリを開く</li>
+	<li>標準で開くアプリケーションを変更する</li></ul></li>
+<li>ターミナルからの起動<ul class="toc">
+	<li>ディレクトリを指定した場合</li>
+	<li>ファイルを指定した場合</li>
+	<li>引数を指定しない場合</li>
+	<li>起動オプション</li></ul></li>
+<li>アップデート</li>
+</ul>
+<h4>3.2　基本操作</h4>
+<ul class="toc">
+<li>ショートカット<ul class="toc">
+	<li>Atomのキーバインド</li>
+	<li>キーバインドの表記について</li></ul></li>
+<li>コマンドパレット──Command Palette<ul class="toc">
+	<li>起動する</li>
+	<li>コマンドを実行する</li></ul></li>
+<li>キャンセルとリロード──Core: Cancel，Window: Reload</li>
+</ul>
+<h4>3.3　文字コード／改行コード／シンタックスの選択</h4>
+<ul class="toc">
+<li>文字コードの選択──Encoding Selector: Show</li>
+<li>改行コードの選択──Line Ending Selector: Show</li>
+<li>シンタックスの選択──Grammar Selector: Show</li>
+</ul>
+<h4>3.4　ファイル操作</h4>
+<ul class="toc">
+<li>ファイルの作成と保存<ul class="toc">
+	<li>新規ファイルを作成する──Application: New File</li>
+	<li>保存する──Core: Save，Window: Save All</li>
+	<li>別名で保存する──Core: Save As</li></ul></li>
+<li>Fuzzy Finderによるファイルやバッファの切り替え<ul class="toc">
+	<li>ファイルを開く──Fuzzy Finder: Toggle File Finder</li>
+	<li>バッファを開く──Fuzzy Finder: Toggle Buffer Finder</li>
+	<li>git statusから開く──Fuzzy Finder: Toggle Git Status Finder</li></ul></li>
+<li>ツリービュー<ul class="toc">
+	<li>ツリービューを表示する／位置を切り替える──Tree View: Toggle，Tree View: Toggle Side</li>
+	<li>フォーカスを移動する──Tree View: Toggle Focus</li>
+	<li>ファイルを操作する──Tree View: Add File，Tree View: Add Folder，Tree View: Duplicate，Tree View: Rename，Tree View: Remove...</li></ul></li>
+</ul>
+<h4>3.5　移動操作</h4>
+<ul class="toc">
+<li>カーソルの移動<ul class="toc">
+	<li>単語頭／単語末へ移動する──Editor: Move To Beginning Of Word，Editor: Move To End Of Word</li>
+	<li>行頭／行末へ移動する──Editor: Move To Beginning Of Line，Editor: Move To End Of Line，Editor: Move To First Character Of Line，Editor: Move To End Of Screen Line</li>
+	<li>前の段落／次の段落へ移動する──Editor: Move To Beginning Of Next Paragraph，Editor: Move To Beginning Of Previous Paragraph</li>
+	<li>ファイル先頭／ファイル末尾へ移動する──Core: Move To Top，Core: Move To Bottom</li>
+	<li>行番号へ移動する──Go To Line: Toggle</li></ul></li>
+<li>タグジャンプ<ul class="toc">
+	<li>ファイルシンボルへ移動する──Symbols View: Toggle File Symbols</li>
+	<li>プロジェクトシンボルへ移動する──Symbols View: Toggle Project Symbols</li>
+	<li>宣言元へ移動する／移動前に戻る──Symbols View: Go To Declaration，Symbols View: Return From Declaration</li></ul></li>
+<li>ブックマーク<ul class="toc">
+	<li>ブックマークする／外す──Bookmarks: Toggle Bookmark，Bookmarks: Clear Bookmarks</li>
+	<li>ブックマークの一覧を表示する──Bookmarks: View All</li>
+	<li>ブックマークに移動する──Bookmarks: Jump To Next Bookmark，Bookmarks: Jump To Previous Bookmark</li></ul></li>
+</ul>
+<h4>3.6　文字操作</h4>
+<ul class="toc">
+<li>選択操作<ul class="toc">
+	<li>単語を選択する──Editor: Select Word</li>
+	<li>単語頭／単語末まで選択する──Editor: Select To Beginning Of Word，Editor: Select To End Of Word</li>
+	<li>現在行を選択する──Editor: Select Line</li>
+	<li>行頭／行末まで選択する──Editor: Select To Beginning Of Line，Editor: Select To First Character Of Line，Editor: Select To End Of Line</li>
+	<li>ファイル先頭／ファイル末尾まで選択する──Core: Select To Top，Core: Select To Bottom</li>
+	<li>全体を選択する──Core: Select All</li></ul></li>
+<li>文字列操作<ul class="toc">
+	<li>大文字／小文字にする──Editor: Upper Case，Editor: Lower Case</li>
+	<li>前後の文字を入れ替える──Editor: Transpose</li>
+	<li>コメントアウト／アンコメントする──Editor: Toggle Line Comments</li></ul></li>
+<li>行操作<ul class="toc">
+	<li>行をつなぐ──Editor: Join Lines</li>
+	<li>行末までを切り取る──Editor: Cut To End Of Line</li>
+	<li>行頭／行末まで削除する──Editor: Delete To Beginning Of Line，Editor: Delete To End Of Line</li>
+	<li>行を複製する──Editor: Duplicate Lines</li>
+	<li>行を入れ替える──Editor: Move Line Up，Editor: Move Line Down</li>
+	<li>現在行を削除する──Editor: Delete Line</li></ul></li>
+<li>インデント<ul class="toc">
+	<li>インデントを増やす／減らす──Editor: Indent，Editor: Outdent Selected Rows</li>
+	<li>自動インデント──Editor: Auto Indent</li>
+	<li>自動インデントを切り替える──Window: Toggle Auto Indent</li></ul></li>
+<li>検索と置換<ul class="toc">
+	<li>検索する──Find And Replace: Show</li>
+	<li>置換する──Find And Replace: Show Replace</li>
+	<li>選択文字列を検索する──Find And Replace: Use Selection As Find Pattern</li>
+	<li>検索オプション</li>
+	<li>プロジェクトを検索／置換する──Project Find: Show</li></ul></li>
+</ul>
+<h4>3.7　ウィンドウ／タブ／ペインの操作</h4>
+<ul class="toc">
+<li>ウィンドウ<ul class="toc">
+	<li>新規ウィンドウを開く／ウィンドウを閉じる──Application: New Window，Window: Close</li>
+	<li>プロジェクトを追加する／削除する──Application: Add Project Folder，Tree View: Remove Project Folder</li>
+	<li>ウィンドウを切り替える</li>
+	<li>フルスクリーンにする──Window: Toggle Full Screen</li></ul></li>
+<li>タブ<ul class="toc">
+	<li>タブを移動する──Pane: Show Next Item，Pane: Show Previous Item</li>
+	<li>タブを閉じる／閉じたタブを開く──Core: Close，Pane: Reopen Closed Item</li></ul></li>
+<li>ペイン<ul class="toc">
+	<li>ペインを分割する──Pane: Split Up，Pane: Split Down，Pane: Split Right，Pane: Split Left</li>
+	<li>ペインを移動する──Window: Focus Pane Above，Window: Focus Pane Below，Window: Focus Pane On Right，Window: Focus Pane On Left</li>
+	<li>ペインを閉じる──Pane: Close，Pane: Close Other Items</li></ul></li>
+</ul>
+<h4>3.8　特殊な文字操作</h4>
+<ul class="toc">
+<li>空白文字<ul class="toc">
+	<li>末尾空白文字を削除する──Whitespace: Remove Trailing Whitespace</li>
+	<li>スペースとタブを相互変換する──Whitespace: Convert Spaces To Tabs，Whitespace: Convert Tabs To Space</li></ul></li>
+<li>Bracket Matcherによる括弧の操作<ul class="toc">
+	<li>括弧内を選択する──Bracket Matcher: Select Inside Brackets</li>
+	<li>対応する括弧／開き括弧へ移動する──Bracket Matcher: Go To Matching Bracket，Bracket Matcher: Go To Enclosing Bracket</li>
+	<li>対応する括弧を削除する──Bracket Matcher: Remove Matching Brackets</li>
+	<li>タグを閉じる──Bracket Matcher: Close Tag</li></ul></li>
+<li>スニペット<ul class="toc">
+	<li>スニペットを挿入する──Snippets: Available，Snippets: Expand</li>
+	<li>スニペットの中を移動する──Snippets: Next Tab Stop，Snippets: Previous Tab Stop</li></ul></li>
+<li>自動補完──Autocomplete Plus: Activate</li>
+<li>マルチカーソル──Editor: Add Selection Above，Editor: Add Selection Below</li>
+</ul>
+<h4>3.9　表示の変更</h4>
+<ul class="toc">
+<li>不可視文字の制御──Window: Toggle Invisible</li>
+<li>折り畳み<ul class="toc">
+	<li>現在行を折り畳む──Editor: Fold Current Row，Editor: Unfold Current Row</li>
+	<li>全体を折り畳む──Editor: Fold All，Editor: Fold At Indent Level 1-9，Editor: Unfold All</li></ul></li>
+<li>文字サイズの変更──Window: Increase Font Size，Window: Decrease Font Size，Window: Reset Font Size</li>
+<li>行の折り返し表示の変更──Editor: Toggle Soft Wrap</li>
+</ul>
+<h3>第4章　設定とパッケージの導入</h3>
+
+<h4>4.1　設定ファイルの構成</h4>
+<ul class="toc">
+<li>それぞれの役割</li>
+<li>調子が悪いときの対処法</li>
+<li>パッケージファイルの構成</li>
+</ul>
+<h4>4.2　設定ファイルの管理</h4>
+<ul class="toc">
+<li>Gitによる管理</li>
+<li>バックアップ</li>
+</ul>
+<h4>4.3　設定画面</h4>
+<ul class="toc">
+<li>画面構成</li>
+<li>設定の保存と反映</li>
+</ul>
+<h4>4.4　基本的な設定</h4>
+<ul class="toc">
+<li>コア設定</li>
+<li>エディタ設定<ul class="toc">
+	<li>インデント</li>
+	<li>フォントと行間</li>
+	<li>禁則処理</li>
+	<li>スクロール</li>
+	<li>ガイドや不可視文字の表示</li>
+	<li>折り返し</li>
+	<li>アンドゥの制御</li>
+	<li>その他</li></ul></li>
+</ul>
+<h4>4.5　詳細な設定</h4>
+<ul class="toc">
+<li>言語固有の設定</li>
+<li>設定ファイルの中身</li>
+<li>特殊な設定<ul class="toc">
+	<li>スコープ限定の設定</li>
+	<li>スコープを利用した設定例</li></ul></li>
+</ul>
+<h4>4.6　テーマの設定</h4>
+<ul class="toc">
+<li>シンタックステーマとUIテーマ</li>
+<li>テーマのインストール</li>
+<li>テーマの設定</li>
+<li>テーマのアンインストール</li>
+</ul>
+<h4>4.7　キーバインドの確認</h4>
+<ul class="toc">
+</ul>
+<h4>4.8　パッケージの導入</h4>
+<ul class="toc">
+<li>パッケージのインストール</li>
+<li>apmコマンドによるインストール</li>
+<li>パッケージ固有の設定</li>
+<li>パッケージのアップデート</li>
+<li>パッケージの無効化／アンインストール</li>
+</ul>
+<h4>4.9　テーマ／パッケージの見付け方</h4>
+<ul class="toc">
+</ul>
+<h4>4.10　お勧めの設定</h4>
+<ul class="toc">
+<li>フォント</li>
+<li>空白文字の除去</li>
+<li>括弧の自動対応</li>
+<li>ファイルの自動保存</li>
+</ul>
+<h3>第5章　パッケージによる開発の効率化</h3>
+
+<h4>5.1　操作の拡張</h4>
+<ul class="toc">
+<li>Emacsライクな操作の実現──emacs-plus</li>
+<li>Vimライクな操作の実現──vim-mode</li>
+</ul>
+<h4>5.2　装飾</h4>
+<ul class="toc">
+<li>ファイルアイコンの追加──file-icons</li>
+<li>カラーコードに沿ったハイライト表示──pigments</li>
+<li>ソースコード全体のプレビュー──minimap</li>
+</ul>
+<h4>5.3　状態解析</h4>
+<ul class="toc">
+<li>Atomの使用状態の可視化──editor-stats</li>
+<li>コマンドの使用状態の可視化──command-logger</li>
+<li>カラーピッカー──color-picker</li>
+<li>正規表現解析──regex-railroad-diagram</li>
+<li>シンボル用ツリービュー──symbols-tree-view</li>
+</ul>
+<h4>5.4　プロジェクトの切り替え──git-projects</h4>
+<ul class="toc">
+</ul>
+<h4>5.5　文法チェッカ──linter</h4>
+<ul class="toc">
+<li>追加パッケージ</li>
+</ul>
+<h4>5.6　Gitの利用</h4>
+<ul class="toc">
+<li>Git操作──git-plus</li>
+<li>コンフリクトのマージ──merge-conflicts</li>
+<li>git blameの表示──git-blame</li>
+<li>コミット履歴の参照──git-time-machine</li>
+</ul>
+<h4>5.7　GitHubとの連携</h4>
+<ul class="toc">
+<li>GitHubページへの移動──open-on-github</li>
+<li>Gistとの連携──gist</li>
+</ul>
+<h4>5.8　リアルタイムプレビュー</h4>
+<ul class="toc">
+<li>Markdown──markdown-preview</li>
+<li>Coffee，LESS──preview</li>
+</ul>
+<h4>5.9　プログラムの実行</h4>
+<ul class="toc">
+<li>スクリプト──script</li>
+<li>ビルド──build</li>
+</ul>
+<h4>5.10　テスト</h4>
+<ul class="toc">
+<li>自動実行とステータス通知──test-status</li>
+<li>Travis CIやCircleCIとの連携──travis-ci-status，circle-ci</li>
+</ul>
+<h4>5.11　ターミナル</h4>
+<ul class="toc">
+<li>ターミナルエミュレータ──term3</li>
+</ul>
+<h4>5.12　Ruby on Rails</h4>
+<ul class="toc">
+<li>フレームワーク内の移動──rails-transporter</li>
+<li>Rails向けスニペット集──rails-snippets</li>
+</ul>
+<h4>5.13　ビューア</h4>
+<ul class="toc">
+<li>PDFビューア──pdf-view</li>
+<li>APIドキュメントビューア──api-docs</li>
+</ul>
+<h3>第6章　Chrome Developer Toolsの使い方とAtomのDOM</h3>
+
+<h4>6.1　Chrome Developer Toolsとは</h4>
+<ul class="toc">
+</ul>
+<h4>6.2　DevToolsのパネルと機能</h4>
+<ul class="toc">
+<li>Elementsパネル</li>
+<li>Networkパネル</li>
+<li>Sourcesパネル</li>
+<li>Timelineパネル</li>
+<li>Profilesパネル</li>
+<li>Resourcesパネル</li>
+<li>Auditsパネル</li>
+<li>Consoleパネル</li>
+</ul>
+<h4>6.3　要素選択と各種ペインから取得可能な情報</h4>
+<ul class="toc">
+<li>Stylesペイン</li>
+<li>Computedペイン</li>
+<li>Event Listenersペイン</li>
+<li>DOM Breakpointsペイン</li>
+<li>Propertiesペイン</li>
+</ul>
+<h4>6.4　スタイル</h4>
+<ul class="toc">
+<li>スタイルの調査</li>
+<li>スタイルの編集</li>
+</ul>
+<h4>6.5　JavaScriptの実行と確認</h4>
+<ul class="toc">
+<li>Consoleパネルからの実行</li>
+<li>Consoleパネルへの出力</li>
+</ul>
+<h4>6.6　パフォーマンス測定</h4>
+<ul class="toc">
+<li>プロファイラによる測定</li>
+<li>タイムラインによる測定</li>
+</ul>
+<h4>6.7　AtomのDOM</h4>
+<ul class="toc">
+<li>Shadow DOMとCustom Elements</li>
+<li>基本構造</li>
+<li>コンポーネント<ul class="toc">
+	<li>ワークスペース</li>
+	<li>エディタ</li></ul></li>
+<li>エディタの詳細構造<ul class="toc">
+	<li>ガター</li>
+	<li>スクロールビュー</li></ul></li>
+<li>属性とclass属性値<ul class="toc">
+	<li>代表的な属性</li>
+	<li>代表的なclass属性値</li></ul></li>
+<li>シンタックスによる値付け<ul class="toc">
+	<li>シンタックスが適用されるしくみ</li>
+	<li>構文解析のしくみ</li></ul></li>
+<li>アクションによる値付け<ul class="toc">
+	<li>タブ</li>
+	<li>エディタ</li></ul></li>
+</ul>
+<h3>第7章　本格的なカスタマイズ</h3>
+
+<h4>7.1　Atomのカスタマイズ方法</h4>
+<ul class="toc">
+<li>設定ファイルによるカスタマイズ方法<ul class="toc">
+	<li>初期化スクリプト──init.coffee</li>
+	<li>スニペットの設定──snippets.cson</li>
+	<li>キーバインドの設定──keymap.cson</li>
+	<li>スタイルの設定──styles.less</li></ul></li>
+<li>その他のカスタマイズ方法<ul class="toc">
+	<li>パッケージを直接編集する</li>
+	<li>パッケージを作成する</li></ul></li>
+<li>反映されるタイミング</li>
+</ul>
+<h4>7.2　初期化スクリプトのカスタマイズ</h4>
+<ul class="toc">
+<li>少し高度な設定</li>
+</ul>
+<h4>7.3　スニペットのカスタマイズ</h4>
+<ul class="toc">
+<li>追加する</li>
+<li>上書きする</li>
+</ul>
+<h4>7.4　CSSセレクタの優先順位</h4>
+<ul class="toc">
+<li>詳細度の計算</li>
+</ul>
+<h4>7.5　キーバインドのカスタマイズ</h4>
+<ul class="toc">
+<li>キーバインドの調べ方<ul class="toc">
+	<li>コマンド名の表記</li>
+	<li>キーバインドの競合</li></ul></li>
+<li>キーバインドの設定方法<ul class="toc">
+	<li>追加する</li>
+	<li>上書きする</li>
+	<li>無効化する</li></ul></li>
+<li>高度な指定方法<ul class="toc">
+	<li>特定のOSを指定する</li>
+	<li>特定のシンタックスを指定する</li>
+	<li>特定のUIを指定する</li></ul></li>
+</ul>
+<h4>7.6　スタイルのカスタマイズ</h4>
+<ul class="toc">
+<li>スタイルの調べ方</li>
+<li>スタイルの編集<ul class="toc">
+	<li>通常のスタイリング</li>
+	<li>Shadow DOM内部へのスタイリング</li>
+	<li>無効化する</li></ul></li>
+<li>高度なスタイリング<ul class="toc">
+	<li>特定のテーマをスタイリングする</li>
+	<li>強制的にスタイリングする</li></ul></li>
+<li>実用的なスタイリング例<ul class="toc">
+	<li>現在行をハイライトする</li>
+	<li>選択範囲を装飾する</li>
+	<li>カーソルを装飾する</li>
+	<li>対応する括弧をハイライトする</li>
+	<li>本文を装飾する</li></ul></li>
+</ul>
+<h3>第8章　テーマとパッケージの作成</h3>
+
+<h4>8.1　開発ドキュメント</h4>
+<ul class="toc">
+<li>Atom Flight Manual</li>
+<li>APIリファレンス</li>
+<li>[Column]筆者がパッケージを作成するときの調べ方</li>
+</ul>
+<h4>8.2　開発の準備</h4>
+<ul class="toc">
+<li>プロジェクトホームの確認</li>
+<li>開発モードの起動</li>
+</ul>
+<h4>8.3　サンプルテーマの作成</h4>
+<ul class="toc">
+<li>ひな型の作成</li>
+<li>ライブリロード</li>
+<li>実装<ul class="toc">
+	<li>package.jsonを設定する</li>
+	<li>LESSの読み込み法則について</li>
+	<li>スタイルを実装する</li>
+	<li>本文スタイルを作成する</li></ul></li>
+</ul>
+<h4>8.4　サンプルパッケージの作成</h4>
+<ul class="toc">
+<li>ひな型の作成</li>
+<li>実装<ul class="toc">
+	<li>package.jsonを設定する</li>
+	<li>コマンドを作成する</li>
+	<li>テストを書く</li>
+	<li>テストを実行する</li></ul></li>
+</ul>
+<h4>8.5　本格的なパッケージ開発</h4>
+<ul class="toc">
+<li>シンタックスの作成</li>
+<li>スニペットの作成</li>
+<li>メニューの作成<ul class="toc">
+	<li>アプリケーションメニュー</li>
+	<li>コンテキストメニュー</li></ul></li>
+<li>設定ファイルの利用</li>
+<li>Nodeモジュールの利用</li>
+</ul>
+<h4>8.6　パッケージの公開</h4>
+<ul class="toc">
+<li>アカウントの作成</li>
+<li>パッケージの登録と削除</li>
+<li>パッケージのメンテナンス</li>
+</ul>
+<h3>Appendix A　最新情報の入手と開発への参加</h3>
+<h4>A.1　最新情報を入手するには</h4>
+<ul class="toc">
+<li>ソースコードの入手とビルド</li>
+<li>最新情報の入手</li>
+</ul>
+<h4>A.2　開発へ参加するには</h4>
+<ul class="toc">
+<li>パッケージ開発への参加</li>
+<li>Pull Request<ul class="toc">
+	<li>リポジトリをForkする</li>
+	<li>コミット／pushする</li>
+	<li>Pull Requestを作成する</li></ul></li>
+</ul>
+<h3>Appendix B　コアパッケージリファレンス</h3>
+<h4>本リファレンスについて</li>
+<h4>テーマ</h4>
+<h4>画面表示</h4>
+<h4>編集支援</h4>
+<h4>Atom機能</h4>
+<h4>移動操作</h4>
+<h4>シンタックス</h4>
+<br />
+<ul class="toc">
+<li>索引</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<h3 id="download">ダウンロード</h3>
+<p>本書のサンプルコードをダウンロードできます。</p>
+
+<p>データは，<wbr/>圧縮ファイル形式でダウンロードできます。圧縮ファイルをダウンロードしていただき，<wbr/>適宜解凍してご利用ください。</p>
+
+<dl>
+<dt>ダウンロード</dt>
+<dd><a href="http://image.gihyo.co.jp/assets/files/book/2016/978-4-7741-8270-4/download/sample_files.zip">sample_files.zip</a></dd>
+</dl>
+
+
+
+    </section>
+  </div>
+  </div>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="サンプルページのため利用できません" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="サンプルページのため利用できません" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="サンプルページのため利用できません" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="サンプルページのため利用できません" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li><a href="/">このサイトについて</a></li>
+      </ul>
+      <p id="storeCopyright"><span style="color:red;font-size:1.8em;">このページは「Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド-」のためのサンプルサイトです。特別の許可を得て技術評論社の著作物を使用しています。</span><br/><small>Copyright © 2016 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+</body>
+</html>

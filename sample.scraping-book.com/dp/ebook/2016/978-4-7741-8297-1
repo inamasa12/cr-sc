@@ -1,0 +1,246 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>ゼロからはじめる ドコモGalaxy S7 edge SC-02H スマートガイド | Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド- サンプルページ</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="2016年5月にNTTドコモから発売された最新のスマートフォン，Galaxy S7 edge SC-02Hの解説書です。本体の新機能のほか，電話，メール，インターネット，写真撮影，写真や動画の閲覧，Googleやドコモのサービス，独自機能の活用法など，Galaxy S7 edge SC-02Hの操作方法を詳しく解説します。"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <meta name="robots" content="noindex,noarchive"/>
+  <link rel="stylesheet" href="/dp/assets/style/store1124.css" type="text/css" media="all"/>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Scraping-Book</h1>
+    <h2 class="home-subtitle">これは書籍用のサンプルページです。購入などの操作はできません。</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="サンプルページのため利用できません">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="サンプルページのため利用できません">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%B3%E3%83%BB%E3%82%BF%E3%83%96%E3%83%AC%E3%83%83%E3%83%88" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+<h2 id="bookSeries"><a href="/dp/series/%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E3%81%AF%E3%81%98%E3%82%81%E3%82%8B">ゼロからはじめる</a></h2>
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">ゼロからはじめる<br/>ドコモ<wbr/>Galaxy S7 edge SC-02H スマートガイド</h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2016/978-4-7741-8297-1.jpg" alt="ゼロからはじめる ドコモGalaxy S7 edge SC-02H スマートガイド"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">技術評論社編集部　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2016-07-08">2016年7月8日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2016-07-08">2016年7月8日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>これは書籍サンプルのページです。</li>
+      <li class="need-login">サンプルサイトなので購入はできません。</li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">PDF</span><span class="buy">1,380円 <a id="pid401367" href="#cartAdd" title="サンプルページのため利用できません">カートに入れる<div class="option" title="購入オプション">▼<ul><li class="gift" title="サンプルページのため利用できません">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">192</span>ページ相当</span><span class="pdf">PDF</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>2016年5月にNTTドコモから発売された最新のスマートフォン，<wbr/>Galaxy S7 edge SC-02Hの解説書です。本体の新機能のほか，<wbr/>電話，<wbr/>メール，<wbr/>インターネット，<wbr/>写真撮影，<wbr/>写真や動画の閲覧，<wbr/>Googleやドコモのサービス，<wbr/>独自機能の活用法など，<wbr/>Galaxy S7 edge SC-02Hの操作方法を詳しく解説します。</p><h3>こんな方におすすめ</h3>
+<ul><li>ドコモ版Galaxy S7 edgeのユーザー，<wbr/>または購入する予定の人</li></ul>
+<section id="sample"><h2>サンプル</h2><ul class="pdf"><li><a href="/assets/files/book/2016/978-4-7741-8265-0/9784774182650-01.pdf" target="_blank">サンプルPDFファイル1</a>（3,408KB）</li></ul>
+</section>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="利用できません" placeholder="利用できません" required="required" value="">
+  <input type="hidden" name="code" value="32927">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>Chapter1　Galaxy S7 edge SC-02Hのキホン</h3>
+<ul class="toc">
+<li>Section01　Galaxy S7 edge SC-02Hについて</li>
+<li>Section02　電源のオン・オフとロックの解除</li>
+<li>Section03　SC-02Hの基本操作を覚える</li>
+<li>Section04　ホーム画面の使い方</li>
+<li>Section05　情報を確認する</li>
+<li>Section06　アプリを利用する</li>
+<li>Section07　ウィジェットを利用する</li>
+<li>Section08　文字を入力する</li>
+<li>Section09　テキストをコピー＆ペーストする</li>
+<li>Section10　Googleアカウントを設定する</li>
+<li>Section11　ドコモのID・パスワードを設定する</li>
+
+</ul>
+<h3>Chapter2　電話機能を使う</h3>
+<ul class="toc">
+<li>Section12　電話をかける・受ける</li>
+<li>Section13　履歴を確認する</li>
+<li>Section14　伝言メモを利用する</li>
+<li>Section15　ドコモ電話帳を利用する</li>
+<li>Section16　「スグ電」の機能を利用する</li>
+<li>Section17　着信拒否を設定する</li>
+<li>Section18　通知音・着信音を変更する</li>
+<li>Section19　マナーモードや操作音などを変更する</li>
+
+</ul>
+<h3>Chapter3　メールの基本操作を知る</h3>
+<ul class="toc">
+<li>Section20　Webページを閲覧する</li>
+<li>Section21　複数のWebページを同時に開く</li>
+<li>Section22　GoogleでWebを検索する</li>
+<li>Section23　ブックマークを利用する</li>
+<li>Section24　SC-02Hで使える４種類のメール</li>
+<li>Section25　ドコモメールを設定する</li>
+<li>Section26　ドコモメールを利用する</li>
+<li>Section27　メールを自動振分けする</li>
+<li>Section28　迷惑メールを防ぐ</li>
+<li>Section29　SMSを利用する</li>
+<li>Section30　Gmailを使用する</li>
+<li>Section31　Yahoo!メール・PCメールを設定する</li>
+
+</ul>
+<h3>Chapter4　Google のサービスを使いこなす</h3>
+<ul class="toc">
+<li>Section32　Google Playでアプリを検索する</li>
+<li>Section33　アプリをインストール・アンインストールする</li>
+<li>Section34　Googleマップを使いこなす</li>
+<li>Section35　テレビ番組を視聴する</li>
+<li>Section36　テレビ番組を録画する</li>
+<li>Section37　おサイフケータイを設定する</li>
+<li>Section38　QRコードを読み取る</li>
+<li>Section39　パソコンから音楽・写真・動画を取り込む</li>
+<li>Section40　音楽を聴く</li>
+<li>Section41　写真を撮影する</li>
+<li>Section42　写真を活用する</li>
+<li>Section43　動画を撮影する</li>
+
+</ul>
+<h3>Chapter5　独自機能を使いこなす</h3>
+<ul class="toc">
+<li>Section44　エッジスクリーンを活用する</li>
+<li>Section45　複数のアプリを同時に利用する</li>
+<li>Section46　指紋認証機能を利用する</li>
+<li>Section47　クイック設定ボタンを利用する</li>
+<li>Section48　SC-02Hを最適化する</li>
+<li>Section49　ゲームをまとめて管理する</li>
+<li>Section50　スマートキャプチャを利用する</li>
+<li>Section51　Gear VRの設定をする</li>
+<li>Section52　Galaxyアカウントを設定する</li>
+
+</ul>
+<h3>Chapter6　ドコモのサービスを使いこなす</h3>
+<ul class="toc">
+<li>Section53　dメニューを利用する</li>
+<li>Section54　スケジュールで予定を管理する</li>
+<li>Section55　しゃべってコンシェルを利用する</li>
+<li>Section56　dマーケットを利用する</li>
+<li>Section57　お客様サポートを利用する</li>
+<li>Section58　ファイルをバックアップする</li>
+
+</ul>
+<h3>Chapter7　SC-02Hを使いこなす</h3>
+<ul class="toc">
+<li>Section59　ホーム画面をカスタマイズする</li>
+<li>Section60　壁紙を変更する</li>
+<li>Section61　ホーム画面を切り替える</li>
+<li>Section62　無線LANを設定する</li>
+<li>Section63　Wi-Fiテザリングを利用する</li>
+<li>Section64　Bluetoothを利用する</li>
+<li>Section65　通知音やアラームを消す</li>
+<li>Section66　ディスプレイの設定を変更する</li>
+<li>Section67　標準アプリを変更する</li>
+<li>Section68　通信で使用したデータ量を調べる</li>
+<li>Section69　省電力モードを利用する</li>
+<li>Section70　強制的に再起動する</li>
+<li>Section71　SC-02Hをアップデートする</li>
+<li>Section72　SC-02Hを初期化する</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<p>現在サポート情報はありません。</p>
+    </section>
+  </div>
+  </div>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="サンプルページのため利用できません" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="サンプルページのため利用できません" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="サンプルページのため利用できません" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="サンプルページのため利用できません" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li><a href="/">このサイトについて</a></li>
+      </ul>
+      <p id="storeCopyright"><span style="color:red;font-size:1.8em;">このページは「Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド-」のためのサンプルサイトです。特別の許可を得て技術評論社の著作物を使用しています。</span><br/><small>Copyright © 2016 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+</body>
+</html>

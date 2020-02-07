@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>Slack入門 [ChatOpsによるチーム開発の効率化] | Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド- サンプルページ</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="いま最も注目を集めるチャットコミュニケーションツールSlackの解説書です。Slackが人気の背景には，さまざまなサービスと連携してソフトウェア開発を効率化できるツールとしてエンジニアから高い評価を得たことにあります。Slackは親しみやすいUIとチャットコミュニケーションを活性化させる工夫がたくさんあり，いまやエンジニアだけでなく多くのビジネスユーザを獲得しています。コミュニケーションプラットフォームのデファクトスタンダードになりつつあると言っても過言ではありません。本書では「ChatOps」というソフトウェア開発におけるタスク管理の考え方に触れ，はじめてSlackを利用する方に向けて基本操作をじっくり解説します。さらにボットツール（Hubot）と連携したタスクの自動化やCIツールと連携したアプリの開発方法を紹介しています。この1冊にSlackの基礎から実践的な利用方法がまとまっています。"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <meta name="robots" content="noindex,noarchive"/>
+  <link rel="stylesheet" href="/dp/assets/style/store1124.css" type="text/css" media="all"/>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Scraping-Book</h1>
+    <h2 class="home-subtitle">これは書籍用のサンプルページです。購入などの操作はできません。</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="サンプルページのため利用できません">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="サンプルページのため利用できません">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">Slack<wbr/>入門<br/><span class="sub">[ChatOpsによるチーム開発の効率化]</span></h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="/assets/images/gdp/2016/978-4-7741-8292-6.jpg" alt="Slack入門 [ChatOpsによるチーム開発の効率化]"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">松下雅和，<wbr/>小島泰洋，<wbr/>長瀬敦史，<wbr/>坂本卓巳　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2016-06-28">2016年6月28日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2016-06-28">2016年6月28日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>これは書籍サンプルのページです。</li>
+      <li class="need-login">サンプルサイトなので購入はできません。</li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">EPUB/PDFセット</span><span class="buy">1,980円 <a id="pid401364" href="#cartAdd" title="サンプルページのため利用できません">カートに入れる<div class="option" title="購入オプション">▼<ul><li class="gift" title="サンプルページのため利用できません">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">208</span>ページ相当</span><span class="pdf">PDF</span> <span class="epub">EPUB：リフロー</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<p>いま最も注目を集めるチャットコミュニケーションツールSlackの解説書です。</p>
+
+<p>Slackが人気の背景には，<wbr/>さまざまなサービスと連携してソフトウェア開発を効率化できるツールとしてエンジニアから高い評価を得たことにあります。Slackは親しみやすいUIとチャットコミュニケーションを活性化させる工夫がたくさんあり，<wbr/>いまやエンジニアだけでなく多くのビジネスユーザを獲得しています。コミュニケーションプラットフォームのデファクトスタンダードになりつつあると言っても過言ではありません。</p>
+
+<p>本書では「ChatOps」というソフトウェア開発におけるタスク管理の考え方に触れ，<wbr/>はじめてSlackを利用する方に向けて基本操作をじっくり解説します。さらにボットツール（Hubot）と連携したタスクの自動化やCIツールと連携したアプリの開発方法を紹介しています。この1冊にSlackの基礎から実践的な利用方法がまとまっています。</p><h3>こんな方におすすめ</h3>
+<ul><li>エンジニア全般</li></ul>
+
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="利用できません" placeholder="利用できません" required="required" value="">
+  <input type="hidden" name="code" value="32903">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>第1章　Slackをはじめよう <span class="author">&hellip;&hellip; 松下雅和</span></h3>
+<ul class="toc">
+<li>1.1 Slackとは何か</li>
+<li>1.2 Slackの基本</li>
+<li>1.3 Slackの導入</li>
+<li>1.4 Slackで実現するChatOps</li>
+</ul>
+<h3>第2章　Slackの機能を徹底解説 <span class="author">&hellip;&hellip; 小島泰洋</span></h3>
+<ul class="toc">
+<li>2.1 Slackの利用環境</li>
+<li>2.2 メッセージボックス</li>
+<li>2.3 メッセージやファイルの操作</li>
+<li>2.4 チャンネルの操作</li>
+<li>2.5 検索</li>
+<li>2.6 個人設定</li>
+<li>2.7 チーム設定</li>
+<li>2.8 App Directory</li>
+<li>2.9 有料プラン</li>
+<li>2.10 そのほかの便利な機能</li>
+</ul>
+<h3>第3章　Slack APIの活用 <span class="author">&hellip;&hellip; 松下雅和</span></h3>
+<ul class="toc">
+<li>3.1 Slack APIとは</li>
+<li>3.2 Incoming WebHooks</li>
+<li>3.3 Outgoing WebHooks</li>
+<li>3.4 Slash Commands</li>
+<li>3.5 Bot Users</li>
+<li>3.6 Web API</li>
+<li>3.7 Real Time Messaging API</li>
+<li>3.8 APIの特長と利用シーン</li>
+</ul>
+<h3>第4章　代表的な連携ツールHubot <span class="author">&hellip;&hellip; 長瀬敦史</span></h3>
+<ul class="toc">
+<li>4.1 Hubotとは</li>
+<li>4.2 Hubotの導入</li>
+<li>4.3 Hubotプロジェクトの作成</li>
+<li>4.4 プロジェクトディレクトリ構成</li>
+<li>4.5 代表的なホスティング例：Heroku</li>
+<li>4.6 Hubotのしくみ</li>
+<li>4.7 Hubotスクリプト／メッセージの受信・応答</li>
+<li>4.8 Hubotスクリプト／ Webサーバーとしてエンドポイントを実装</li>
+<li>4.9 Hubotスクリプト／ 外部WebサーバーなどにHTTPリクエストを送信</li>
+<li>4.10 Hubotスクリプト／任意のデータを永続化</li>
+</ul>
+<h3>第5章　CIツールとの連携 <span class="author">&hellip;&hellip; 坂本卓巳</span></h3>
+<ul class="toc">
+<li>5.1 SlackとCI（継続的インテグレーション）</li>
+<li>5.2 Slackを中心としたCIの実践</li>
+<li>5.3 サンプルプロジェクトの作成</li>
+<li>5.4 GitHubのセットアップ</li>
+<li>5.5 CircleCIのセットアップ</li>
+<li>5.6 自動テストによるコード品質の担保</li>
+<li>5.7 検証用アプリの自動配布</li>
+<li>5.8 ユーザーフィードバックの可視化</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<p>現在サポート情報はありません。</p>
+    </section>
+  </div>
+  </div>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="サンプルページのため利用できません" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="サンプルページのため利用できません" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="サンプルページのため利用できません" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="サンプルページのため利用できません" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li><a href="/">このサイトについて</a></li>
+      </ul>
+      <p id="storeCopyright"><span style="color:red;font-size:1.8em;">このページは「Pythonクローリング＆スクレイピング -データ収集・解析のための実践開発ガイド-」のためのサンプルサイトです。特別の許可を得て技術評論社の著作物を使用しています。</span><br/><small>Copyright © 2016 <span class="reserved">All Rights Reserved by</span> <a href="http://gihyo.jp/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+</body>
+</html>
