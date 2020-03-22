@@ -8,20 +8,35 @@ Linux関連の説明のため割愛
 Pythonのデフォルト文字はUnicodeであり、バイト列へのエンコーディングにはUTF-8を用いる  
 Python標準ライブラリによるクローリング・スクレイピング  
 ### パッケージ  
-`from ullib.request import urlopen`
+`from ullib.request import urlopen`  
 `import re`  
-### WEBページの取得  
-`f=urlopen('URL')`: URLを指定して取得、ファイルオブジェクト同様の取り扱いが可能なHTTPResponseオブジェクトを返す  
+### WEBページ（HTML）の取得  
+`f=urlopen('URL')`: URLを指定して取得、ファイルオブジェクト同様の取り扱いが可能なHTTPResponseオブジェクトを得る  
 `f.read()`: レスポンスボディをバイト型で出力  
 `f.status`: ステータスコード  
 `f.getheader('Content-Type')`: 指定したHTTPヘッダーの値を出力  
-### エンコーディングの取得（HTTPヘッダーから）  
+### HTMLのエンコーディング
+* HTTPヘッダーから  
 `encoding=f.info().get_content_charset()`: エンコーディングの取得  
 `f.read().decode(encoding)`: レスポンスボディを文字列で出力  
-### エンコーディングの取得（metaタグから）  
+* metaタグから  
 `scanned_text=f.read().decode('ascii', errors='replace')`: レスポンスボディからascii文字だけを文字列として取得  
 `match=re.search(r'charset=["\']?([\w-]+)', scanned_test)`: charset属性の値を取得  
-`f.read().decode(match.group(1)): レスポンスボディを文字列で出力  
+`f.read().decode(match.group(1))`: レスポンスボディを文字列で出力  
+### 正規表現によるHTMLのスクレイピング  
+`m=re.search(r'a.\*c', 'abc123DEF')`: 最初に一致する文字列を取得し、m.group(0)は一致する文字列全体、m.group(1)は指定のキャプチャ部分を返す  
+`m=re.findall(r'a.\*c', 'abc 12 3DEF')`: マッチする全ての部分（文字列）をリストで返す  
+`m=re.sub(r'a.\*c', 'That', 'abc 12 3DEF')`: マッチする全ての部分を指定の文字列で置き換える  
+### XMLパーサーによるRSSのスクレイピング  
+`tree=ElementTree.parse('RSS')`: RSSを指定して取得、ElementTreeオブジェクトを得る
+`root=tree.getroot()`: root要素のElementオブジェクトを得る
+
+
+
+
+### Python Tips  
+`str.replace('a', 'b')`: マッチする全ての部分を指定の文字列で置き換える  
+
 
 # 正規表現関係  
 ## 欲張り型（.\*）と非欲張り型（.\*?）のマッチ  
