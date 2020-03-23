@@ -48,11 +48,18 @@ json.dump(dictionary, f)
 ~~~
 * SQLite3  
 ~~~
+import sqlite3
+conn = sqlite3.connect('abc.db')
+c = conn.cursor()
+c.execute(SQL)
+conn.commit()
+conn.close()
 ~~~
-
 
 ### Python Tips  
 `str.replace('a', 'b')`: マッチする全ての部分を指定の文字列で置き換える  
+
+## 第三章 強力なライブラリの活用  
 
 
 # 正規表現関係  
