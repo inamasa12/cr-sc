@@ -28,9 +28,16 @@ Python標準ライブラリによるクローリング・スクレイピング
 `m=re.findall(r'a.\*c', 'abc 12 3DEF')`: マッチする全ての部分（文字列）をリストで返す  
 `m=re.sub(r'a.\*c', 'That', 'abc 12 3DEF')`: マッチする全ての部分を指定の文字列で置き換える  
 ### XMLパーサーによるRSSのスクレイピング  
-`tree=ElementTree.parse('RSS')`: RSSを指定して取得、ElementTreeオブジェクトを得る
-`root=tree.getroot()`: root要素のElementオブジェクトを得る
+`tree=ElementTree.parse('RSS')`: RSSを指定して取得、ElementTreeオブジェクトを得る  
+`root=tree.getroot()`: root要素のElementオブジェクト（階層構造）を得る  
+`items = root.findall('channel/item')`: channel要素直下のitem要素を全て取得、条件はXPathで指定  
+`items[0].find('title').text`: item要素の文字列を取得、条件はXPathで指定  
+### データの保存  
+* CSV  
+~~~
+open('abc.csv', 'w', newline='') as f
 
+~~~
 
 
 
