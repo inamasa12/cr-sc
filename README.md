@@ -35,10 +35,20 @@ Python標準ライブラリによるクローリング・スクレイピング
 ### データの保存  
 * CSV  
 ~~~
-open('abc.csv', 'w', newline='') as f
-
+import csv
+open('abc.csv', 'w', newline='', encoding='utf-8-sig') as f # EXCELで使用する場合
+writer = csv.writer(f)
+writer.writerows(list of list)
 ~~~
-
+* JSON  
+~~~
+import json
+open('abc.json', 'w') as f
+json.dump(dictionary, f)
+~~~
+* SQLite3  
+~~~
+~~~
 
 
 ### Python Tips  
