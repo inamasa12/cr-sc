@@ -11,7 +11,7 @@ Python標準ライブラリによるクローリング・スクレイピング
 `from ullib.request import urlopen`  
 `import re`  
 ### WEBページ（HTML）の取得  
-`f=urlopen('URL')`: URLを指定して取得、ファイルオブジェクト同様の取り扱いが可能なHTTPResponseオブジェクトを得る  
+`f=urlopen(URL)`: URLを指定して取得、ファイルオブジェクト同様の取り扱いが可能なHTTPResponseオブジェクトを得る  
 `f.read()`: レスポンスボディをバイト型で出力  
 `f.status`: ステータスコード  
 `f.getheader('Content-Type')`: 指定したHTTPヘッダーの値を出力  
@@ -27,7 +27,7 @@ Python標準ライブラリによるクローリング・スクレイピング
 `m=re.search(r'a.\*c', 'abc123DEF')`: 最初に一致する文字列を取得し、m.group(0)は一致する文字列全体、m.group(1)は指定のキャプチャ部分を返す  
 `m=re.findall(r'a.\*c', 'abc 12 3DEF')`: マッチする全ての部分（文字列）をリストで返す  
 `m=re.sub(r'a.\*c', 'That', 'abc 12 3DEF')`: マッチする全ての部分を指定の文字列で置き換える  
-### XMLパーサーによるRSSのスクレイピング  
+### XMLパーサーによるRSS(XML)のスクレイピング  
 `tree=ElementTree.parse('RSS')`: RSSを指定して取得、ElementTreeオブジェクトを得る  
 `root=tree.getroot()`: root要素のElementオブジェクト（階層構造）を得る  
 `items = root.findall('channel/item')`: channel要素直下のitem要素を全て取得、条件はXPathで指定  
@@ -60,6 +60,26 @@ conn.close()
 `str.replace('a', 'b')`: マッチする全ての部分を指定の文字列で置き換える  
 
 ## 第三章 強力なライブラリの活用  
+サードパーティライブラリによるクローリング・スクレイピング  
+### パッケージ  
+`import requests`  
+### WEBページ（HTML）の取得  
+`r=requests.get(URL)`: URLを指定して取得、Responseオブジェクトを得る  
+`r.status_code`: ステータスコード  
+`r.headers['Content-Type']`: 指定したHTTPヘッダーの値を出力  
+`r.encoding`: エンコーディングの取得  
+`r.content`: レスポンスボディをバイト型で出力  
+`r.text`: レスポンスボディを文字列で出力  
+`r.json()`: レスポンスボディをjson形式で出力  
+### HTTPによる送受信  
+`requests.post(URL, data=dictionary)`: 送信  
+`requests.get(URL, auth=(ID, Password))`: 認証付きの受信  
+`s=requests.Session()`: 接続を継続して送受信を行う場合はセッションを共有する  
+### lxmlによるHTMLスクレイピング  
+~~~
+import lxml.html
+
+~~~
 
 
 # 正規表現関係  
