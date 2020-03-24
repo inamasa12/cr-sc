@@ -28,7 +28,7 @@ Python標準ライブラリによるクローリング・スクレイピング
 `m=re.findall(r'a.\*c', 'abc 12 3DEF')`: マッチする全ての部分（文字列）をリストで返す  
 `m=re.sub(r'a.\*c', 'That', 'abc 12 3DEF')`: マッチする全ての部分を指定の文字列で置き換える  
 ### XMLパーサーによるRSS(XML)のスクレイピング  
-`tree=ElementTree.parse('RSS')`: RSSを指定して取得、ElementTreeオブジェクトを得る  
+`tree=ElementTree.parse('abc.xml')`: RSSを指定して取得、ElementTreeオブジェクトを得る  
 `root=tree.getroot()`: root要素のElementオブジェクト（階層構造）を得る  
 `items = root.findall('channel/item')`: channel要素直下のitem要素を全て取得、条件はXPathで指定  
 `items[0].find('title').text`: item要素の文字列を取得、条件はXPathで指定  
@@ -78,7 +78,17 @@ conn.close()
 ### lxmlによるHTMLスクレイピング  
 ~~~
 import lxml.html
-
+from urllib.request import urlopen
+tree = lxml.html.parse(urlopen(URL)) #_ElementTreeオブジェクトを得る
+html = tree.getroot() #root要素からなるHtmlElementオブジェクトを得る
+h1 = html.xpath('//h1')[0] #h1要素（リスト）の一つ目、Xpath
+h1 = html.cssselect('h1')[0] #h1要素（リスト）の一つ目、Xpath
+h1.tag #タグを出力
+h1.text #要素の値を出力
+h1.get('id') #id属性の値を出力
+h1.attrib #全属性の値を辞書として出力
+~~~
+### Beautiful SoupによるHTMLスクレイピング  
 ~~~
 
 
