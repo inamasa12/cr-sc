@@ -87,6 +87,7 @@ h1.tag #タグ（要素名）を出力
 h1.text #要素の値を出力
 h1.get('id') #id属性の値を出力
 h1.attrib #全属性の値を辞書として出力
+h1.getparent() #親要素
 ~~~
 ### Beautiful SoupによるHTMLスクレイピング  
 ~~~
@@ -97,6 +98,14 @@ soup.h1 #h1要素を出力
 soup.h1.tag #タグ（要素名）を出力
 soup.h1.string #要素の直接の子の文字列
 soup.h1.text #要素内の全ての文字列
+soup.h1['id'] #id属性の値を出力
+soup.h1.get('id') #id属性の値を出力
+soup.h1.attrs #全ての属性と値の辞書
+soup.h1.parent #親要素
+soup.find_all('h1') #全ての要素をリストで取得
+soup.find_all('h1', class_='featured') #h1要素のfeatured属性
+soup.find_all(id='main') #id属性がmainの要素
+soup.select(CSSセレクター) #CSSセレクターで抽出
 ~~~
 
 # 正規表現関係  
