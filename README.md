@@ -83,14 +83,21 @@ tree = lxml.html.parse(urlopen(URL)) #_ElementTreeオブジェクトを得る
 html = tree.getroot() #root要素からなるHtmlElementオブジェクトを得る
 h1 = html.xpath('//h1')[0] #h1要素（リスト）の一つ目、Xpath
 h1 = html.cssselect('h1')[0] #h1要素（リスト）の一つ目、Xpath
-h1.tag #タグを出力
+h1.tag #タグ（要素名）を出力
 h1.text #要素の値を出力
 h1.get('id') #id属性の値を出力
 h1.attrib #全属性の値を辞書として出力
 ~~~
 ### Beautiful SoupによるHTMLスクレイピング  
 ~~~
-
+from bs4 import BeautifulSoup
+open('abc.html') as f
+soup = BeautifulSoup(f, 'html.parser')
+soup.h1 #h1要素を出力
+soup.h1.tag #タグ（要素名）を出力
+soup.h1.string #要素の直接の子の文字列
+soup.h1.text #要素内の全ての文字列
+~~~
 
 # 正規表現関係  
 ## 欲張り型（.\*）と非欲張り型（.\*?）のマッチ  
