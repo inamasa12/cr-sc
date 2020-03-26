@@ -81,8 +81,8 @@ import lxml.html
 from urllib.request import urlopen
 tree = lxml.html.parse(urlopen(URL)) #_ElementTreeオブジェクトを得る
 html = tree.getroot() #root要素からなるHtmlElementオブジェクトを得る
-h1 = html.xpath('//h1')[0] #h1要素（リスト）の一つ目、Xpath
-h1 = html.cssselect('h1')[0] #h1要素（リスト）の一つ目、Xpath
+h1 = html.xpath('//h1')[0] #h1要素（リスト）の一つ目、Xpathで指定
+h1 = html.cssselect('h1')[0] #h1要素（リスト）の一つ目、cssセレクターで指定
 h1.tag #タグ（要素名）を出力
 h1.text #要素の値を出力
 h1.get('id') #id属性の値を出力
@@ -103,9 +103,29 @@ soup.h1.get('id') #id属性の値を出力
 soup.h1.attrs #全ての属性と値の辞書
 soup.h1.parent #親要素
 soup.find_all('h1') #全ての要素をリストで取得
-soup.find_all('h1', class_='featured') #h1要素のfeatured属性
+soup.find_all('h1', class_='featured') #h1要素のclass属性がfeatured
 soup.find_all(id='main') #id属性がmainの要素
 soup.select(CSSセレクター) #CSSセレクターで抽出
+~~~
+### pyqueryによるHTMLスクレイピング  
+~~~
+from query import PyQuery as pq
+d = pq(URL)
+d('h1') #h1要素を取得
+d('h1').text() #h1要素の文字列
+d('h1').attr('id') #h1要素のid属性の値
+d('h1').parent() #親要素
+d('li.featured') #li要素のclass属性がfeatured
+d('#main') #id属性がmain
+d('body').find('li') #body要素の子孫からli要素を取得
+d('li').filter('.featured') #li要素のclass属性がfeatured
+d('li').eq(1) #取得したli要素の一番目
+~~~
+### feedparserによるRSS(XML)スクレイピング  
+~~~
+import feedparser
+d = feedparser.parser(URL)
+
 ~~~
 
 # 正規表現関係  
