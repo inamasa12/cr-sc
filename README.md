@@ -172,10 +172,16 @@ import requests
 import lxml.html
 response = requests.get(URL)
 root = lxml.html.fromstring(response.content) #バイト型のレスポンスをパース
-for a in root.cssselect('a[itemprop="url"]') #a要素のitemprop属性がurlのものをリストで抽出
-  url = a.get('href') #href属性を取得
+root.make_links_absolute(response.url) #全てのリンクを絶対パスに変換
+for a in root.cssselect('#listBook a[itemprop="url"]') #id属性がlistBookの子孫で、a要素のitemprop属性がurlのものをリストで抽出
+    url = a.get('href') #href属性を取得
 ~~~
-
+1. スクレイプして辞書を作成  
+~~~
+ebook = {'url': response.url,
+         'title': root.cssselect('#bookTitle')[0].text_content() #id属性がbookTitleの子孫で、全てのテキストを取得
+         'price': root.cssselect('.buy')[0].text #class属性がbuyの直接のテキストを取得
+~~~
 
 # 正規表現関係  
 ## 欲張り型（.\*）と非欲張り型（.\*?）のマッチ  
