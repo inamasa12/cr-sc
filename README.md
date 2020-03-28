@@ -164,7 +164,17 @@ collection.insert_one(dict)
 collection.insert_many(list of dict)
 ~~~
 
-
+### クローリング  
+一覧ページと詳細ページの組み合わせで構成されるWEBサイトを前提  
+1. 一覧ページからパーマリンク（URL）を抜き出す
+~~~
+import requests
+import lxml.html
+response = requests.get(URL)
+root = lxml.html.fromstring(response.content) #バイト型のレスポンスをパース
+for a in root.cssselect('a[itemprop="url"]') #a要素のitemprop属性がurlのものをリストで抽出
+  url = a.get('href') #href属性を取得
+~~~
 
 
 # 正規表現関係  
