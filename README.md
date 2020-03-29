@@ -170,6 +170,7 @@ collection.insert_many(list of dict)
 ~~~
 import requests
 import lxml.html
+import from pymongo import MongoClient
 response = requests.get(URL)
 root = lxml.html.fromstring(response.content) #バイト型のレスポンスをパース
 root.make_links_absolute(response.url) #全てのリンクを絶対パスに変換
@@ -179,12 +180,29 @@ for a in root.cssselect('#listBook a[itemprop="url"]') #id属性がlistBookの�
 1. スクレイプして辞書を作成  
 ~~~
 ebook = {'url': response.url,
+         'key': re.search(r'/([^/]+)$', response.url), #URLの最後の/以降をキーに使用
          'title': root.cssselect('#bookTitle')[0].text_content() #id属性がbookTitleの子孫で、全てのテキストを取得
-         'price': root.cssselect('.buy')[0].text #class属性がbuyの直接のテキストを取得
+         'price': root.cssselect('.buy')[0].text.strip() #class属性がbuyの直接のテキストを取得（前後の空白を削除）
+         'content': [h3.text_content() for h3 in root.cssselect('#content > h3')], #id属性がcontent直下のh3要素をリストで抽出
+         ,}
 ~~~
+1. 追加のスクレイピング  
+~~~
+for i in ebook['content']:
+    re.sub(r'\u3000+', ': ', i).strip() #'content'の空白をセミコロンに置き換える
+~~~
+1. 保存  
+~~~
+client = MongoClient('localhost', 27017)
+collection = client.scraping.ebooks #scraping DBのebooksコレクション
+collection.create_index('key', unique=True) #キーの設定
+collection.insert_one(ebook)
+~~~
+
 
 # 正規表現関係  
 ## 欲張り型（.\*）と非欲張り型（.\*?）のマッチ  
 欲張り型では最も長い文字列と、非欲張り型では最も短い文字列とマッチさせる  
-
+## 参考サイト
+[分かりやすいpythonの正規表現の例](https://qiita.com/luohao0404/items/7135b2b96f9b0b196bf3)  
 
