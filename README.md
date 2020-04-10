@@ -215,19 +215,39 @@ WEBサイトにアクセスする際に、Cookie同様の状態をクローラ�
 WEBページは著作物（著作権法の対象）となる  
 2009年の著作権法改正で情報解析を目的とした複製は著作権者の許諾なく行えるようになってはいる  
 WEBサイトの利用規約に従うこと  
+WEBサイトに付属するrobot.txtや、robots metaタグにクローラーへの指示が記述されることがある
+~~~
+import urllib.robotparser
+rp = urllib.rogotparser.RobotFileParser()
+rp.set_url('URL')
+rp.read()
+rp.can_fetch('crawler', 'URL') # クローリングの可否を取得
+~~~
+クローリングが可能なURLをリスト化したXMLサイトマップが用意されている場合がある  
+同時接続数は6以下、クロール間隔は1秒以上  
+クローラーのUser-Agentヘッダーに連絡先を入れる  
+HTTPステータスコードに応じて処理を分ける  
+retryingパッケージを使用することで、作成した処理に対してリトライ処理を簡単にデコレートできる  
 
+### 繰り返しを前提とした設計  
+キャッシュ方針に関するHTTPヘッダーを利用することで更新されたデータだけを効率的にクロールする  
+Voluptuousパッケージで効率的に内容変化を検知することができる  
+メールを利用し変化を通知できる  
+~~~
+import smtplib
+from email.mime.text import MIMEText
+from email.header import Header
+msg = MIMEText('テスト送信です。')
+msg['Subject'] = Header('テスト', 'utf-8')
+msg['From'] = 'MAIL ADDRESS'
+msg['To'] = 'MAIL ADDRESS'
+with smtplib.SMTP_SSL('smtp.gmail.com') as smtp:
+	smtp.login('MAIL ADDRESS', 'PASSWORD')
+	smtp.send_message(msg)
+~~~
 
-
-
-
-
-
-
-
-
-
-
-
+### Python Tips  
+`expert http_proxy=http://localhost:3128`: 環境変数にプロキシサーバーを設定する  
 
 
 
