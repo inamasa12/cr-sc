@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+ <title>gihyo.jp：総合</title>
+ <link>https://gihyo.jp/</link>
+ <description>gihyo.jp（総合）の更新情報をお届けします</description>
+ <language>ja-jp</language>
+ <copyright>技術評論社 2020</copyright>
+ <lastBuildDate>Sat, 15 Feb 2020 12:22:00 +0900</lastBuildDate>
+ <image>
+  <url>https://gihyo.jp/assets/templates/gihyojp2007/image/header_logo_gihyo.gif</url>
+  <title>gihyo.jp</title>
+  <link>https://gihyo.jp/</link>
+ </image>
+ <item>
+  <title>2020年2月14日　&quot;Windows on Btrfs&quot;を実現！？ オープンソースのWindowsブートローダー「Quibble」 ── Linux Daily Topics</title>
+  <link>https://gihyo.jp/admin/clip/01/linux_dt/202002/14</link>
+  <description>「WinBtrfs」の開発で知られるMark Harmstoneが2月13日，オープンソース（LGPL）のWindowsブートローダー「Quibble」を公開した。</description>
+  <pubDate>Fri, 14 Feb 2020 18:25:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/admin/clip/01/linux_dt">Linux Daily Topics</category>
+  <guid>https://gihyo.jp/admin/clip/01/linux_dt/202002/14</guid> 
+  <author>階戸アキラ</author>
+ </item>
+ <item>
+  <title>2020年2月14日号　Ubuntu 18.04.4のリリース ── Ubuntu Weekly Topics</title>
+  <link>https://gihyo.jp/admin/clip/01/ubuntu-topics/202002/14</link>
+  <description>18.04 LTSの4回目のポイントリリース，18.04.4が予定より一週間ほど遅れてリリースされました。</description>
+  <pubDate>Fri, 14 Feb 2020 09:58:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/admin/clip/01/ubuntu-topics">Ubuntu Weekly Topics</category>
+  <guid>https://gihyo.jp/admin/clip/01/ubuntu-topics/202002/14</guid> 
+  <author>吉田史</author>
+ </item>
+ <item>
+  <title>ロクナナワークショップ 【新講座】『山本麻美のSketch中級講座』を3月より開講 ── ロクナナワークショップ NEWS &amp; REPORT</title>
+  <link>https://gihyo.jp/design/serial/01/67ws/0151</link>
+  <description>Web制作の学校 ロクナナワークショップでは，2020年3月より，Sketch中級講座を開講します。</description>
+  <pubDate>Thu, 13 Feb 2020 09:31:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/design/serial/01/67ws">ロクナナワークショップ NEWS &amp; REPORT</category>
+  <guid>https://gihyo.jp/design/serial/01/67ws/0151</guid> 
+  <author>Web制作の学校 ロクナナワークショップ</author>
+ </item>
+ <item>
+  <title>2020年2月第2週号 1位は，色彩理論をCSSでの色の設定に生かすためのヒント，気になるネタは，Googleマップが15周年で新ロゴに 5タブの新デザインと新機能も ── 週刊Webテク通信</title>
+  <link>https://gihyo.jp/design/clip/01/weekly-web-tech/202002/13</link>
+  <description>ネットで見かけたWebテク（Webテクニック・Webテクノロジー）記事から，Webデザイナーの目で厳選したネタを週刊で紹介するこのコーナー。今回は，2020年2月3日～2月9日の間に見つけた記事のベスト5です。</description>
+  <pubDate>Thu, 13 Feb 2020 09:30:30 +0900</pubDate>
+  <category domain="https://gihyo.jp/design/clip/01/weekly-web-tech">週刊Webテク通信</category>
+  <guid>https://gihyo.jp/design/clip/01/weekly-web-tech/202002/13</guid> 
+  <author>芦之由</author>
+ </item>
+ <item>
+  <title>2020年2月第3週　Pixel 4でMotion Senseと新しいGoogleアシスタントが利用可能に ── Android Weekly Topics</title>
+  <link>https://gihyo.jp/lifestyle/clip/01/awt/202002/13</link>
+  <description>2020年2月第3週のAndroid関連のニュースをお届けします。</description>
+  <pubDate>Thu, 13 Feb 2020 09:30:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/lifestyle/clip/01/awt">Android Weekly Topics</category>
+  <guid>https://gihyo.jp/lifestyle/clip/01/awt/202002/13</guid> 
+  <author>傍島康雄</author>
+ </item>
+ <item>
+  <title>ソラコム，4つのセンサー内蔵の小型IoTデバイスを発売 ── ニュースリリース</title>
+  <link>https://gihyo.jp/news/nr/2020/02/1201</link>
+  <description>ソラコムは2020年2月12日， 省電力通信のLTE-Mを使い，GPS，温度，湿度，加速度の4つのセンサーが使えるIoTデバイス「GPSマルチユニット SORACOM Edition」（GPSマルチユニット）を発売した。</description>
+  <pubDate>Wed, 12 Feb 2020 18:18:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/news/nr">ニュースリリース</category>
+  <guid>https://gihyo.jp/news/nr/2020/02/1201</guid> 
+  <author>技術評論社</author>
+ </item>
+ <item>
+  <title>2020年2月12日　ねこ舌 ── 帰ってきた『技評ねこ部通信』</title>
+  <link>https://gihyo.jp/lifestyle/clip/01/monthly-cat/202002/0212</link>
+  <description></description>
+  <pubDate>Wed, 12 Feb 2020 15:00:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/lifestyle/clip/01/monthly-cat">帰ってきた『技評ねこ部通信』</category>
+  <guid>https://gihyo.jp/lifestyle/clip/01/monthly-cat/202002/0212</guid> 
+  <author></author>
+ </item>
+ <item>
+  <title>第606回　オープンソースな多機能測定器Pocket Science LabをUbuntuで使う ── Ubuntu Weekly Recipe</title>
+  <link>https://gihyo.jp/admin/serial/01/ubuntu-recipe/0606</link>
+  <description>Pocket Science Lab（PSLab）はオシロスコープやマルチメーターなど多くの機能を備えた，スマートフォンからも操作できるシングルボードコンピューターです。今回はこのPSLabをUbuntuから操作してみましょう。</description>
+  <pubDate>Wed, 12 Feb 2020 10:12:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/admin/serial/01/ubuntu-recipe">Ubuntu Weekly Recipe</category>
+  <guid>https://gihyo.jp/admin/serial/01/ubuntu-recipe/0606</guid> 
+  <author>柴田充也</author>
+ </item>
+ <item>
+  <title>2020年2月10日　Linus，次期カーネル「Linux 5.6」の最初のリリース候補版を公開 ── Linux Daily Topics</title>
+  <link>https://gihyo.jp/admin/clip/01/linux_dt/202002/10</link>
+  <description>Linus Torvaldsは2月9日，次期カーネル「Linux 5.6」の最初のリリース候補版となる「Linux 5.6-rc1」の公開を明らかにした。</description>
+  <pubDate>Mon, 10 Feb 2020 15:50:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/admin/clip/01/linux_dt">Linux Daily Topics</category>
+  <guid>https://gihyo.jp/admin/clip/01/linux_dt/202002/10</guid> 
+  <author>階戸アキラ</author>
+ </item>
+ <item>
+  <title>第115回　mysqlshowコマンド ── MySQL道普請便り</title>
+  <link>https://gihyo.jp/dev/serial/01/mysql-road-construction-news/0115</link>
+  <description>今回はmysqlshowコマンドを使って，MySQLの情報の取得をやっていきます。なお，検証環境はCentOS 7, MySQLのバージョンは8.0.18を利用しています。</description>
+  <pubDate>Mon, 10 Feb 2020 09:30:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/dev/serial/01/mysql-road-construction-news">MySQL道普請便り</category>
+  <guid>https://gihyo.jp/dev/serial/01/mysql-road-construction-news/0115</guid> 
+  <author>深町日出海</author>
+ </item>
+ <item>
+  <title>ロクナナワークショップ 【新講座】『神森勉のジンドゥークリエイター入門講座』を3月より開講 ── ロクナナワークショップ NEWS &amp; REPORT</title>
+  <link>https://gihyo.jp/design/serial/01/67ws/0150</link>
+  <description>Web制作の学校 ロクナナワークショップでは，2020年3月より，ジンドゥークリエイター入門講座を開講します。</description>
+  <pubDate>Fri, 07 Feb 2020 13:02:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/design/serial/01/67ws">ロクナナワークショップ NEWS &amp; REPORT</category>
+  <guid>https://gihyo.jp/design/serial/01/67ws/0150</guid> 
+  <author>Web制作の学校 ロクナナワークショップ</author>
+ </item>
+ <item>
+  <title>2020年2月7日号　Ubuntu Proの新しい展開・focalのカーネル確定 ── Ubuntu Weekly Topics</title>
+  <link>https://gihyo.jp/admin/clip/01/ubuntu-topics/202002/07</link>
+  <description>Ubuntu Proに，新しい動きがありそうです。Ubuntu Proのキーコンポーネントであるubuntu-advantage-clientに1月末からいくつかの動きがあります。
+</description>
+  <pubDate>Fri, 07 Feb 2020 10:11:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/admin/clip/01/ubuntu-topics">Ubuntu Weekly Topics</category>
+  <guid>https://gihyo.jp/admin/clip/01/ubuntu-topics/202002/07</guid> 
+  <author>吉田史</author>
+ </item>
+ <item>
+  <title>2020年2月6日　sudo，10年来のバッファオーバーフロー脆弱性を修正 ── Linux Daily Topics</title>
+  <link>https://gihyo.jp/admin/clip/01/linux_dt/202002/06</link>
+  <description>sudoのメイン開発者であるTodd Millerは2月5日，pwfeedbackオプションが有効な場合にバッファオーバーフローを引き起こす可能性のあるバグ修正を含むアップデートを行ったことを明らかにした。</description>
+  <pubDate>Thu, 06 Feb 2020 16:16:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/admin/clip/01/linux_dt">Linux Daily Topics</category>
+  <guid>https://gihyo.jp/admin/clip/01/linux_dt/202002/06</guid> 
+  <author>階戸アキラ</author>
+ </item>
+ <item>
+  <title>エクセルソフト，MS Office互換の総合オフィスアプリケーションOfficeSuiteを販売開始 ── ニュースリリース</title>
+  <link>https://gihyo.jp/news/nr/2020/02/0601</link>
+  <description>エクセルソフト株式会社は、MobiSysmtems社とディストリビューター契約を締結し、MS Office互換の総合オフィスアプリケーションであるOfficeSuiteを2020年2月5日より日本国内で販売開始した。</description>
+  <pubDate>Thu, 06 Feb 2020 12:34:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/news/nr">ニュースリリース</category>
+  <guid>https://gihyo.jp/news/nr/2020/02/0601</guid> 
+  <author>技術評論社</author>
+ </item>
+ <item>
+  <title>2020年2月第2週　iOSにあるけどAndroidにない「P2Pのファイル転送」 ── Android Weekly Topics</title>
+  <link>https://gihyo.jp/lifestyle/clip/01/awt/202002/06</link>
+  <description>2020年2月第2週のAndroid関連のニュースをお届けします。</description>
+  <pubDate>Thu, 06 Feb 2020 09:36:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/lifestyle/clip/01/awt">Android Weekly Topics</category>
+  <guid>https://gihyo.jp/lifestyle/clip/01/awt/202002/06</guid> 
+  <author>傍島康雄</author>
+ </item>
+ <item>
+  <title>2020年2月第1週号 1位は，2020年のUIトレンドまとめ，気になるネタは，友達から資金募れるアプリ「polca」，10月1日に終了 「収益性などを検討した結果」 ── 週刊Webテク通信</title>
+  <link>https://gihyo.jp/design/clip/01/weekly-web-tech/202002/06</link>
+  <description>ネットで見かけたWebテク（Webテクニック・Webテクノロジー）記事から，Webデザイナーの目で厳選したネタを週刊で紹介するこのコーナー。今回は，2020年1月27日～2月2日の間に見つけた記事のベスト5です。</description>
+  <pubDate>Thu, 06 Feb 2020 09:30:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/design/clip/01/weekly-web-tech">週刊Webテク通信</category>
+  <guid>https://gihyo.jp/design/clip/01/weekly-web-tech/202002/06</guid> 
+  <author>芦之由</author>
+ </item>
+ <item>
+  <title>第605回　Samplerでターミナルをダッシュボードにする ── Ubuntu Weekly Recipe</title>
+  <link>https://gihyo.jp/admin/serial/01/ubuntu-recipe/0605</link>
+  <description>今回は，任意のシェルコマンドを実行し，その結果をターミナル上でメトリクス化できるツール「Sampler」を紹介します。Samplerを使うことで，ターミナル上に独自のダッシュボードを作ることができます。</description>
+  <pubDate>Wed, 05 Feb 2020 10:07:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/admin/serial/01/ubuntu-recipe">Ubuntu Weekly Recipe</category>
+  <guid>https://gihyo.jp/admin/serial/01/ubuntu-recipe/0605</guid> 
+  <author>水野源</author>
+ </item>
+ <item>
+  <title>日本マイクロソフト，文部科学省「GIGAスクール構想」の学習者用端末等の標準仕様に適合した「GIGAスクールパッケージ」を提供開始――8社17機種の対応PCとともに ── ニュースリリース</title>
+  <link>https://gihyo.jp/news/nr/2020/02/0402</link>
+  <description>日本マイクロソフト株式会社は2020年2月4日，文部科学省が2019年に発表した「GIGAスクール構想」に対応する新しい教育機関向けソリューションとして，「GIGAスクールパッケージ」をパートナー企業と連携して提供することを発表した。</description>
+  <pubDate>Tue, 04 Feb 2020 18:08:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/news/nr">ニュースリリース</category>
+  <guid>https://gihyo.jp/news/nr/2020/02/0402</guid> 
+  <author>馮富久</author>
+ </item>
+ <item>
+  <title>メルカリ・メルペイとNTTドコモ，ポイント事業を中心に業務提携を発表――2020年5月よりメルカリIDとdアカウントの連携開始予定 ── ニュースリリース</title>
+  <link>https://gihyo.jp/news/nr/2020/02/0401</link>
+  <description>株式会社メルカリおよび株式会社メルペイと株式会社NTTドコモは2020年2月4日，3社の強みを活かした業務提携に合意したことを発表した。
+</description>
+  <pubDate>Tue, 04 Feb 2020 17:21:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/news/nr">ニュースリリース</category>
+  <guid>https://gihyo.jp/news/nr/2020/02/0401</guid> 
+  <author>馮富久</author>
+ </item>
+ <item>
+  <title>2020年2月4日　オープンソースのVPNプロトコル「WireGuard」がLinux 5.6で実装へ ── Linux Daily Topics</title>
+  <link>https://gihyo.jp/admin/clip/01/linux_dt/202002/04</link>
+  <description>Linus Torvaldsは1月29日，開発中のLinuxカーネル「Linux 5.6」のソースツリーに，主要メンテナーDavid Millerのプルリクエストを大量にマージした。</description>
+  <pubDate>Tue, 04 Feb 2020 16:25:00 +0900</pubDate>
+  <category domain="https://gihyo.jp/admin/clip/01/linux_dt">Linux Daily Topics</category>
+  <guid>https://gihyo.jp/admin/clip/01/linux_dt/202002/04</guid> 
+  <author>階戸アキラ</author>
+ </item>
+</channel>
+</rss>
