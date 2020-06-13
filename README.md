@@ -247,7 +247,11 @@ with smtplib.SMTP_SSL('smtp.gmail.com') as smtp:
 ~~~
 
 ### Python Tips  
-`expert http_proxy=http://localhost:3128`: 環境変数にプロキシサーバーを設定する  
+`export http_proxy=http://localhost:3128`: 環境変数にプロキシサーバーを設定する  
+
+
+
+## 第五章 実践とデータの活用  
 
 
 
