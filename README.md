@@ -252,7 +252,7 @@ with smtplib.SMTP_SSL('smtp.gmail.com') as smtp:
 ## 第五章 実践とデータの活用  
 
 ### Wikipediaデータのスクレイピング  
-Wikipediaデータをスクレイピングする際には、Webサイトではなく、ダンプされたデータセットを利用する
+Wikipediaデータをスクレイピングする際には、Webサイトではなく、ダンプされたデータセットを利用する  
 [Index of /jawiki/（データセットへのアクセスサイト）](https://dumps.wikimedia.org/jawiki/)  
 jawiki-YYYYMMDD-pages-articlesX.xml.bz2: 記事ページの最新版のダンプ  
 WikiExtractor.pyでダンプファイルをテキストに変換する ⇒ 後続は単純なテキストファイルのスクレイピング  
