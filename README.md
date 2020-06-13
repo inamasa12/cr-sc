@@ -249,10 +249,18 @@ with smtplib.SMTP_SSL('smtp.gmail.com') as smtp:
 ### Python Tips  
 `export http_proxy=http://localhost:3128`: 環境変数にプロキシサーバーを設定する  
 
-
-
 ## 第五章 実践とデータの活用  
 
+### Wikipediaデータのスクレイピング  
+Wikipediaデータをスクレイピングする際には、Webサイトではなく、ダンプされたデータセットを利用する
+[Index of /jawiki/（データセットへのアクセスサイト）](https://dumps.wikimedia.org/jawiki/)  
+jawiki-YYYYMMDD-pages-articlesX.xml.bz2: 記事ページの最新版のダンプ  
+WikiExtractor.pyでダンプファイルをテキストに変換する ⇒ 後続は単純なテキストファイルのスクレイピング  
+~~~
+python WikiExtractor.py --no-templates -o articles -b 100M jawiki-YYYYMMDD-pages-articlesX.xml.bz2
+~~~
+
+### Twitterからのデータ収集  
 
 
 
