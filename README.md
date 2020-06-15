@@ -249,6 +249,7 @@ with smtplib.SMTP_SSL('smtp.gmail.com') as smtp:
 ### Python Tips  
 `export http_proxy=http://localhost:3128`: 環境変数にプロキシサーバーを設定する  
 
+
 ## 第五章 実践とデータの活用  
 
 ### Wikipediaデータのスクレイピング  
@@ -261,6 +262,60 @@ python WikiExtractor.py --no-templates -o articles -b 100M jawiki-YYYYMMDD-pages
 ~~~
 
 ### Twitterからのデータ収集  
+Twitterデータ取得APIには、一件ごとにデータを取得するREST APIと、連続的に取得するStreaming APIがある  
+APIの利用にはOAuth 1.0aによる認証があり、API KEY、API Secret Key、Access Token、Access Token Secretの4つが必要  
+PythonパッケージTweepyが便利  
+
+1. REST APIを使用
+~~~
+import tweepy
+# 認証
+auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
+auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
+# クライアントインスタンスの作成とタイムラインの取得
+api = tweepy.API(auth)
+public_tweets = api.home_timeline()
+# 出力
+for status in public_tweets:
+	print('@' + status.user.screen_name, status.text)
+~~~
+1. Streaming APIを使用
+~~~
+import tweepy
+# 認証
+auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
+auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
+# 処理クラス
+class MyStreamListener(tweepy.StreamListener):
+	# ツイート取得時に実行するメソッド
+	def on_status(self, status):
+		print('@' + status.author.screen_name, status.text)
+# クライアントインスタンスの作成と出力		
+stream = tweepy.Stream(auth, MyStreamListener())
+stream.sample(languages=['ja'])
+~~~
+
+### Amazonの商品情報の収集
+優秀なアソシエイトでなければAPIが利用できない  
+
+### YouTubeからの動画情報の収集  
+GoogleのYouTube Data APIを利用する  
+APIの利用にはOAuth 2.0aによる認証があり、API KEYが必要  
+Google API Client for Pythonが便利  
+~~~
+from apiclient.discovery import build
+# クライアントインスタンスの作成
+youtube = build('youtube', 'v3', developerKey=YOUTUBE_API_KEY)
+# 取得データの検索
+search_response = youtube.search().list(
+		part = 'snippet',
+		q='手芸',
+		type='video',
+		).execute()
+# 出力		
+for item in search_response['items']:
+	print(item['snippet']['title'])
+~~~
 
 
 
