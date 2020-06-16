@@ -317,6 +317,56 @@ for item in search_response['items']:
 	print(item['snippet']['title'])
 ~~~
 
+### PDFファイルからのデータ抽出
+~~~
+from pdfminer.converter import PDFPageAggregator
+from pdfminer.layout import LAParams, LTContainer, LTTextBox
+from pdfminer.pdfinterp import PDFPageInterpreter, PDFResourceManager
+from pdfminer.pdfpage import PDFPage
+
+#縦書きを許容
+laparams = LAParams(detect_vertical=True)
+
+#パーサーの設定
+resource_manager = PDFResourceManager()
+device = PDFPageAggregator(resource_manager, laparams=laparams)
+interpreter = PDFPageInterpreter(resource_manager, device)
+
+
+#バイナリデータとして読み込み
+with open(sys.argv[1], 'rb') as f:
+	#ページ毎に処理
+	for page in PDFPage.get_pages(f):
+		#パース
+		interpreter.process_page(page)
+		#LTPageオブジェクトの取得
+		layout = device.get_result()
+		#LTTextBoxのリストに展開
+		boxes = find_textboxes_recursively(layout)
+		#左上から、順に各行をスキャン(x0, y0, x1, y1)
+		boxes.sort(key=lambda b: (-b.y1, b.x0))
+		for box in boxes:
+			print('-' * 10)
+			print(box.get_text().strip())
+	
+def find_textboxes_recursively(layout_obj):
+	if isinstance(layout_obj, LTTextBox):
+		return [layout_obj]
+	if isinstance(layout_obj, LTContainer):
+		boxes = []
+		for child in layout_obj:
+			boxes.extend(find_textboxes_recursively(child))
+		return boxes
+	return []
+~~~
+
+
+
+
+### Python Tips  
+`pd.read_csv('**.csv', encoding, header, names, skipinitialspace, index_col, parse_dates)`: CSVからのインポート  
+`pd.read_excel('**.xls', skiprows, skip_footer, parse_cols, index_col)`: EXCELからのインポート  
+
 
 
 # 正規表現関係  
