@@ -332,23 +332,23 @@ resource_manager = PDFResourceManager()
 device = PDFPageAggregator(resource_manager, laparams=laparams)
 interpreter = PDFPageInterpreter(resource_manager, device)
 
-
 #バイナリデータとして読み込み
 with open(sys.argv[1], 'rb') as f:
 	#ページ毎に処理
 	for page in PDFPage.get_pages(f):
 		#パース
 		interpreter.process_page(page)
-		#LTPageオブジェクトの取得
+		#LTPageオブジェクト（ページ）の取得
 		layout = device.get_result()
 		#LTTextBoxのリストに展開
 		boxes = find_textboxes_recursively(layout)
-		#左上から、順に各行をスキャン(x0, y0, x1, y1)
+		#左上から、順にテキストボックスをソート(x0, y0, x1, y1)して表示
 		boxes.sort(key=lambda b: (-b.y1, b.x0))
 		for box in boxes:
 			print('-' * 10)
 			print(box.get_text().strip())
-	
+
+# LTPageオブジェクトをLTTextBox（テキストボックス）のリストに展開して返す
 def find_textboxes_recursively(layout_obj):
 	if isinstance(layout_obj, LTTextBox):
 		return [layout_obj]
@@ -360,8 +360,46 @@ def find_textboxes_recursively(layout_obj):
 	return []
 ~~~
 
+### Linked Open Dataからのデータ収集  
+データ同士のリンク情報で公開されているものをLinked Open Dataと呼ぶ  
+データのリンクはRDFという形式で記述されており、SPARQLというクエリ言語で抽出する  
+日本ではDBpedia Japaneseが提供  
+~~~
+from SPARQLWrapper import SPARQLWrapper 
 
+# データ取得インスタンスの設定
+sparql = SPARQLWrapper('http://ja.dbpedia.org/sparql')
+sparql.setQuery(SPARQL)
+# JSON形式で出力
+sparql.setReturnFormat('json')
+response = sparql.query().convert()
+# 出力
+for result in response['results']['bindings']:
+	print(result['s']['value'], result['address']['value'])
+~~~
 
+### RoboBrowserを使用したGoogle検索情報の取得
+~~~
+from robobrowser import RoboBrowser
+
+# ブラウザの設定と操作
+browser = RoboBrowser(parser='html.parser')
+browser.open('https://www.google.co.jp/')
+form = browser.get_form(action='/search')
+form['q'] = 'Python'
+browser.submit_form(form, list(form.submit_fields.values())[0])
+
+#出力（スクレイピング）
+i=0
+for a in browser.select('a > div[class="BNeawe vvjwJb AP7Wnd"], div > a[href^="/url"]'):
+	if i % 2 == 0 and len(a.get('href')) < 400:
+		href_all = a.get('href')
+		m = re.search(r'q=(.*)&sa=', href_all)
+		print(m.group(1))
+	elif i % 2 != 0:
+		print(a.text)
+	i += 1
+~~~
 
 ### Python Tips  
 `pd.read_csv('**.csv', encoding, header, names, skipinitialspace, index_col, parse_dates)`: CSVからのインポート  
