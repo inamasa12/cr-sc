@@ -401,6 +401,45 @@ for a in browser.select('a > div[class="BNeawe vvjwJb AP7Wnd"], div > a[href^="/
 	i += 1
 ~~~
 
+### Firefoxを用いたGoogle検索結果の取得（seleniumを使用）  
+~~~
+from selenium.webdriver import Firefox, FirefoxOptions
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+#ブラウザにFirefoxを使用
+options = FirefoxOptions()
+# ヘッドレスモード
+options.add_argument('-headless')
+# FirefoxのWebDriverインスタンスを設定
+driver = Firefox(options=options)
+# Googleに接続
+driver.get('https://www.google.co.jp/')
+#入力フォームを取得し、検索実行
+input_element = driver.find_element_by_name('q')
+input_element.send_keys('Python')
+input_element.send_keys(Keys.RETURN)
+# スクリーンショット
+driver.save_screenshot('firefox_search_results.png')
+# 検索結果を出力
+for a in driver.find_elements_by_css_selector('h3 > a'):
+    print(a.text)
+    print(a.get_attribute('href'))
+# ブラウザを終了
+driver.quit()
+~~~
+
+### Chromeを用いたAmazon購入履歴の取得（seleniumを使用）  
+~~~
+
+
+
+~~~
+
+
+
 ### Python Tips  
 `pd.read_csv('**.csv', encoding, header, names, skipinitialspace, index_col, parse_dates)`: CSVからのインポート  
 `pd.read_excel('**.xls', skiprows, skip_footer, parse_cols, index_col)`: EXCELからのインポート  
