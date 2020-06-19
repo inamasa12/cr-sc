@@ -433,10 +433,84 @@ driver.quit()
 
 ### Chromeを用いたAmazon購入履歴の取得（seleniumを使用）  
 ~~~
+from selenium.webdriver import Chrome, ChromeOptions, Remote
+from selenium.webdriver.common.keys import Keys
+from selenium.common.exceptions import NoSuchElementException
 
+# ChromeのWebDriverインスタンスを設定（ヘッドレスモード）  
+options = ChromeOptions()
+options.headless = True
+driver = Chrome(options=options)
+# Amazonサイトに接続
+driver.get('https://www.amazon.co.jp/gp/css/order-history')
+# 入力操作
+email_input = driver.find_element_by_name('email')
+email_input.send_keys(AMAZON_EMAIL)
+email_input.send_keys(Keys.RETURN)
+password_input = driver.find_element_by_name('password')
+password_input.send_keys(AMAZON_PASSWORD)
+password_input.send_keys(Keys.RETURN)
 
-
+# 表示結果を出力
+while True:
+	# 一頁分のリストを出力
+	for line_item in driver.find_elements_by_css_selector('.order-info'):
+		order = {}
+		for column in line_item.find_elements_by_css_selector('.a-column'):
+			label_element = column.find_element_by_css_selector('.label')
+			value_element = column.find_element_by_css_selector('.value')
+			label = label_element.text
+			value = value_element.text
+			order[label] = value				
+		print(order['注文日'], order['合計'])
+	# 次頁に移動
+	link_to_next = driver.find_element_by_link_text('次へ')
+	link_to_next.click()
+	
+# ブラウザを終了
+driver.quit()
 ~~~
+
+
+### Chromeを用いてnoteのリストを取得し、RSSとして保存（seleniumを使用）  
+~~~
+import sys
+import time
+from selenium.webdriver import Chrome, ChromeOptions
+import feedgenerator
+
+# ChromeのWebDriverインスタンスを設定（ヘッドレスモード）  
+options = ChromeOptions()
+options.add_argument('--headless')
+driver = Chrome(options=options)
+
+#目的のWEBサイトに接続し、全体を表示させる
+driver.get('https://note.mu/')
+for i in range(15):
+	driver.execute_script('scroll(0, document.body.scrollHeight)')
+	time.sleep(2)
+
+# スクレイピング（データの取得）
+posts = []
+for div in driver.find_elements_by_css_selector('div.o-timelineNoteItem'):
+	a = div.find_element_by_css_selector('h3>a')
+	posts.append({'url': a.get_attribute('href'),
+			'title': a.text})
+
+# ブラウザを終了
+driver.quit()
+
+# RSSファイル出力
+with open('recommend.rss', 'w', encoding='utf-8') as f:
+	feed = feedgenerator.Rss201rev2Feed(
+			title='おすすめノート',
+			link='//note.mu/',
+			description='おすすめノート')
+	for post in posts:
+		feed.add_item(title=post['title'], link=post['url'], description='-', unique_id=post['url'])
+	feed.write(f, 'utf-8')
+~~~
+
 
 
 
