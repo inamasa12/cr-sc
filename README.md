@@ -512,6 +512,49 @@ with open('recommend.rss', 'w', encoding='utf-8') as f:
 ~~~
 
 
+### Yahoo!ジオコーダAPIを使用して、GeoJSONファイルを作成  
+GeoJSON: 地理情報を格納するためのフォーマット  
+~~~
+import sys
+import os
+import json
+import dbm
+from urllib.request import urlopen
+from urllib.parse import urlencode
+ 
+While True:
+	label = 名称
+	address = 住所
+	# Yahoo APIの使用
+	url = YAHOO_GEOCORDER_API_URL + '?' + urlencode({
+				'appid': os.environ['YAHOOJAPAN_APP_ID'],
+				'output': 'json',
+				'query': address,
+				}) 
+	response_text = urlopen(url).read()
+	response = json.loads(response_text.decode('utf-8'))
+
+	coordinates = response['Feature'][0]['Geometry']['Coordinates'].split(',')
+	lon = float(coordinates[0])
+	lat = float(coordinates[1])
+	
+	# GeoJSON形式でまとめる
+	features.append({'type': 'Feature',
+				'geometry':{'type': 'Point', 'coordinates': [lon, lat]},
+				'properties': {'label': label, 'address': address},
+				})
+
+# GeoJSON形式でまとめる
+feature_collection = {'type': 'FeatureCollection',
+			'features': features,}
+
+# 保存
+with open('museums.geojson', 'w') as f:
+	json.dump(feature_collection, f)
+~~~
+
+
+
 
 
 ### Python Tips  
