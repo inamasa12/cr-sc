@@ -554,7 +554,43 @@ with open('museums.geojson', 'w') as f:
 ~~~
 
 
+### Google BigQueryへのデータ保存  
+~~~
 
+from google.cloud import bigquery
+
+client = bigquery.Client()
+
+# データセットの準備（存在しなければ作成）
+dataset_name = "twitter"
+dataset_id = "{}.{}".format(client.project, dataset_name)
+try:
+	dataset = client.get_dataset(dataset_id)
+except:
+	dataset = bigquery.Dataset(dataset_id)
+	dataset.location = "US"
+	client.create_dataset(dataset) 
+
+# テーブルの準備（存在しなければ作成）
+table_name = 'tweets'
+table_id = "{}.{}.{}".format(client.project, dataset_name, table_name)
+table_names = [table.table_id for table in client.list_tables(dataset=dataset_id)]
+if not table_name in table_names:
+	print('Creating table {0}.{1}'.format(dataset_name, table_name), file=sys.stderr)
+	schema = [
+		bigquery.SchemaField('id', 'STRING', mode='REQUIRED', description='ツイートのID'),
+		bigquery.SchemaField('lang', 'STRING', mode='NULLABLE', description='ツイートの言語'),
+		bigquery.SchemaField('screen_name', 'STRING', mode='NULLABLE', description='ユーザー名'),
+		bigquery.SchemaField('text', 'STRING', mode='NULLABLE', description='ツイートの本文'),
+		bigquery.SchemaField('created_at', 'TIMESTAMP', mode='NULLABLE', description='ツイートの日時')
+		]
+	table = bigquery.Table(table_id, schema=schema)
+	table = client.create_table(table)
+table = client.get_table(dataset.table(table_name))
+
+# データインサート
+client.insert_rows_json(table, rows)
+~~~
 
 
 ### Python Tips  
