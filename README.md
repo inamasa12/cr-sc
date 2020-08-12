@@ -598,6 +598,40 @@ client.insert_rows_json(table, rows)
 `pd.read_excel('**.xls', skiprows, skip_footer, parse_cols, index_col)`: EXCELからのインポート  
 
 
+## 第六章 フレームワーク Scrapy  
+
+Scrapyはクローリング・スクレイピングのためのフレームワーク  
+Spiderクラスが処理の中心を担う  
+
+### Spiderの基本形
+~~~
+import scrapy
+class BlogSpider(scrapy.Spider):
+    name = 'blogspider'  # Spiderの名前
+    start_urls = ['https://blog.scrapinghub.com']  # クロールを開始するURLのリスト
+    
+    # 各ページ取得後に実行されるメソッド
+    def parse(self, response):
+        """
+        ページから投稿のタイトルをすべて抜き出し、次のページへのリンクがあればたどる。
+        """
+        # ページから投稿のタイトルをすべて抜き出す
+        for title in response.css('.post-header>h2'):
+            yield {'title': title.css('a ::text').get()}
+
+        # 次のページ（OLDER POST）へのリンクがあればたどる。
+        for next_page in response.css('a.next-posts-link'):
+            yield response.follow(next_page, self.parse)
+~~~
+
+### Item
+取得したデータを格納しておくためのオブジェクト
+~~~
+~~~
+
+
+
+
 
 # 正規表現関係  
 ## 欲張り型（.\*）と非欲張り型（.\*?）のマッチ  
