@@ -604,29 +604,35 @@ Scrapyはクローリング・スクレイピングのためのフレームワ�
 Spiderクラスが処理の中心を担う  
 
 ### Spiderの基本形
+
+`scrapy startproject myproject`で実行環境が作られる（myproject/myproject下に、items.py、pipelines.py、settings.pyが作成）
+基本的なコードは下記の形式（myproject/myproject/spider内に保存）
+各種コマンドはmyproject下で実行
+`scrapy crawl blogspider`で実行
 ~~~
 import scrapy
 class BlogSpider(scrapy.Spider):
     name = 'blogspider'  # Spiderの名前
+    allowed_domains = ["blog.scrapinghub.com"] # クロールを許可するドメイン
     start_urls = ['https://blog.scrapinghub.com']  # クロールを開始するURLのリスト
     
-    # 各ページ取得後に実行されるメソッド
+    # URLのレスポンスに対して実行されるメソッド
     def parse(self, response):
-        """
-        ページから投稿のタイトルをすべて抜き出し、次のページへのリンクがあればたどる。
-        """
-        # ページから投稿のタイトルをすべて抜き出す
+        # 投稿のタイトルをすべて出力
         for title in response.css('.post-header>h2'):
             yield {'title': title.css('a ::text').get()}
-
-        # 次のページ（OLDER POST）へのリンクがあればたどる。
+        # 次のページに移動し、レスポンスに対してparseを再帰的に実行
         for next_page in response.css('a.next-posts-link'):
             yield response.follow(next_page, self.parse)
 ~~~
 
-### Item
+### Items.py
 取得したデータを格納しておくためのオブジェクト
+データ取得用のクラス、そこに含まれるフィールドを定義できる
 ~~~
+class Headline(scrapy.Item):
+	title = scrapy.Field()
+	body = scrapy.Field()
 ~~~
 
 
