@@ -605,10 +605,13 @@ Spiderクラスが処理の中心を担う
 
 ### Spiderの基本形
 
-`scrapy startproject myproject`で実行環境が作られる（myproject/myproject下に、items.py、pipelines.py、settings.pyが作成）
-基本的なコードは下記の形式（myproject/myproject/spider内に保存）
-各種コマンドはmyproject下で実行
-`scrapy crawl blogspider`で実行
+`scrapy startproject myproject`で実行環境が作られる（myproject/myproject下に、items.py、pipelines.py、settings.pyが作成）  
+基本的なコードは下記の形式（myproject/myproject/spider内に保存）  
+各種コマンドはmyproject下で実行  
+`scrapy crawl blogspider`で実行（-o bologs.jlで出力ファイルを指定）  
+インタラクティブにスクレイピングを試行錯誤する場合は`scrapy shell URL`を用いる  
+
+
 ~~~
 import scrapy
 class BlogSpider(scrapy.Spider):
@@ -623,7 +626,14 @@ class BlogSpider(scrapy.Spider):
             yield {'title': title.css('a ::text').get()}
         # 次のページに移動し、レスポンスに対してparseを再帰的に実行
         for next_page in response.css('a.next-posts-link'):
-            yield response.follow(next_page, self.parse)
+            yield response.follow(next_page, self.parse_topics)
+
+    def parse_topics(self, response):
+	# Headlineオブジェクトを作成
+	item = Headline()  
+	item['title'] = response.css('.pickupMain_articleTitle::text').get()
+	item['body'] = response.css('.pickupMain_articleSummary').xpath('string()').get()
+	yield item  # Itemをyieldして、データを抽出する。
 ~~~
 
 ### Items.py
@@ -635,8 +645,28 @@ class Headline(scrapy.Item):
 	body = scrapy.Field()
 ~~~
 
+### CrawlSpider  
 
+rulesにたどるべきリンクとコールバック関数を指定するだけで良い  
 
+~~~
+class NewsCrawlSpider(CrawlSpider):
+    name = 'news_crawl'
+    allowed_domains = ['news.yahoo.co.jp']
+    start_urls = ['https://news.yahoo.co.jp/']
+
+    # リンクをたどるためのルールのリスト
+	# リンクの抽出、リクエスト、レスポンス処理関数の呼び出しを一度に行う
+    rules = (
+        # トピックスのページへのリンクをたどり、レスポンスをparse_topics()メソッドで処理する
+        Rule(LinkExtractor(allow=r'/pickup/\d+$'), callback='parse_topics'),
+    )
+~~~
+
+### SitemapSpider  
+~~~
+
+~~~
 
 
 # 正規表現関係  
