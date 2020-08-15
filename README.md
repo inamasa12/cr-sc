@@ -650,6 +650,10 @@ class Headline(scrapy.Item):
 rulesにたどるべきリンクとコールバック関数を指定するだけで良い  
 
 ~~~
+import scrapy.spiders
+import CrawlSpider, Rule
+from scrapy.linkextractors import LinkExtractor
+
 class NewsCrawlSpider(CrawlSpider):
     name = 'news_crawl'
     allowed_domains = ['news.yahoo.co.jp']
@@ -664,10 +668,119 @@ class NewsCrawlSpider(CrawlSpider):
 ~~~
 
 ### SitemapSpider  
-~~~
+
+XMLサイトマップからクローリング  
 
 ~~~
+from scrapy.spiders import SitemapSpider
 
+class IkeaSpider(SitemapSpider):
+    name = 'ikea'
+    allowed_domains = ['www.ikea.com']
+
+    # この設定がないと 504 Gateway Time-out となることがある
+    custom_settings = {
+        'USER_AGENT': 'ikeabot',
+    }
+
+    # robots.txtのURLを指定すると、SitemapディレクティブからXMLサイトマップのURLを取得する
+    sitemap_urls = [
+        'https://www.ikea.com/robots.txt',
+    ]
+	
+    # サイトマップインデックスからたどるサイトマップURLの正規表現のリスト
+    # sitemap_followを指定しない場合は、すべてのサイトマップをたどる
+    sitemap_follow = [
+        r'prod-ja-JP',  # 日本語の製品のサイトマップのみたどる
+    ]
+	
+    # サイトマップに含まれるURLを処理するコールバック関数を指定するルールのリスト
+    # sitemap_rulesを指定しない場合はすべてのURLのコールバック関数はparseメソッドとなる
+    sitemap_rules = [
+        (r'/products/', 'parse_product'),  # 製品ページをparse_productで処理する
+    ]
+
+    # 実際は該当するURLがないため下記コールバック関数は実行されない
+    def parse_product(self, response):
+        # 製品ページから製品の情報を抜き出す。
+        yield {
+            'url': response.url,  # URL
+            'name': response.css('#name::text').get().strip(),  # 名前
+            'type': response.css('#type::text').get().strip(),  # 種類
+            'price': response.css('#price1::text').re_first('[\S\xa0]+').replace('\xa0', ' '),
+        }
+~~~
+
+### Pipeline  
+
+クローリング、スクリーニングの前後に行う処理を定義する  
+pipelines.pyに記述  
+settings.pyに処理順序等の設定を追加する必要がある（下記）
+~~~
+settings.py
+
+ITEM_PIPELINES = {
+ 	#'myproject.pipelines.ValidationPipeline': 300, #Itemを検証するPipeline
+	#'myproject.pipelines.MongoPipeline': 800, #ItemをMongoDBに挿入するPipeline
+}
+~~~
+
+* MongoDBにデータを保存するPipeline
+~~~
+pipelines.py
+
+from pymongo import MongoClient
+
+class MongoPipeline:
+    # Spider開始時の処理
+    def open_spider(self, spider):
+        # MongoDBに接続
+        self.client = MongoClient('localhost', 27017)  # ホストとポートを指定してクライアントを作成
+        self.db = self.client['scraping-book']  # scraping-book データベースを取得
+        self.collection = self.db['items']  # items コレクションを取得
+
+    # Spider終了時の処理
+    def close_spider(self, spider):
+        # MongoDBへの接続を切断
+        self.client.close()
+
+    # 取得したデータの処理
+    def process_item(self, item, spider):
+        # Itemをコレクションに追加する
+        self.collection.insert_one(dict(item))
+        return item
+~~~
+
+* MySQLにデータを保存するPipeline
+~~~
+pipelines.py
+    # Spider開始時の処理
+    def open_spider(self, spider):
+        # MySQLサーバーに接続
+        itemsテーブルが存在しない場合は作成する
+        settings = spider.settings  # settings.pyから設定を読み込む。
+        params = {
+            'host': settings.get('MYSQL_HOST', 'localhost'),  # ホスト
+            'db': settings.get('MYSQL_DATABASE', 'scraping'),  # データベース名
+            'user': settings.get('MYSQL_USER', ''),  # ユーザー名（setting.pyから取得）
+            'passwd': settings.get('MYSQL_PASSWORD', ''),  # パスワード（setting.pyから取得）
+            'charset': settings.get('MYSQL_CHARSET', 'utf8mb4'),  # 文字コード
+        }
+        self.conn = MySQLdb.connect(**params)  # MySQLサーバーに接続
+        self.c = self.conn.cursor()  # カーソルを取得
+
+    # Spider終了時の処理
+    def close_spider(self, spider):
+        # MySQLサーバーへの接続を切断
+        self.conn.close()
+
+    # 取得したデータの処理
+    def process_item(self, item, spider):
+        # Itemをitemsテーブルに挿入
+        self.c.execute('INSERT INTO `items` (`title`) VALUES (%(title)s)', dict(item))
+        self.conn.commit()  # 変更をコミット
+        return item
+~~~
 
 # 正規表現関係  
 ## 欲張り型（.\*）と非欲張り型（.\*?）のマッチ  
