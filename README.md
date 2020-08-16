@@ -782,6 +782,18 @@ pipelines.py
         return item
 ~~~
 
+### Scrapyの設定  
+
+下記の優先順序で指定した設定が用いられる  
+1. コマンドライン  
+1. Spider内のcustom_settings  
+1. ブロジェクト毎のSettings.py  
+1. scrapyコマンドのサブコマンド  
+1. scrapy.settings.derault_settingsでグローバルに設定  
+
+### 食べログのレストラン情報を取得  
+
+
 # 正規表現関係  
 ## 欲張り型（.\*）と非欲張り型（.\*?）のマッチ  
 欲張り型では最も長い文字列と、非欲張り型では最も短い文字列とマッチさせる  
