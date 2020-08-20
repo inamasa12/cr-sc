@@ -832,8 +832,52 @@ class TabelogSpider(CrawlSpider):
 ~~~
 
 
+### ライブラリを用いた独自関数の使用
 
+Readabilityパッケージを用いたWEBデータのスクレイピング  
 
+関数の定義（Utils.py）  
+~~~
+utils.py
+
+import lxml.html
+import readability
+
+def get_content(html: str) -> Tuple[str, str]:
+    
+    # HTMLの文字列から (タイトル, 本文) のタプルを取得
+    document = readability.Document(html)
+    content_html = document.summary()
+    
+    # HTMLタグを除去して本文のテキストのみを取得する。
+    content_text = lxml.html.fromstring(content_html).text_content().strip()
+    short_title = document.short_title()
+
+    return short_title, content_text
+~~~
+
+本体  
+~~~
+import scrapy
+
+from myproject.items import Page
+from myproject.utils import get_content
+
+class BroadSpider(scrapy.Spider):
+    name = 'broad'
+    start_urls = ['http://b.hatena.ne.jp/entrylist/all']
+
+    def parse(self, response):
+        # 個別のWebページへのリンクをたどってperse
+        for url in response.css('.entrylist-contents-title > a::attr("href")').getall():
+            yield scrapy.Request(url, callback=self.parse_page)
+		
+    #perse処理
+    def parse_page(self, response):
+        # utils.pyに定義したget_content()関数でタイトルと本文を抽出する
+        title, content = get_content(response.text)
+        yield Page(url=response.url, title=title, content=content)
+~~~
 
 
 
