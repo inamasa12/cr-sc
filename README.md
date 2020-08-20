@@ -556,7 +556,6 @@ with open('museums.geojson', 'w') as f:
 
 ### Google BigQueryへのデータ保存  
 ~~~
-
 from google.cloud import bigquery
 
 client = bigquery.Client()
@@ -646,9 +645,7 @@ class Headline(scrapy.Item):
 ~~~
 
 ### CrawlSpider  
-
 rulesにたどるべきリンクとコールバック関数を指定するだけで良い  
-
 ~~~
 import scrapy.spiders
 import CrawlSpider, Rule
@@ -668,9 +665,7 @@ class NewsCrawlSpider(CrawlSpider):
 ~~~
 
 ### SitemapSpider  
-
 XMLサイトマップからクローリング  
-
 ~~~
 from scrapy.spiders import SitemapSpider
 
@@ -712,7 +707,6 @@ class IkeaSpider(SitemapSpider):
 ~~~
 
 ### Pipeline  
-
 クローリング、スクリーニングの前後に行う処理を定義する  
 pipelines.pyに記述  
 settings.pyに処理順序等の設定を追加する必要がある（下記）
@@ -878,6 +872,12 @@ class BroadSpider(scrapy.Spider):
         title, content = get_content(response.text)
         yield Page(url=response.url, title=title, content=content)
 ~~~
+
+### Elasticsearchへのデータ投入と検索サイトの作成  
+データ投入  
+
+
+
 
 
 
