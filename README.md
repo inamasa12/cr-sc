@@ -875,8 +875,69 @@ class BroadSpider(scrapy.Spider):
 
 ### Elasticsearchへのデータ投入と検索サイトの作成  
 データ投入  
+~~~
+import hashlib
+import json
 
+from elasticsearch import Elasticsearch
 
+# Elasticsearchインスタンス
+es = Elasticsearch(['localhost:9200'])
+
+#index: news1, type: newsでインサート
+#newsはtitle、bodyを要素に持つ
+file_n = './myproject/news2.jl'
+f =  open(file_n)
+for line in f:
+	news = json.loads(line)
+	doc_id = hashlib.sha1(news['title'].encode('utf-8')).hexdigest()
+	result = es.index(index='news1', doc_type='news', id=doc_id, body=news)
+	print(result)
+~~~
+
+Bottleを使用した検索サーバー  
+~~~
+from typing import List  # 型ヒントのためにインポート
+
+from elasticsearch import Elasticsearch
+from bottle import route, run, request, template
+
+es = Elasticsearch(['localhost:9200'])
+
+@route('/')
+def index():
+    """
+    / へのリクエストを処理する。
+    """
+    query = request.query.q  # クエリ（?q= の値）を取得する
+    pages = search_pages(query) if query else []
+    # queryとpagesの値を渡してレンダリングした結果をレスポンスボディとして返す
+    return template('search', query=query, pages=pages)
+
+def search_pages(query: str) -> List[dict]:
+    # Simple Query Stringを使って検索する。
+    result = es.search(index='news1', body={
+        "query": {
+            "simple_query_string": {
+                "query": query,
+                "fields": ["title^5", "body"],
+                "default_operator": "or"
+            }
+        },
+        # contentフィールドでマッチする部分をハイライトするよう設定
+        "highlight": {
+            "fields": {
+                "body": {
+                    "fragment_size": 150,
+                    "number_of_fragments": 1,
+                    "no_match_size": 150
+                }
+            }
+        }
+    })
+    # 個々のページを含むリストを返す。
+    return result['hits']['hits']
+~~~
 
 
 
