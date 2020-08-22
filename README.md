@@ -939,6 +939,75 @@ def search_pages(query: str) -> List[dict]:
     return result['hits']['hits']
 ~~~
 
+### Flickrから画像ファイルをDLし、人の顔を抽出  
+
+画像ファイルのDL  
+
+~~~
+import os
+from urllib.parse import urlencode
+import scrapy
+
+class FlickrSpider(scrapy.Spider):
+    name = 'flickr'
+    allowed_domains = ['api.flickr.com']
+
+    # 初期化インスタンスをラップ
+    def __init__(self, text='sushi'):
+		
+        super().__init__()  # 親クラスの__init__()を実行
+	# クロールを開始するURLをFlickrのAPIに設定
+        self.start_urls = [
+            'https://api.flickr.com/services/rest/?' + urlencode({
+                'method': 'flickr.photos.search',
+                'api_key': os.environ['FLICKR_API_KEY'],  # FlickrのAPIキーは環境変数から取得。
+                'text': text,
+                'sort': 'relevance',
+                'license': '4,5,9',  # CC BY 2.0, CC BY-SA 2.0, CC0を指定。
+            }),
+        ]
+
+    def parse(self, response):
+        # file_urlsというキーを含むdictをyieldし、画像処理関数に投げる
+        for photo in response.css('photo'):
+            yield {'file_urls': [flickr_photo_url(photo)]}
+
+# 画像のURLを返す
+def flickr_photo_url(photo: scrapy.Selector) -> str:
+    attrib = dict(photo.attrib)  # photo要素の属性をdictとして取得
+    attrib['size'] = 'b'  # サイズの値を追加
+    return 'https://farm{farm}.staticflickr.com/{server}/{id}_{secret}_{size}.jpg'.format(**attrib)
+~~~
+
+顔を抽出  
+
+~~~
+import sys
+import os
+import cv2
+
+output_dir = 'faces'
+
+# 抽出器の設定 
+cascade_path = 'C:/Users/mas/learning/cr-sc/haarcascade_frontalface_alt.xml'
+classifier = cv2.CascadeClassifier(cascade_path)
+
+for image_path in os.listdir(sys.argv[2]):
+
+	image_path = './myproject/images/full/' + image_path
+	
+	#画像の読み込み、グレースケールに変換、顔を検出
+	image = cv2.imread(image_path)
+	gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+	faces = classifier.detectMultiScale(gray_image)
+	
+	#顔フレームの書き込み
+	image_name = os.path.splitext(os.path.basename(image_path))[0]
+	for i, (x, y, w, h) in enumerate(faces):
+		face_image = image[y:y + h, x: x + w]
+		output_path = os.path.join(output_dir, '{0}_{1}.jpg'.format(image_name, i))
+		cv2.imwrite(output_path, face_image)
+~~~
 
 
 
