@@ -1026,7 +1026,130 @@ for image_path in os.listdir(sys.argv[2]):
 
 * クローリングとスクレイピングの分離  
 送信側がクローリング結果と処理関数をキューに投入し、受信側がキューのジョブを処理する  
+両者の作業を独立化させる  
 
+~~~
+
+# クローリング
+
+import time
+import re
+# 型アノテーション用のパッケージ
+from typing import Iterator
+import logging
+
+import requests
+import lxml.html
+from pymongo import MongoClient
+from redis import Redis
+from rq import Queue
+
+def main():
+    """
+    クローラーのメインの処理
+    """
+    
+    #Redisを使用してキューオブジェクトを作成
+    q = Queue(connection=Redis())
+
+    client = MongoClient('localhost', 27017)  # ローカルホストのMongoDBに接続
+    
+    # URL保存用のコレクションを準備
+    collection = client.scraping.ebook_htmls
+    collection.create_index('key', unique=True)
+
+    # 目標のサイトにアクセス
+    session = requests.Session()
+    response = session.get('https://gihyo.jp/dp')
+    urls = scrape_list_page(response)  # 詳細ページのURL一覧
+    
+    for url in urls:
+        key = extract_key(url)  # URLからキーを取得する
+        # MongoDBからkeyに該当するデータを探す
+        ebook_html = collection.find_one({'key': key})  
+        # MongoDBに存在しない場合だけ、詳細ページをクロールする
+	if not ebook_html:
+            time.sleep(1)
+            logging.info(f'Fetching {url}')
+            response = session.get(url)  # 詳細ページを取得する
+
+            # HTMLをそのままMongoDBに保存する（スクレイピングはしない）
+            collection.insert_one({
+                'url': url,
+                'key': key,
+                'html': response.content,
+            })
+            # キューにタスク（処理用の関数と外生変数）を追加する
+            q.enqueue('scraper_tasks.scrape', key, result_ttl=0)
+
+def scrape_list_page(response: requests.Response) -> Iterator[str]:
+    """
+    一覧ページのResponseから詳細ページのURLを抜き出すジェネレーター関数
+    """
+    html = lxml.html.fromstring(response.text)
+    html.make_links_absolute(response.url)
+    for a in html.cssselect('#listBook > li > a[itemprop="url"]'):
+        url = a.get('href')
+        yield url
+
+def extract_key(url: str) -> str:
+    """
+    URLからキー（URLの末尾のISBN）を抜き出す
+    """
+    m = re.search(r'/([^/]+)$', url)  # 最後の/から文字列末尾までを正規表現で取得
+    return m.group(1)
+
+if __name__ == '__main__':
+    main()
+
+
+
+# スクレイピング
+
+import re
+
+import lxml.html
+from pymongo import MongoClient
+
+def scrape(key: str):
+    """
+    ワーカーで実行するタスク
+    """
+    client = MongoClient('localhost', 27017)  # ローカルホストのMongoDBに接続
+	
+    # 指定キーのWEBデータを取得し、スクレイピング
+    html_collection = client.scraping.ebook_htmls  # scrapingデータベースのebook_htmlsコレクション
+    ebook_html = html_collection.find_one({'key': key})  # MongoDBからkeyに該当するデータを探す
+    ebook = scrape_detail_page(key, ebook_html['url'], ebook_html['html'])
+
+    # スクレイピングした結果を別のコレクションに保存
+    ebook_collection = client.scraping.ebooks  # ebooksコレクションを得る
+    # keyで高速に検索できるように、ユニークなインデックスを作成する
+    ebook_collection.create_index('key', unique=True)
+    # ebookを保存する
+    ebook_collection.insert_one(ebook)
+
+def scrape_detail_page(key: str, url: str, html: str) -> dict:
+    """
+    詳細ページのResponseから電子書籍の情報をdictで得る
+    """
+    root = lxml.html.fromstring(html)
+    ebook = {
+        'url': url,  # URL
+        'key': key,  # URLから抜き出したキー
+        'title': root.cssselect('#bookTitle')[0].text_content(),  # タイトル
+        'price': root.cssselect('.buy')[0].text.strip(),  # 価格
+        'content': [normalize_spaces(h3.text_content()) for h3 in root.cssselect('#content > h3')],  # 目次
+    }
+    return ebook
+
+def normalize_spaces(s: str) -> str:
+    """
+    連続する空白を1つのスペースに置き換え、前後の空白を削除した新しい文字列を取得する。
+    """
+    return re.sub(r'\s+', ' ', s).strip()
+
+~~~
 
 
 # 正規表現関係  
