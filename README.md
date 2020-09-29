@@ -1027,6 +1027,7 @@ for image_path in os.listdir(sys.argv[2]):
 * クローリングとスクレイピングの分離  
 送信側がクローリング結果と処理関数をキューに投入し、受信側がキューのジョブを処理する  
 両者の作業を独立化させる  
+Supervisor等を使うことによって、常に起動させておくことができる  
 
 ~~~
 
@@ -1149,6 +1150,119 @@ def normalize_spaces(s: str) -> str:
     """
     return re.sub(r'\s+', ' ', s).strip()
 
+~~~
+
+* 高速化  
+I/Oバウンドの処理はマルチスレッド、CPUバウンドの処理はマルチプロセスで行うと早い  
+一つのスレッドにおいて、複数のコルーチンを作成し、実行させる方法もある  
+
+~~~
+import sys
+from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ProcessPoolExecutor
+import feedparser
+import requests
+from bs4 import BeautifulSoup
+
+def main():
+    # 人気エントリーのRSSからURLのリストを取得する
+    d = feedparser.parse('http://b.hatena.ne.jp/hotentry.rss')
+    urls = [entry.link for entry in d.entries]
+	
+    # 最大3プロセスで並行処理するためのExecutorオブジェクトを作成
+    executer = ThreadPoolExecutor(max_workers=3)
+    executer = ProcessPoolExecutor(max_workers=3)
+    futures = []  # Futureオブジェクトを格納しておくためのリスト
+    for url in urls:
+        # 関数の実行をスケジューリングし、Futureオブジェクトを得る
+        future = executer.submit(fetch_and_scrape, url)
+        futures.append(future)
+
+    # Futureオブジェクトを完了したものから取得する
+    for future in futures:
+        print(future.result())  # Futureオブジェクトから結果（関数の戻り値）を取得して表示する
+
+def fetch_and_scrape(url: str) -> dict:
+    """
+    引数で指定したURLのページを取得して、URLとタイトルを含むdictを返す
+    """
+    print('Start downloading', url, file=sys.stderr)
+    response = requests.get(url)
+    soup = BeautifulSoup(response.content, 'lxml')
+    return {
+        'url': url,
+        'title': soup.title.text.strip() if soup.title is not None else None,
+    }
+
+if __name__ == '__main__':
+    main()
+~~~
+
+
+* クラウドの活用  
+
+~~~
+# AWSのS3にデータを投入
+
+import sys
+import time
+
+import requests
+import lxml.html
+import boto3
+
+# S3のバケット名
+S3_BUCKET_NAME = 'scraping-book-ina'
+
+def main():
+    # Wikimedia Commonsのページから画像のURLを抽出する
+    image_urls = get_image_urls('https://commons.wikimedia.org/wiki/Category:Mountain_glaciers')
+
+    # S3のBucketオブジェクトを取得する
+    s3 = boto3.resource('s3')
+    bucket = s3.Bucket(S3_BUCKET_NAME)
+
+    for image_url in image_urls:
+        time.sleep(2)  # 2秒のウェイトを入れる
+
+        # 画像ファイルをダウンロードする。
+        print('Downloading', image_url, file=sys.stderr)
+        response = requests.get(image_url)
+
+        # URLからファイル名を取得する。
+        _, filename = image_url.rsplit('/', maxsplit=1)
+
+        # ダウンロードしたファイルをS3に保存する
+        print('Putting', filename, file=sys.stderr)
+        bucket.put_object(Key=filename, Body=response.content)
+
+def get_image_urls(page_url):
+    """
+    引数で与えられたURLのページに表示されているサムネイル画像の元画像のURLのリストを取得する
+    """
+    response = requests.get(page_url)
+    html = lxml.html.fromstring(response.text)
+
+    image_urls = []
+    for img in html.cssselect('.thumb img'):
+        thumbnail_url = img.get('src')
+        image_urls.append(get_original_url(thumbnail_url))
+
+    return image_urls
+
+def get_original_url(thumbnail_url):
+    """
+    サムネイルのURLから元画像のURLを取得する
+    """
+    # 一番最後の/で区切り、ディレクトリに相当する部分のURLを得る
+    directory_url, _ = thumbnail_url.rsplit('/', maxsplit=1)
+    # /thumb/を/に置き換えて元画像のURLを得る
+    original_url = directory_url.replace('/thumb/', '/')
+
+    return original_url
+
+if __name__ == '__main__':
+    main()
 ~~~
 
 
