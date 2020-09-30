@@ -1030,7 +1030,6 @@ for image_path in os.listdir(sys.argv[2]):
 Supervisor等を使うことによって、常に起動させておくことができる  
 
 ~~~
-
 # クローリング
 
 import time
@@ -1102,9 +1101,9 @@ def extract_key(url: str) -> str:
 
 if __name__ == '__main__':
     main()
+~~~
 
-
-
+~~~
 # スクレイピング
 
 import re
@@ -1149,13 +1148,11 @@ def normalize_spaces(s: str) -> str:
     連続する空白を1つのスペースに置き換え、前後の空白を削除した新しい文字列を取得する。
     """
     return re.sub(r'\s+', ' ', s).strip()
-
 ~~~
 
 * 高速化  
 I/Oバウンドの処理はマルチスレッド、CPUバウンドの処理はマルチプロセスで行うと早い  
 一つのスレッドにおいて、複数のコルーチンを作成し、実行させる方法もある  
-
 ~~~
 import sys
 from concurrent.futures import ThreadPoolExecutor
@@ -1198,9 +1195,7 @@ if __name__ == '__main__':
     main()
 ~~~
 
-
 * クラウドの活用  
-
 ~~~
 # AWSのS3にデータを投入
 
